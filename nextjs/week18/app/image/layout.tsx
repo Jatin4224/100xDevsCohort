@@ -7,6 +7,7 @@
 
 // export default layout;
 // /app/image/layout.tsx
+
 import React from "react";
 
 interface ChildProp {
