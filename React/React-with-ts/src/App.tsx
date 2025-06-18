@@ -41,10 +41,10 @@ const App = () => {
     lastLogin: new Date(),
   };
   return (
-    <div>
-      {/* <User name="jatin" age={22} isStudent={true} /> */}
+    <div className="bg-black h-screens">
+      <User name="jatin" age={22} isStudent={true} />
 
-      <Button
+      {/* <Button
         label="click me"
         disabled={false}
         onClick={() => alert("Button is disabled")}
@@ -53,9 +53,9 @@ const App = () => {
         label="click me"
         disabled={true}
         onClick={() => alert("Button clicked")}
-      />
-      <UserInfo user={user} />
-      <AdminInfo admin={admin} />
+      /> */}
+      {/* <UserInfo user={user} />
+      <AdminInfo admin={admin} /> */}
     </div>
   );
 };
