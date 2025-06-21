@@ -1,4 +1,5 @@
 import React from "react";
+import { ProductList } from "./ProductList";
 
 // ✅ Define props structure correctly
 interface Props {
@@ -12,7 +13,12 @@ const Products = async ({ searchParams }: Props) => {
   const searchParam = await searchParams;
   const category = searchParam?.category || "default";
 
-  return <div>Category: {category}</div>;
+  return (
+    <div>
+      <ProductList />
+      Category: {category}
+    </div>
+  );
 };
 
 export default Products;
