@@ -10,3 +10,5 @@ function sum(n) {
 }
 
 console.log(sum(arr.length - 1));
+
+//
