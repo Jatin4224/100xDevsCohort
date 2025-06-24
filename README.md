@@ -1,12 +1,22 @@
-# 100xDevs-C3
+# 👋 Welcome to My Coding Journey
 
--todoapp
+Hi there! I'm Jatin Sharma – this repository is a reflection of my ongoing learning and growth as a developer.
 
-# forgoted the models schema syntax
+Here you'll find my practice work on:
 
-const Todo = mongoose.model("Todo", todoSchema);
+- 🌐 **Web Development** (Frontend + Backend)
+- 🎨 **Animations**
+- ⚙️ **DevOps**
+- 🛠️ Experiments, mini-projects, and fun challenges
 
-# The require("dotenv").config() call should not include a parameter like "./env". The correct usage is:
+I'm constantly learning, building, and improving. This repo serves as both a **learning log** and a **sandbox** for trying out new tools, concepts, and frameworks.
 
--blogapp
--courseapp
+Feel free to explore, learn with me, and drop a ⭐️ if you find anything helpful!
+
+---
+
+### 📫 Let's Connect
+
+- Twitter: [@jatin4224](https://twitter.com/Jatin4224)
+
+> “Learning by doing – one commit at a time 🚀”
