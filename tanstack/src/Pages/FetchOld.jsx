@@ -1,6 +1,3 @@
-import React, { useEffect, useState } from "react";
-import { fetchPosts } from "../API/Api";
-
 const FetchOld = () => {
   const [posts, setPosts] = useState([]);
 
