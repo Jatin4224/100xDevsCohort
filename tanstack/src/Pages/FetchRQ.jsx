@@ -20,7 +20,8 @@ const FetchRQ = () => {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["post"],
     queryFn: getPostsData,
-    staleTime: 5000, //5seconds
+    // staleTime: 5000, //5seconds
+    refetchInterval: 1000,
   });
 
   if (isLoading) return <p className="loading">Loading...</p>;
