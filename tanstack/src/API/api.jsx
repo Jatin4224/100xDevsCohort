@@ -1,15 +1,16 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://fakestoreapi.in/api/",
+  baseURL: "https://jsonplaceholder.typicode.com",
 });
 
-export const fetchPosts = () => {
-  return api.get("/products");
+// Fetch paginated posts
+export const fetchPosts = (pageNumber) => {
+  return api.get(`/posts?_start=${pageNumber}&_limit=3`);
 };
 
 //to fetch the individual data
 export const FetchIndvPost = async (id) => {
-  const res = await api.get(`/products/${id}`);
+  const res = await api.get(`/posts/${id}`);
   return res.data;
 };

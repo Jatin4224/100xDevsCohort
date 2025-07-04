@@ -1,29 +1,18 @@
-import { useQuery } from "@tanstack/react-query";
-import { fetchPosts } from "../API/Api";
+// src/components/FetchRQ.jsx
+
+import { keepPreviousData, useQuery } from "@tanstack/react-query";
+import { fetchPosts } from "../API/api";
 import "./app.css";
 import { NavLink } from "react-router-dom";
+import { useState } from "react";
 
 const FetchRQ = () => {
-  const getPostsData = async () => {
-    try {
-      const res = await fetchPosts();
-      console.log("Fetched Data:", res.data);
-      if (res.status === 200) {
-        return res.data;
-      } else {
-        throw new Error("Failed with status " + res.status);
-      }
-    } catch (err) {
-      throw new Error("Failed to fetch posts: " + err.message);
-    }
-  };
+  const [pageNumber, setPageNumber] = useState(0);
 
   const { data, isLoading, isError, error } = useQuery({
-    queryKey: ["post"],
-    queryFn: getPostsData,
-    // staleTime: 5000, //5seconds
-    refetchInterval: 1000,
-    refetchIntervalInBackground: true,
+    queryKey: ["post", pageNumber],
+    queryFn: () => fetchPosts(pageNumber),
+    placeholderData: keepPreviousData,
   });
 
   if (isLoading) return <p className="loading">Loading...</p>;
@@ -33,8 +22,8 @@ const FetchRQ = () => {
     <div className="container">
       <h2 className="title">Posts</h2>
       <ul className="post-list">
-        {Array.isArray(data?.products) ? (
-          data.products.map((post, index) => (
+        {Array.isArray(data?.data) && data.data.length > 0 ? (
+          data.data.map((post, index) => (
             <li key={index} className="post-item">
               <NavLink to={`/rq/${index}`}>
                 <strong>{post.title}</strong>
@@ -45,6 +34,13 @@ const FetchRQ = () => {
           <li className="post-item">No products available.</li>
         )}
       </ul>
+      <div>
+        <button onClick={() => setPageNumber((prev) => Math.max(prev - 3, 0))}>
+          Prev
+        </button>
+        <h2>{pageNumber / 3 + 1}</h2>
+        <button onClick={() => setPageNumber((prev) => prev + 3)}>Next</button>
+      </div>
     </div>
   );
 };
