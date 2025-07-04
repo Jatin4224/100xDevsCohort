@@ -1,6 +1,7 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchPosts } from "../API/Api";
 import "./app.css";
+import { NavLink } from "react-router-dom";
 
 const FetchRQ = () => {
   const getPostsData = async () => {
@@ -35,7 +36,9 @@ const FetchRQ = () => {
         {Array.isArray(data?.products) ? (
           data.products.map((post, index) => (
             <li key={index} className="post-item">
-              <strong>{post.title}</strong> — ${post.price}
+              <NavLink to={`/rq/${index}`}>
+                <strong>{post.title}</strong>
+              </NavLink>
             </li>
           ))
         ) : (
