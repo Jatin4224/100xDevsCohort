@@ -22,6 +22,7 @@ const FetchRQ = () => {
     queryFn: getPostsData,
     // staleTime: 5000, //5seconds
     refetchInterval: 1000,
+    refetchIntervalInBackground: true,
   });
 
   if (isLoading) return <p className="loading">Loading...</p>;
