@@ -1,10 +1,12 @@
 import { useQuery } from "@tanstack/react-query";
 import { fetchPosts } from "../API/Api";
+import "./app.css";
 
 const FetchRQ = () => {
   const getPostsData = async () => {
     try {
       const res = await fetchPosts();
+      console.log("Fetched Data:", res.data);
       if (res.status === 200) {
         return res.data;
       } else {
@@ -18,17 +20,25 @@ const FetchRQ = () => {
   const { data, isLoading, isError, error } = useQuery({
     queryKey: ["post"],
     queryFn: getPostsData,
+    staleTime: 5000, //5seconds
   });
 
-  if (isLoading) return <p>Loading...</p>;
-  if (isError) return <p>Error: {error.message}</p>;
+  if (isLoading) return <p className="loading">Loading...</p>;
+  if (isError) return <p className="error">Error: {error.message}</p>;
+
   return (
-    <div>
-      <h2>Posts</h2>
-      <ul>
-        {data.map((post, index) => (
-          <li key={index}>{post.title || JSON.stringify(post)}</li>
-        ))}
+    <div className="container">
+      <h2 className="title">Posts</h2>
+      <ul className="post-list">
+        {Array.isArray(data?.products) ? (
+          data.products.map((post, index) => (
+            <li key={index} className="post-item">
+              <strong>{post.title}</strong> — ${post.price}
+            </li>
+          ))
+        ) : (
+          <li className="post-item">No products available.</li>
+        )}
       </ul>
     </div>
   );

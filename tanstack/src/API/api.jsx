@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "url",
+  baseURL: "https://fakestoreapi.in/api/",
 });
 
 export const fetchPosts = () => {
-  return api.get("/post");
+  return api.get("/products");
 };
