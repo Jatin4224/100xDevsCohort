@@ -20,12 +20,19 @@ const todoinputType = zod_1.z.object({
 });
 // Router definition
 const appRouter = (0, trpc_1.router)({
-    createTodo: trpc_1.publicProcedure.input(todoinputType).mutation((opts) => __awaiter(void 0, void 0, void 0, function* () {
-        const { title, description } = opts.input;
-        // Perform database logic here...
-        console.log("Creating todo:", title, description);
+    signUp: trpc_1.publicProcedure
+        .input(zod_1.z.object({
+        email: zod_1.z.string(),
+        password: zod_1.z.string(),
+    }))
+        .mutation((opts) => __awaiter(void 0, void 0, void 0, function* () {
+        let email = opts.input.email;
+        let password = opts.input.password;
+        //do validation
+        //do db stuff
+        let token = "123";
         return {
-            id: "1", // dummy ID for now
+            token,
         };
     })),
 });

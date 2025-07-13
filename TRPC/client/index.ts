@@ -1,38 +1,44 @@
-// 📦 Import client and transport link from @trpc/client
 import { createTRPCClient, httpBatchLink } from "@trpc/client";
+import type { AppRouter } from "../server"; // ✅ Adjust path based on where your server.ts is
 
-// 🧠 Import only the type of your router from server (no runtime cost)
-import type { AppRouter } from "../server";
-
-// 🚀 Create the tRPC client instance and pass the AppRouter type
-// This allows full autocompletion and type safety from backend to frontend
+// ✅ Create a tRPC client bound to AppRouter for full type safety
 const trpc = createTRPCClient<AppRouter>({
   links: [
     httpBatchLink({
-      url: "http://localhost:3000", // 🌐 Your tRPC server URL
+      url: "http://localhost:3000", // 🌐 Make sure your server is running here
+      headers() {
+        return {
+          authorization: "Bearer" + localStorage.getItem("token"),
+        };
+      },
     }),
   ],
 });
 
-// 🧵 Explanation:
-// - AppRouter is exported from the backend (server.ts)
-// - It contains definitions of all your procedures (like createTodo)
-// - By passing it here, the frontend knows what input/output types to expect
-
-// 🤖 Now you can call your backend procedure with types auto-inferred
-// If the server expects a new field (e.g. `done`), TypeScript will catch it
 async function main() {
-  let response = await trpc.createTodo.mutate({
-    title: "go to gym", // ✅ Required string (Zod-validated)
-    description: "hit the gym", // ✅ Required string (Zod-validated)
-    // ❌ If you forget a field added on backend, TS will warn here
-  });
+  try {
+    const response = await trpc.signUp.mutate({
+      email: "jai@gmail.com", // ✅ Valid email
+      password: "123123", // ✅ Valid password (6+ chars as per Zod)
+    });
 
-  console.log(response); // 👉 You’ll get proper response type hints too
+    console.log("✅ Token received:", response.token);
+  } catch (err) {
+    console.error("❌ Error from server:", err);
+  }
 }
+
 main();
 
-// ✅ Summary:
-// - createTRPCClient<AppRouter>() binds frontend to backend
-// - Any change in backend types (input/output) auto-reflects here
-// - No manual API client, fetch calls, or Swagger needed
+function helpGirlfriend(level) {
+  if (level === 0) {
+    console.log("Chain ends. No more girlfriends left 😢");
+    return;
+  }
+
+  console.log(`Create girlfriend #${level}`);
+  console.log(`Take money from #${level} and give it to #${level - 1}`);
+
+  // Call yourself to handle the next one in the chain
+  helpGirlfriend(level - 1);
+}

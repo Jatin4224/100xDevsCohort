@@ -9,35 +9,27 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-// 📦 Import client and transport link from @trpc/client
 const client_1 = require("@trpc/client");
-// 🚀 Create the tRPC client instance and pass the AppRouter type
-// This allows full autocompletion and type safety from backend to frontend
+// ✅ Create a tRPC client bound to AppRouter for full type safety
 const trpc = (0, client_1.createTRPCClient)({
     links: [
         (0, client_1.httpBatchLink)({
-            url: "http://localhost:3000", // 🌐 Your tRPC server URL
+            url: "http://localhost:3000", // 🌐 Make sure your server is running here
         }),
     ],
 });
-// 🧵 Explanation:
-// - AppRouter is exported from the backend (server.ts)
-// - It contains definitions of all your procedures (like createTodo)
-// - By passing it here, the frontend knows what input/output types to expect
-// 🤖 Now you can call your backend procedure with types auto-inferred
-// If the server expects a new field (e.g. `done`), TypeScript will catch it
 function main() {
     return __awaiter(this, void 0, void 0, function* () {
-        let response = yield trpc.createTodo.mutate({
-            title: "go to gym", // ✅ Required string (Zod-validated)
-            description: "hit the gym", // ✅ Required string (Zod-validated)
-            // ❌ If you forget a field added on backend, TS will warn here
-        });
-        console.log(response); // 👉 You’ll get proper response type hints too
+        try {
+            const response = yield trpc.signUp.mutate({
+                email: "jai@gmail.com", // ✅ Valid email
+                password: "123123", // ✅ Valid password (6+ chars as per Zod)
+            });
+            console.log("✅ Token received:", response.token);
+        }
+        catch (err) {
+            console.error("❌ Error from server:", err);
+        }
     });
 }
 main();
-// ✅ Summary:
-// - createTRPCClient<AppRouter>() binds frontend to backend
-// - Any change in backend types (input/output) auto-reflects here
-// - No manual API client, fetch calls, or Swagger needed

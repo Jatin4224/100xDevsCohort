@@ -11,21 +11,37 @@ const todoinputType = z.object({
 
 // Router definition
 const appRouter = router({
-  createTodo: publicProcedure.input(todoinputType).mutation(async (opts) => {
-    const { title, description } = opts.input;
-
-    // Perform database logic here...
-    console.log("Creating todo:", title, description);
-
-    return {
-      id: "1", // dummy ID for now
-    };
-  }),
+  signUp: publicProcedure
+    .input(
+      z.object({
+        email: z.string(),
+        password: z.string(),
+      })
+    )
+    .mutation(async (opts) => {
+      //context
+      const username = opts.ctx.username;
+      let email = opts.input.email;
+      let password = opts.input.password;
+      //do validation
+      //do db stuff
+      let token = "123";
+      return {
+        token,
+      };
+    }),
 });
-
 // Create standalone HTTP server
 const server = createHTTPServer({
   router: appRouter,
+  createContext(opts) {
+    let authorHeader = opts.req.headers["authorization"];
+    console.log(authorHeader);
+    // jwt verify
+    return {
+      username: "123",
+    };
+  },
 });
 
 server.listen(3000);
