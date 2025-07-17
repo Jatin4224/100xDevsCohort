@@ -179,3 +179,96 @@ function Founder(): { name: string; age: number; location: string } {
     location: "Jaipur",
   };
 }
+
+const chaiOrder: {
+  name: string;
+  price: number;
+  isMasala: boolean;
+} = {
+  name: "Elaichi Chai",
+  price: 20,
+};
+
+console.log("Chai Name:", chaiOrder.name);
+console.log("Price: ₹", chaiOrder.price);
+
+
+
+
+// type Chai = {
+//   name: string;
+//   price: number;
+// };
+
+// function printChai(order: Chai) {
+//   console.log(`Chai Name: ${order.name},Price: ₹${order.price}`);
+// }
+
+// const myChai: Chai = {
+//   name: "Ginger Masala Chai",
+//   price: 25,
+// };
+
+// printChai(myChai);
+
+
+
+
+// type Chai = {
+//   name: string;
+//   isMasala: boolean;
+//   sugar: boolean; 
+// };
+
+// const order1: Chai = {
+//   name: "Ginger Chai",
+//   isMasala: true,
+// };
+
+// const order2: Chai = {
+//   name: "Plain Chai",
+//   isMasala: false,
+//   sugar:true,
+// };
+
+// console.log(order1);
+// console.log(order2);
+
+
+type Chai = {
+  readonly name: string;
+  isMasala: boolean;
+  sugar?: boolean;
+};
+
+const order1: Chai = {
+  name: "Ginger Chai",
+  isMasala: true,
+};
+
+order1.name = "Lemon Chai"; 
+
+
+
+// Basic type for Chai
+type Chai = {
+  name: string;
+  isMasala: boolean;
+};
+
+// Additional properties for orders
+type OrderInfo = {
+  id: number;
+  quantity: number;
+};
+
+// Combine both using intersection (&)
+type ChaiOrder = Chai & OrderInfo;
+
+// Create an order
+const order: ChaiOrder = {
+  name: "Elaichi Chai",
+  isMasala: true,
+  id: 101,
+  quantity: 2,
+};
