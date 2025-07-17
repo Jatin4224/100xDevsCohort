@@ -169,3 +169,13 @@ const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
 console.log(OneD);
 console.log(twoD);
 console.log(threeD);
+
+
+
+function Founder(): { name: string; age: number; location: string } {
+  return {
+    name: "Hitesh",
+    age: 35
+    location: "Jaipur",
+  };
+}
