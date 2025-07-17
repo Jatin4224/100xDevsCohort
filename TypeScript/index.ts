@@ -105,3 +105,67 @@ function namaste(person: string = "Hitesh") {
 
 const res = namaste();
 console.log(print);
+
+function double(a: number): number {
+  return a * a;
+}
+
+const finalOutput = double(2);
+console.log(finalOutput);
+
+const doubleArrow = (a: number): number => a * a;
+
+const finalOutputArrow = doubleArrow(2);
+console.log(finalOutput);
+
+function orderChai(message: string): void {
+  console.log(`This is your order, sir: ${message}`);
+}
+
+orderChai("Hitesh");
+
+function throwErr(message: string): never {
+  throw new Error(message);
+}
+
+function infinite(): never {
+  while (true) {}
+}
+
+let a: never;
+function neverRet(): never {
+  while (true) {}
+}
+
+const numbers: number[] = [4, 5, 6, 8, "Error", "string"];
+
+const chaiFlavours: string[] = ["chai", "masala chai", "kadak chai"];
+
+chaiFlavours.push("adrak chai");
+
+chaiFlavours.push(12);
+
+// const isLoggedIn: boolean[] = [true, false, true];
+
+// const mixedValues: (number | string)[] = [1, "two", 3, "four"];
+
+// const numbers: Array<number> = [4, 5, 6, 8];
+
+// const chaiFlavours: Array<string> = ["chai", "masala chai", "kadak chai"];
+
+const isLoggedIn: Array<boolean> = [true, false, true];
+
+const mixedValues: Array<number | string> = [1, "two", 3, "four"];
+
+const chaiAurMatrix: number[][] = [
+  [1, 2],
+  [3, 4],
+];
+
+const OneD: number[] = [1, 2, 3, 4, 5];
+const twoD: number[][] = [[1, 2, 3, 4, 5]];
+const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
+
+console.log(OneD);
+console.log(twoD);
+console.log(threeD);
