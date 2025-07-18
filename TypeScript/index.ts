@@ -235,18 +235,18 @@ console.log("Price: ₹", chaiOrder.price);
 // console.log(order2);
 
 
-type Chai = {
-  readonly name: string;
-  isMasala: boolean;
-  sugar?: boolean;
-};
+// type Chai = {
+//   readonly name: string;
+//   isMasala: boolean;
+//   sugar?: boolean;
+// };
 
-const order1: Chai = {
-  name: "Ginger Chai",
-  isMasala: true,
-};
+// const order1: Chai = {
+//   name: "Ginger Chai",
+//   isMasala: true,
+// };
 
-order1.name = "Lemon Chai"; 
+// order1.name = "Lemon Chai"; 
 
 
 
@@ -272,3 +272,25 @@ const order: ChaiOrder = {
   id: 101,
   quantity: 2,
 };
+
+
+
+let color:"red"|"black"|"white";
+color="red";
+color="black"
+
+
+let isTrue:true;
+isTrue=true;
+isTrue=false;
+
+
+let number: 1|2|3;
+number=1;
+number=4;
+
+
+
+let chaiAurTuple : [string, number]=["hey",52];
+console.log(chaiAurTuple[0]);
+console.log(chaiAurTuple[1])
