@@ -151,49 +151,44 @@ chaiFlavours.push(12);
 
 // const numbers: Array<number> = [4, 5, 6, 8];
 
-// const chaiFlavours: Array<string> = ["chai", "masala chai", "kadak chai"];
+// // const chaiFlavours: Array<string> = ["chai", "masala chai", "kadak chai"];
 
-const isLoggedIn: Array<boolean> = [true, false, true];
+// const isLoggedIn: Array<boolean> = [true, false, true];
 
-const mixedValues: Array<number | string> = [1, "two", 3, "four"];
+// const mixedValues: Array<number | string> = [1, "two", 3, "four"];
 
-const chaiAurMatrix: number[][] = [
-  [1, 2],
-  [3, 4],
-];
+// const chaiAurMatrix: number[][] = [
+//   [1, 2],
+//   [3, 4],
+// ];
 
-const OneD: number[] = [1, 2, 3, 4, 5];
-const twoD: number[][] = [[1, 2, 3, 4, 5]];
-const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
+// const OneD: number[] = [1, 2, 3, 4, 5];
+// const twoD: number[][] = [[1, 2, 3, 4, 5]];
+// const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
 
-console.log(OneD);
-console.log(twoD);
-console.log(threeD);
+// console.log(OneD);
+// console.log(twoD);
+// console.log(threeD);
 
+// function Founder(): { name: string; age: number; location: string } {
+//   return {
+//     name: "Hitesh",
+//     age: 35
+//     location: "Jaipur",
+//   };
+// }
 
+// const chaiOrder: {
+//   name: string;
+//   price: number;
+//   isMasala: boolean;
+// } = {
+//   name: "Elaichi Chai",
+//   price: 20,
+// };
 
-function Founder(): { name: string; age: number; location: string } {
-  return {
-    name: "Hitesh",
-    age: 35
-    location: "Jaipur",
-  };
-}
-
-const chaiOrder: {
-  name: string;
-  price: number;
-  isMasala: boolean;
-} = {
-  name: "Elaichi Chai",
-  price: 20,
-};
-
-console.log("Chai Name:", chaiOrder.name);
-console.log("Price: ₹", chaiOrder.price);
-
-
-
+// console.log("Chai Name:", chaiOrder.name);
+// console.log("Price: ₹", chaiOrder.price);
 
 // type Chai = {
 //   name: string;
@@ -211,13 +206,10 @@ console.log("Price: ₹", chaiOrder.price);
 
 // printChai(myChai);
 
-
-
-
 // type Chai = {
 //   name: string;
 //   isMasala: boolean;
-//   sugar: boolean; 
+//   sugar: boolean;
 // };
 
 // const order1: Chai = {
@@ -234,7 +226,6 @@ console.log("Price: ₹", chaiOrder.price);
 // console.log(order1);
 // console.log(order2);
 
-
 // type Chai = {
 //   readonly name: string;
 //   isMasala: boolean;
@@ -246,71 +237,144 @@ console.log("Price: ₹", chaiOrder.price);
 //   isMasala: true,
 // };
 
-// order1.name = "Lemon Chai"; 
+// order1.name = "Lemon Chai";
 
+// // Basic type for Chai
+// type Chai = {
+//   name: string;
+//   isMasala: boolean;
+// };
 
+// // Additional properties for orders
+// type OrderInfo = {
+//   id: number;
+//   quantity: number;
+// };
 
-// Basic type for Chai
-type Chai = {
-  name: string;
-  isMasala: boolean;
-};
+// // Combine both using intersection (&)
+// type ChaiOrder = Chai & OrderInfo;
 
-// Additional properties for orders
-type OrderInfo = {
-  id: number;
-  quantity: number;
-};
+// // Create an order
+// const order: ChaiOrder = {
+//   name: "Elaichi Chai",
+//   isMasala: true,
+//   id: 101,
+//   quantity: 2,
+// };
 
-// Combine both using intersection (&)
-type ChaiOrder = Chai & OrderInfo;
+// let color:"red"|"black"|"white";
+// color="red";
+// color="black"
 
-// Create an order
-const order: ChaiOrder = {
-  name: "Elaichi Chai",
-  isMasala: true,
-  id: 101,
-  quantity: 2,
-};
+// let isTrue:true;
+// isTrue=true;
+// isTrue=false;
 
+// let number: 1|2|3;
+// number=1;
+// number=4;
 
+// let chaiAurTuple : [string, number,boolean] = ["hey", 52, true];
+// const [first,second,three] = chaiAurTuple;
+// console.log(first);
+// console.log(second);
+// console.log(three);
 
-let color:"red"|"black"|"white";
-color="red";
-color="black"
+// enum OrderStatus {
+//   Placed="yes",
+//   Preparing="in 20mins",
+// }
 
+// const Order = OrderStatus.Placed;
+// console.log(Order);
 
-let isTrue:true;
-isTrue=true;
-isTrue=false;
-
-
-let number: 1|2|3;
-number=1;
-number=4;
-
-
-
-let chaiAurTuple : [string, number,boolean] = ["hey", 52, true];
-const [first,second,three] = chaiAurTuple;
-console.log(first);
-console.log(second);
-console.log(three);
-
-
-
-
-
-
-enum OrderStatus {
-  Placed,       // 0
-  Preparing,    // 1
-  OutForDelivery, // 2
-  Delivered,    // 3
-  Cancelled     // 4
+interface Menu {
+  breakfast: string;
+  lunch: string;
+  time: number;
 }
 
-const currentStatus: OrderStatus = OrderStatus.Preparing;
+const order: Menu = {
+  breakfast: "Kachori",
+  lunch: "daal bati",
+  time: 12,
+};
 
-console.log(currentStatus);         // 1
-console.log(OrderStatus[1]);        // "Preparing"
+interface ChaiBanda {
+  naam: string;
+  umar: number;
+}
+
+interface ChaiReturn {
+  naam: string;
+  umar: number;
+  doubleUmar: number;
+}
+
+function chaiUmarBooster({ naam, umar }: ChaiBanda): ChaiReturn {
+  return {
+    naam,
+    umar,
+    doubleUmar: umar * 2,
+  };
+}
+
+const chaiResult = chaiUmarBooster({ naam: "Hitesh", umar: 35 });
+console.log(chaiResult);
+Here's an improved explanation with a different example and clearer language:
+
+---
+
+### 🧠 Interfaces with Classes in TypeScript
+
+TypeScript introduced support for the `class` keyword through ES2015. You can define classes with properties and methods like this:
+
+```ts
+class Car {
+  brand: string = '';
+  speed: number = 0;
+}
+
+const myCar = new Car();
+```
+
+But what if you want to make sure a class strictly follows a certain structure? That’s where **interfaces** come in.
+
+We can define an interface and then use the `implements` keyword in the class to ensure it adheres to that interface:
+
+```ts
+interface Vehicle {
+  brand: string;
+  speed: number;
+}
+```
+
+Now, let's try to implement this interface in a class—but with a mistake:
+
+```ts
+// ❌ Error: Property 'speed' is missing in type 'Bike' but required in type 'Vehicle'
+class Bike implements Vehicle {
+  brand: string = 'Yamaha';
+}
+
+const myBike = new Bike();
+```
+
+TypeScript throws an error because the `Bike` class does not fulfill the contract defined by the `Vehicle` interface. It’s missing the required `speed` property.
+
+✅ **Fixing the class to correctly implement the interface:**
+
+```ts
+class Bike implements Vehicle {
+  brand: string = 'Yamaha';
+  speed: number = 100;
+}
+
+const myBike = new Bike();
+```
+
+Now, the `Bike` class satisfies the `Vehicle` interface. This ensures that objects of this class will always have the `brand` and `speed` properties, improving consistency and reducing bugs.
+
+---
+
+Let me know if you want a chai-themed character version too!
