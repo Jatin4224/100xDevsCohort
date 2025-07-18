@@ -291,6 +291,26 @@ number=4;
 
 
 
-let chaiAurTuple : [string, number]=["hey",52];
-console.log(chaiAurTuple[0]);
-console.log(chaiAurTuple[1])
+let chaiAurTuple : [string, number,boolean] = ["hey", 52, true];
+const [first,second,three] = chaiAurTuple;
+console.log(first);
+console.log(second);
+console.log(three);
+
+
+
+
+
+
+enum OrderStatus {
+  Placed,       // 0
+  Preparing,    // 1
+  OutForDelivery, // 2
+  Delivered,    // 3
+  Cancelled     // 4
+}
+
+const currentStatus: OrderStatus = OrderStatus.Preparing;
+
+console.log(currentStatus);         // 1
+console.log(OrderStatus[1]);        // "Preparing"
