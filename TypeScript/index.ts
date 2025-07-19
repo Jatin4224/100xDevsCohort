@@ -399,14 +399,34 @@
 //   rank: "Platinum",
 //   play() {
 //     console.log("Unleashing pixel storm!");
-//   },
-// };
+// //   },
+// // };
 
-// welcome(shadow);
-// welcome(pixel);
+// // welcome(shadow);
+// // welcome(pixel);
+
+// // class Car {
+// //   brand: string = '';
+// //   speed: number = 0;
+// // }
+
+// // const myCar = new Car();
+
+// // interface Vehicle {
+// //   brand: string;
+// //   speed: number;
+// // }
+
+// // // ❌ Error: Property 'speed' is missing in type 'Bike' but required in type 'Vehicle'
+// // class Bike implements Vehicle {
+// //   brand: string = 'Yamaha';
+// // }
+
+// // const myBike = new Bike();
+// // s;
 
 // class Car {
-//   brand: string = '';
+//   brand: string = "";
 //   speed: number = 0;
 // }
 
@@ -417,119 +437,99 @@
 //   speed: number;
 // }
 
-// // ❌ Error: Property 'speed' is missing in type 'Bike' but required in type 'Vehicle'
 // class Bike implements Vehicle {
-//   brand: string = 'Yamaha';
+//   brand: string = "Yamaha";
+//   speed: number = 100;
 // }
 
 // const myBike = new Bike();
-// s;
 
-class Car {
-  brand: string = "";
-  speed: number = 0;
-}
+// interface Vehicle {
+//   brand: string;
+//   speed: number;
+//   price?: number;
+// }
 
-const myCar = new Car();
+// interface ChaiBanda {
+//   readonly name: string;
+// }
 
-interface Vehicle {
-  brand: string;
-  speed: number;
-}
+// const chaiBanda: ChaiBanda = {
+//   name: "Hitesh",
+// };
 
-class Bike implements Vehicle {
-  brand: string = "Yamaha";
-  speed: number = 100;
-}
+// function renameChaiBanda(banda: ChaiBanda) {
+//   console.log(`Serving chai to '${banda.name}'.`);
+//   banda.name = "KulhadKing";
+// }
 
-const myBike = new Bike();
+// interface Human {
+//   name: string;
+//   age: string;
+// }
 
-interface Vehicle {
-  brand: string;
-  speed: number;
-  price?: number;
-}
+// interface Goals {
+//   goals: string[];
+//   gym: string;
+// }
 
-interface ChaiBanda {
-  readonly name: string;
-}
+// interface HumanWithPurpose extends Human, Goals {}
 
-const chaiBanda: ChaiBanda = {
-  name: "Hitesh",
-};
+// // HumanWithPurpose would become:
 
-function renameChaiBanda(banda: ChaiBanda) {
-  console.log(`Serving chai to '${banda.name}'.`);
-  banda.name = "KulhadKing";
-}
+// interface HumanWithPurpose {
+//   name: string;
+//   age: string;
+//   goals: string[];
+// }
 
-interface Human {
-  name: string;
-  age: string;
-}
+// interface Pizza {
+//   type: "pizza";
+//   toppings: string[];
+// }
 
-interface Goals {
-  goals: string[];
-  gym: string;
-}
+// interface Drink {
+//   type: "drink";
+//   flavor: string;
+// }
 
-interface HumanWithPurpose extends Human, Goals {}
+// type FoodItem = Pizza | Drink;
 
-// HumanWithPurpose would become:
+// function serve(item: FoodItem) {
+//   if (item.type === "pizza") {
+//     console.log("Serving pizza with:", item.toppings);
+//   } else {
+//     console.log("Serving drink with flavor:", item.flavor);
+//   }
+// }
 
-interface HumanWithPurpose {
-  name: string;
-  age: string;
-  goals: string[];
-}
+// const order1: FoodItem = {
+//   type: "pizza",
+//   toppings: ["cheese", "olives"],
+// };
 
-interface Pizza {
-  type: "pizza";
-  toppings: string[];
-}
+// const order2: FoodItem = {
+//   type: "drink",
+//   flavor: "lemon",
+// };
 
-interface Drink {
-  type: "drink";
-  flavor: string;
-}
+// serve(order1);
+// serve(order2);
 
-type FoodItem = Pizza | Drink;
+// interface User {
+//   name: string;
+// }
 
-function serve(item: FoodItem) {
-  if (item.type === "pizza") {
-    console.log("Serving pizza with:", item.toppings);
-  } else {
-    console.log("Serving drink with flavor:", item.flavor);
-  }
-}
+// interface User {
+//   age: number;
+//   greet(): void;
+// }
 
-const order1: FoodItem = {
-  type: "pizza",
-  toppings: ["cheese", "olives"],
-};
-
-const order2: FoodItem = {
-  type: "drink",
-  flavor: "lemon",
-};
-
-serve(order1);
-serve(order2);
-
-interface User {
-  name: string;
-}
-
-interface User {
-  age: number;
-  greet(): void;
-}
-
-interface User {
-  name: string;
-  age: number;
-  greet(): void;
-}
+// interface User {
+//   name: string;
+//   age: number;
+//   greet(): void;
+// }
 
 // const printMacBookName = (name: string) => console.log(`MacBook: ${name}`);
 // const printMacBookPrice = (price: number) => console.log(`Price: $${price}`);
@@ -540,19 +540,187 @@ interface User {
 // printMacBookPrice(14999);
 // printInStock(true);
 
-const printMacBookDetail = (detail: any) => {
-  console.log("Detail:", detail);
+// const printMacBookDetail = (detail: any) => {
+//   console.log("Detail:", detail);
+// };
+
+// printMacBookDetail("M4");
+// printMacBookDetail(14999);
+// printMacBookDetail(true);
+// printMacBookDetail(() => 123);
+// Generic function
+
+// const printMacBookDetail = <T>(detail: T): T => {
+//   return detail;
+// };
+
+// const str = printMacBookDetail<string>("M4");
+// const price = printMacBookDetail<number>(14999);
+// const available = printMacBookDetail<boolean>(true);
+
+// // 👇 Custom metadata interface
+// interface ChaiDetails {
+//   favoriteChai: string;
+//   sugarLevel: "low" | "medium" | "high";
+//   cupsPerDay: number;
+// }
+
+interface ChaiDetails {
+  favoriteChai: string;
+  sugarLevel: "low" | "medium" | "high";
+  cupsPerDay: number;
+}
+
+interface ChaiBanda<T> {
+  id: number;
+  naam: string;
+  umar: number;
+  chaiMeta: T;
+}
+
+const bandaOne: ChaiBanda<(string | number)[]> = {
+  id: 1,
+  naam: "Chintu",
+  umar: 25,
+  chaiMeta: ["Masala", "medium", 4],
 };
 
-printMacBookDetail("M4");
-printMacBookDetail(14999);
-printMacBookDetail(true);
-printMacBookDetail(() => 123);
-
-const printMacBookDetail = <T>(detail: T): void => {
-  console.log("Detail:", detail);
+const bandaTwo: ChaiBanda<ChaiDetails> = {
+  id: 2,
+  naam: "Babli",
+  umar: 29,
+  chaiMeta: {
+    favoriteChai: "Ginger",
+    sugarLevel: "low",
+    cupsPerDay: 3,
+  },
 };
 
-printMacBookDetail("M4"); // T = string
-printMacBookDetail(14999); // T = number
-printMacBookDetail(true); // T = boolean
+//types with genrics
+
+// // 🔸 Step 1: Define metadata type for chai preferences
+// type ChaiMeta = {
+//   favouriteChai: string;
+//   chaimugSize: "tall" | "short";
+//   cupCountPerDay: number;
+// };
+
+// // 🔸 Step 2: Generic type for ChaiBanda
+// type ChaiBanda<T> = {
+//   id: number;
+//   naam: string;
+//   umar: number;
+//   chaiDetails: T;
+// };
+
+// // 🔸 Step 3: Using generic with an array
+// const bandaOne: ChaiBanda<(string | number)[]> = {
+//   id: 1,
+//   naam: "Raju",
+//   umar: 25,
+//   chaiDetails: ["Masala Chai", "tall", 3],
+// };
+
+// // 🔸 Step 4: Using generic with a structured object
+// const bandaTwo: ChaiBanda<ChaiMeta> = {
+//   id: 2,
+//   naam: "Anjali",
+//   umar: 28,
+//   chaiDetails: {
+//     favouriteChai: "Ginger",
+//     chaimugSize: "tall",
+//     cupCountPerDay: 4,
+//   },
+// };
+
+let names: string[] = ["Hitesh", "Elon", "Trump"];
+let ages: number[] = [25, 30, 40];
+let isActiveList: boolean[] = [true, false, true];
+
+function brewStringChai(arg: string): string {
+  return arg;
+}
+
+function brewNumberChai(arg: number): number {
+  return arg;
+}
+
+function brewBooleanChai(arg: boolean): boolean {
+  return arg;
+}
+
+function brewChai<T>(ingredient: T): T {
+  return ingredient;
+}
+
+const resultOne = brewChai<string>("adrak wali chai");
+const resultTwo = brewChai<number>(2);
+const resultThree = brewChai<boolean>(true);
+
+interface StringBox {
+  value: string;
+}
+
+interface NumberBox {
+  value: number;
+}
+
+interface Box<T> {
+  value: T;
+}
+
+const stringBox: Box<string> = { value: "Masala Chai" };
+const numberBox: Box<number> = { value: 42 };
+const booleanBox: Box<boolean> = { value: true };
+
+repeatItem<string>(3, "tea");
+// ["tea", "tea", "tea"]
+
+repeatItem<number>(2, 404);
+// [404, 404]
+
+repeatItem<boolean>(4, true);
+// [true, true, true, true]
+
+// function repeatItem(times: number, thing: string): string[] {
+//   let res: string[] = [];
+//   res = Array(times).fill(thing);
+//   return res;
+// }
+
+// console.log(repeatItem(4, "coke"));
+
+// function repeatItem<T>(count: number, value: T): T[] {
+//   return Array(count).fill(value);
+// }
+
+// console.log(repeatItem(4, "Hey")); // ["Hey", "Hey", "Hey", "Hey"]
+// console.log(repeatItem(3, 99)); // [99, 99, 99]
+// console.log(repeatItem(2, { msg: "Hi" })); // [{...}, {...}]
+
+function repeatItem<T>(times: number, thing: T): T[] {
+  return Array(times).fill(thing);
+}
+
+console.log(repeatItem(4, "coke"));
+console.log(repeatItem(3, 99));
+console.log(repeatItem(2, true));
+
+console.log(repeatItem(2, { drink: "tea" }));
+
+function pair<A, B>(first: A, second: B): [A, B] {
+  return [first, second];
+}
+
+const result1 = pair("chai", 10);
+const result2 = pair(true, "yes");
+
+function serveOrder<Dish, Table>(food: Dish, table: Table): [Dish, Table] {
+  return [food, table];
+}
+
+const order1 = serveOrder("Burger", 5);
+const order2 = serveOrder({ name: "Pizza", size: "Large" }, "Table-7");
+
+const [name, setName] = useState(""); // inferred as string
+const [count, setCount] = useState(0); // inferred as number
