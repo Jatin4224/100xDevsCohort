@@ -530,3 +530,29 @@ interface User {
   age: number;
   greet(): void;
 }
+
+// const printMacBookName = (name: string) => console.log(`MacBook: ${name}`);
+// const printMacBookPrice = (price: number) => console.log(`Price: $${price}`);
+// const printInStock = (available: boolean) =>
+//   console.log(`In Stock: ${available}`);
+
+// printMacBookName("M4");
+// printMacBookPrice(14999);
+// printInStock(true);
+
+const printMacBookDetail = (detail: any) => {
+  console.log("Detail:", detail);
+};
+
+printMacBookDetail("M4");
+printMacBookDetail(14999);
+printMacBookDetail(true);
+printMacBookDetail(() => 123);
+
+const printMacBookDetail = <T>(detail: T): void => {
+  console.log("Detail:", detail);
+};
+
+printMacBookDetail("M4"); // T = string
+printMacBookDetail(14999); // T = number
+printMacBookDetail(true); // T = boolean
