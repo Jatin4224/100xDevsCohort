@@ -724,3 +724,12 @@ const order2 = serveOrder({ name: "Pizza", size: "Large" }, "Table-7");
 
 const [name, setName] = useState(""); // inferred as string
 const [count, setCount] = useState(0); // inferred as number
+
+function chaiValue<T extends string | number>(value: T): T {
+  console.log(value);
+  return value;
+}
+
+chaiValue("kadak chai");
+chaiValue(2);
+chaiValue(true);
