@@ -565,36 +565,36 @@
 //   cupsPerDay: number;
 // }
 
-interface ChaiDetails {
-  favoriteChai: string;
-  sugarLevel: "low" | "medium" | "high";
-  cupsPerDay: number;
-}
+// interface ChaiDetails {
+//   favoriteChai: string;
+//   sugarLevel: "low" | "medium" | "high";
+//   cupsPerDay: number;
+// }
 
-interface ChaiBanda<T> {
-  id: number;
-  naam: string;
-  umar: number;
-  chaiMeta: T;
-}
+// interface ChaiBanda<T> {
+//   id: number;
+//   naam: string;
+//   umar: number;
+//   chaiMeta: T;
+// }
 
-const bandaOne: ChaiBanda<(string | number)[]> = {
-  id: 1,
-  naam: "Chintu",
-  umar: 25,
-  chaiMeta: ["Masala", "medium", 4],
-};
+// const bandaOne: ChaiBanda<(string | number)[]> = {
+//   id: 1,
+//   naam: "Chintu",
+//   umar: 25,
+//   chaiMeta: ["Masala", "medium", 4],
+// };
 
-const bandaTwo: ChaiBanda<ChaiDetails> = {
-  id: 2,
-  naam: "Babli",
-  umar: 29,
-  chaiMeta: {
-    favoriteChai: "Ginger",
-    sugarLevel: "low",
-    cupsPerDay: 3,
-  },
-};
+// const bandaTwo: ChaiBanda<ChaiDetails> = {
+//   id: 2,
+//   naam: "Babli",
+//   umar: 29,
+//   chaiMeta: {
+//     favoriteChai: "Ginger",
+//     sugarLevel: "low",
+//     cupsPerDay: 3,
+//   },
+// };
 
 //types with genrics
 
