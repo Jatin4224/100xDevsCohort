@@ -88,3 +88,58 @@ function serveChai(chaiName: string, ...flavors: string[]) {
 
 serveChai("Riya", 2024); 
 
+
+
+function processInput(input: string | number): void {
+  if (typeof input === 'number') {
+    console.log(input * 2); 
+  } else if (typeof input === 'string') {
+    console.log(input.toUpperCase());
+  }
+}
+
+processInput(4);
+processInput("chai");
+
+
+function registerUser({ name, age }: { name: string; age: number }) {
+
+  const isAdult = age >= 18;
+  return {
+    name,
+    isAdult,
+    message: `Welcome, ${name}! You are ${isAdult ? 'an adult' : 'a minor'}.`
+  };
+}
+
+const user1 = registerUser({ name: "Hitesh", age: 17 });
+const user2 = registerUser({ name: "Elon", age: 21 });
+
+console.log(user1);
+console.log(user2);
+
+
+
+function createUser(user: { id: number; name: string }): void {
+  console.log(`Welcome ${user.name.toUpperCase()}`);
+}
+
+
+
+function processTransaction(
+  input: string | number,
+  config: { encrypt?: boolean } = { encrypt: false }
+): string | number {
+  if (typeof input === "number") {
+    return input * input;
+  } if (config.encrypt) {
+    return input.toUpperCase().split("").reverse().join("");
+  }
+  return input.toUpperCase();
+}
+
+console.log(processTransaction(100)); 
+console.log(processTransaction("rent payment")); 
+console.log(processTransaction("gift card", { encrypt: true })); 
+
+
