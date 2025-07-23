@@ -143,3 +143,73 @@ console.log(processTransaction("rent payment"));
 console.log(processTransaction("gift card", { encrypt: true })); 
 
 
+
+type book = { 
+  id: number; title: string; isAvailable: boolean 
+}
+
+const book1: book = {
+  id: 1,
+  title: 'The Silent Patient',
+  isAvailable: true,
+};
+const book2: book = {
+  id: 2,
+  title: 'Atomic Habits',
+  isAvailable: false,
+};
+
+function displayBookInfo(book: book): book {
+  console.log(`"${book.title}" is currently ${book.isAvailable ? 'available' : 'unavailable'}.`);
+  return book;
+}
+
+In TypeScript, Type Aliases allow us to create custom names for any type, not just objects.
+You can use them to represent primitive types, unions, function signatures, tuples, and more.
+This makes your code more readable, reusable, and easier to maintain.
+
+
+type StringOrNumberOrBoolean = string | number| Boolean ;
+
+let input: StringOrNumberOrBoolean;
+
+input = "Hello";
+input = 42;
+input = true;
+
+
+type Developer = {
+  id: number;
+  name: string;
+  language: string;
+};
+
+type TeamLead = {
+  id: number;
+  name: string;
+  developers: Developer[];
+};
+
+type TechStaff = Developer | TeamLead;
+function printTechDetails(staff: TechStaff) {
+  if ('developers' in staff) {
+    console.log(`👨‍💼 ${staff.name} is a Team Lead managing ${staff.developers.length} developers.`);
+  } else {
+    console.log(`👨‍💻 ${staff.name} is a Developer skilled in ${staff.language}.`);
+  }
+}
+
+const dev1: Developer = {
+  id: 101,
+  name: 'Sahil',
+  language: 'TypeScript',
+};
+
+const lead1: TeamLead = {
+  id: 201,
+  name: 'Ankita',
+  developers: [dev1],
+};
+
+printTechDetails(dev1);   // 👨‍💻 Sahil is a Developer skilled in TypeScript.
+printTechDetails(lead1);  // 👨‍💼 Ankita is a Team Lead managing 1 developers.
