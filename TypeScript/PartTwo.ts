@@ -1,215 +1,396 @@
-type ChaiMeta = {
-  favouriteChai: string;
-  chaimugSize: "tall" | "short";
-  cupCountPerDay: number;
-};
+// type ChaiMeta = {
+//   favouriteChai: string;
+//   chaimugSize: "tall" | "short";
+//   cupCountPerDay: number;
+// };
 
-type ChaiBanda<T> = {
-  id: number;
-  naam: string;
-  umar: number;
-  chaiDetails: T;
-};
+// type ChaiBanda<T> = {
+//   id: number;
+//   naam: string;
+//   umar: number;
+//   chaiDetails: T;
+// };
 
-const bandaOne: ChaiBanda<(string | number)[]> = {
-  id: 1,
-  naam: "Trump",
-  umar: 25,
-  chaiDetails: ["Masala Chai", "tall", 3],
-};
+// const bandaOne: ChaiBanda<(string | number)[]> = {
+//   id: 1,
+//   naam: "Trump",
+//   umar: 25,
+//   chaiDetails: ["Masala Chai", "tall", 3],
+// };
 
-const bandaTwo: ChaiBanda<ChaiMeta> = {
-  id: 2,
-  naam: "Elon",
-  umar: 28,
-  chaiDetails: {
-    favouriteChai: "Ginger",
-    chaimugSize: "tall",
-    cupCountPerDay: 4,
-  },
-};
+// const bandaTwo: ChaiBanda<ChaiMeta> = {
+//   id: 2,
+//   naam: "Elon",
+//   umar: 28,
+//   chaiDetails: {
+//     favouriteChai: "Ginger",
+//     chaimugSize: "tall",
+//     cupCountPerDay: 4,
+//   },
+// };
 
-type ChaiLover<Name extends string = string> = {
-  name: Name;
-  cupsPerDay: number;
-};
+// type ChaiLover<Name extends string = string> = {
+//   name: Name;
+//   cupsPerDay: number;
+// };
 
-type KnownChaiFan = ChaiLover<"Raju">;
+// type KnownChaiFan = ChaiLover<"Raju">;
 
-type MysteryChaiFan = ChaiLover;
+// type MysteryChaiFan = ChaiLover;
 
-function incomingCall(name: string) {
-  console.log(`Name: ${name.}`);
-}
-
-incomingCall("chai");
-
-
-
-
-
-const chaiGang: string[] = ["chai", "ginger", "elaichi"];
-
-function isChaiGangMember(name: string): boolean {
-  return chaiGang.includes(name);
-}
-
-
-let namesToCheck= "ginger";
-
-if (isChaiGangMember(namesToCheck)) {
-  console.log(`${namesToCheck} is in the gang`);
-} else {
-  console.log(`${namesToCheck} is not in the gang`)
-}
-
-
-// function chaiDiscount(price: number, discount?: number): number {
-//   return price - (discount || 0); 
+// function incomingCall(name: string) {
+//   console.log(`Name: ${name.}`);
 // }
 
-// let finalChaiPrice = chaiDiscount(100, 30);
-// console.log(finalChaiPrice); 
+// incomingCall("chai");
 
-function chaiDiscount(price: number, discount: number = 0): number {
-  return price - discount;
-}
+// const chaiGang: string[] = ["chai", "ginger", "elaichi"];
 
-let finalPrice = chaiDiscount(100);
+// function isChaiGangMember(name: string): boolean {
+//   return chaiGang.includes(name);
+// }
 
+// let namesToCheck= "ginger";
 
+// if (isChaiGangMember(namesToCheck)) {
+//   console.log(`${namesToCheck} is in the gang`);
+// } else {
+//   console.log(`${namesToCheck} is not in the gang`)
+// }
 
+// // function chaiDiscount(price: number, discount?: number): number {
+// //   return price - (discount || 0);
+// // }
 
-function serveChai(chaiName: string, ...flavors: string[]) {
-  for (const flavor of flavors) {
-    console.log(`${flavor} chai served by ${chaiName}`);
-  }
-}
+// // let finalChaiPrice = chaiDiscount(100, 30);
+// // console.log(finalChaiPrice);
 
-serveChai("Riya", 2024); 
+// function chaiDiscount(price: number, discount: number = 0): number {
+//   return price - discount;
+// }
 
+// let finalPrice = chaiDiscount(100);
 
+// function serveChai(chaiName: string, ...flavors: string[]) {
+//   for (const flavor of flavors) {
+//     console.log(`${flavor} chai served by ${chaiName}`);
+//   }
+// }
 
-function processInput(input: string | number): void {
-  if (typeof input === 'number') {
-    console.log(input * 2); 
-  } else if (typeof input === 'string') {
-    console.log(input.toUpperCase());
-  }
-}
+// serveChai("Riya", 2024);
 
-processInput(4);
-processInput("chai");
+// function processInput(input: string | number): void {
+//   if (typeof input === 'number') {
+//     console.log(input * 2);
+//   } else if (typeof input === 'string') {
+//     console.log(input.toUpperCase());
+//   }
+// }
 
+// processInput(4);
+// processInput("chai");
 
-function registerUser({ name, age }: { name: string; age: number }) {
+// function registerUser({ name, age }: { name: string; age: number }) {
 
-  const isAdult = age >= 18;
-  return {
-    name,
-    isAdult,
-    message: `Welcome, ${name}! You are ${isAdult ? 'an adult' : 'a minor'}.`
-  };
-}
+//   const isAdult = age >= 18;
+//   return {
+//     name,
+//     isAdult,
+//     message: `Welcome, ${name}! You are ${isAdult ? 'an adult' : 'a minor'}.`
+//   };
+// }
 
-const user1 = registerUser({ name: "Hitesh", age: 17 });
-const user2 = registerUser({ name: "Elon", age: 21 });
+// const user1 = registerUser({ name: "Hitesh", age: 17 });
+// const user2 = registerUser({ name: "Elon", age: 21 });
 
-console.log(user1);
-console.log(user2);
+// console.log(user1);
+// console.log(user2);
 
+// function createUser(user: { id: number; name: string }): void {
+//   console.log(`Welcome ${user.name.toUpperCase()}`);
+// }
 
+// function processTransaction(
+//   input: string | number,
+//   config: { encrypt?: boolean } = { encrypt: false }
+// ): string | number {
+//   if (typeof input === "number") {
+//     return input * input;
+//   } if (config.encrypt) {
+//     return input.toUpperCase().split("").reverse().join("");
+//   }
+//   return input.toUpperCase();
+// }
 
-function createUser(user: { id: number; name: string }): void {
-  console.log(`Welcome ${user.name.toUpperCase()}`);
-}
+// console.log(processTransaction(100));
+// console.log(processTransaction("rent payment"));
+// console.log(processTransaction("gift card", { encrypt: true }));
 
+// type book = {
+//   id: number; title: string; isAvailable: boolean
+// }
 
+// const book1: book = {
+//   id: 1,
+//   title: 'The Silent Patient',
+//   isAvailable: true,
+// };
+// const book2: book = {
+//   id: 2,
+//   title: 'Atomic Habits',
+//   isAvailable: false,
+// };
 
-function processTransaction(
-  input: string | number,
-  config: { encrypt?: boolean } = { encrypt: false }
-): string | number {
-  if (typeof input === "number") {
-    return input * input;
-  } if (config.encrypt) {
-    return input.toUpperCase().split("").reverse().join("");
-  }
-  return input.toUpperCase();
-}
+// function displayBookInfo(book: book): book {
+//   console.log(`"${book.title}" is currently ${book.isAvailable ? 'available' : 'unavailable'}.`);
+//   return book;
+// }
 
-console.log(processTransaction(100)); 
-console.log(processTransaction("rent payment")); 
-console.log(processTransaction("gift card", { encrypt: true })); 
+// In TypeScript, Type Aliases allow us to create custom names for any type, not just objects.
+// You can use them to represent primitive types, unions, function signatures, tuples, and more.
+// This makes your code more readable, reusable, and easier to maintain.
 
+// type StringOrNumberOrBoolean = string | number| Boolean ;
 
+// let input: StringOrNumberOrBoolean;
 
-type book = { 
-  id: number; title: string; isAvailable: boolean 
-}
+// input = "Hello";
+// input = 42;
+// input = true;
 
-const book1: book = {
-  id: 1,
-  title: 'The Silent Patient',
-  isAvailable: true,
-};
-const book2: book = {
-  id: 2,
-  title: 'Atomic Habits',
-  isAvailable: false,
-};
+// type Developer = {
+//   id: number;
+//   name: string;
+//   language: string;
+// };
 
-function displayBookInfo(book: book): book {
-  console.log(`"${book.title}" is currently ${book.isAvailable ? 'available' : 'unavailable'}.`);
-  return book;
-}
+// type TeamLead = {
+//   id: number;
+//   name: string;
+//   developers: Developer[];
+// };
 
-In TypeScript, Type Aliases allow us to create custom names for any type, not just objects.
-You can use them to represent primitive types, unions, function signatures, tuples, and more.
-This makes your code more readable, reusable, and easier to maintain.
+// //combining both types using union
+// type TechStaff = Developer | TeamLead;
 
+// function printTechDetails(staff: TechStaff) {
+//   if ('developers' in staff) {
+//     console.log(`${staff.name} is a Team Lead managing ${staff.developers.length} developers.`);
+//   } else {
+//     console.log(`${staff.name} is a Developer skilled in ${staff.language}.`);
+//   }
+// }
 
-type StringOrNumberOrBoolean = string | number| Boolean ;
+// const devA: Developer = {
+//   id: 101,
+//   name: 'Hitesh',
+//   language: 'TypeScript',
+// };
 
-let input: StringOrNumberOrBoolean;
+// const leadA: TeamLead = {
+//   id: 201,
+//   name: 'Elon',
+//   developers: [devA],
+// };
 
-input = "Hello";
-input = 42;
-input = true;
+// printTechDetails(devA);
+// printTechDetails(leadA);
 
+// interface Founder {
+//   name: string;
+//   age: number;
+//   country: string;
+//   active: boolean;
+//   netWorth?: number;
+//   getDetails(): string;
+// }
 
-type Developer = {
-  id: number;
-  name: string;
-  language: string;
-};
+// interface Company extends Founder {
+//   companyName: string;
+//   foundedYear: number;
+//   isPublic: boolean;
+//   getCompanyDetails(): string;
+// }
 
-type TeamLead = {
-  id: number;
-  name: string;
-  developers: Developer[];
-};
+// const company: Company = {
+//   name: "Hitesh",
+//   age: 35,
+//   country: "India",
+//   active: true,
+//   netWorth: 120000000,
+//   companyName: "chai aur code",
+//   foundedYear: 2025,
+//   isPublic: true,
 
-type TechStaff = Developer | TeamLead;
-function printTechDetails(staff: TechStaff) {
-  if ('developers' in staff) {
-    console.log(`👨‍💼 ${staff.name} is a Team Lead managing ${staff.developers.length} developers.`);
-  } else {
-    console.log(`👨‍💻 ${staff.name} is a Developer skilled in ${staff.language}.`);
-  }
-}
+//   getDetails() {
+//     return `${this.name}, age ${this.age}, from ${this.country}, is ${this.active ? "active" : "inactive"}${this.netWorth ? ` with a net worth of $${this.netWorth}` : ""}.`;
+//   },
 
-const dev1: Developer = {
-  id: 101,
-  name: 'Sahil',
-  language: 'TypeScript',
-};
+//   getCompanyDetails() {
+//     return `${this.companyName} was founded in ${this.foundedYear} and is currently ${this.isPublic ? "a public" : "a private"} company.`;
+//   }
+// };
 
-const lead1: TeamLead = {
-  id: 201,
-  name: 'Ankita',
-  developers: [dev1],
-};
+// console.log(company.getDetails());
+// console.log(company.getCompanyDetails());
 
-printTechDetails(dev1);   // 👨‍💻 Sahil is a Developer skilled in TypeScript.
-printTechDetails(lead1);  // 👨‍💼 Ankita is a Team Lead managing 1 developers.
+// interface Vehicle {
+//   make: string;
+//   model: string;
+//   getDetails(): string;
+// }
+// interface Car extends Vehicle {
+//   numberOfDoors: number;
+//   isElectric: boolean;
+// }
+
+// interface Motorcycle extends Vehicle {
+//   hasSidecar: boolean;
+// }
+
+// function getRandomVehicle(): Car | Motorcycle {
+//   if (Math.random() < 0.5) {
+//     const car: Car = {
+//       make: "Tesla",
+//       model: "Model 3",
+//       numberOfDoors: 4,
+//       isElectric: true,
+//       getDetails() {
+//         return `${this.make} ${this.model} - ${this.numberOfDoors} doors, ${this.isElectric ? "Electric" : "Gasoline"}`;
+//       }
+//     };
+//     return car;
+//   } else {
+//     const motorcycle: Motorcycle = {
+//       make: "Harley-Davidson",
+//       model: "Street 750",
+//       hasSidecar: false,
+//       getDetails() {
+//         return `${this.make} ${this.model} - Sidecar: ${this.hasSidecar ? "Yes" : "No"}`;
+//       }
+//     };
+//     return motorcycle;
+//   }
+// }
+
+// const myVehicle = getRandomVehicle();
+// console.log(myVehicle.getDetails());
+
+// interface GamingConsole {
+//   readonly serialNumber: string;
+//   model: string;
+//   memory: number;
+//   battery?: number;
+//   upgradeMemory(extra: number): number;
+// }
+
+// const consoleOne: GamingConsole = {
+//   serialNumber: "GCX-2025-0098",
+//   model: "PlayBox X",
+//   memory: 64,
+//   battery: 85,
+// upgradeMemory(extra: number): number {
+//     this.memory += extra;
+//     return this.memory;
+//   }
+// };
+// const updatedMemory = consoleOne.upgradeMemory(16);
+// console.log(`${updatedMemory} GB`);
+
+// //tuples nd enums
+// let person : [string,number] = ['jai',24];
+// let date: [number,number,number] = [12,20,2002];
+// date.push(23)
+
+// function getPerson():[string,number] {
+// return ['jai',29];
+
+// }
+
+// enum ServerResponseStatus {
+//   Success,
+//   Error,
+// }
+
+// interface ServerResponse {
+//   result: ServerResponseStatus;
+//   data: string[];
+// }
+
+// function getServerResponse(): ServerResponse {
+//   return {
+//     result: ServerResponseStatus.Success,
+//     data: ['first item', 'second item'],
+//   };
+// }
+
+// const response = getServerResponse();
+
+// enum ProductCategory {
+//   Electronics,
+//   Clothing,
+//   Books,
+// }
+// type Product = {
+//   id: number;
+//   name: string;
+//   price: number;
+//   category: ProductCategory;
+//   availability: [inStock: boolean, warehouseLocation: string];
+// };
+// function createProduct(product: Product): Product {
+//   return product;
+// }
+
+// const newProduct = createProduct({
+//   id: 101,
+//   name: "MacBook",
+//   price: 49999,
+//   category: ProductCategory.Electronics,
+//   availability: [true, "Jaipur"],
+// });
+
+// console.log(newProduct);
+
+// let response: any = "42";
+
+// let numericLength: number = (response as string).length;
+
+// console.log(numericLength);
+
+// type Book = {
+//   name: string;
+// };
+
+// let bookString = '{"name":"One Thing"}';
+
+// let bookObject = JSON.parse(bookString) as Book;
+
+// console.log(bookObject.name);
+
+// const inputElement = document.getElementById("username") as HTMLInputElement;
+
+// inputElement.value = "Hitesh";
+
+// enum Status {
+//   Pending = "pending",
+//   Declined = "declined",
+// }
+
+// type User = {
+//   name: string;
+//   status: Status;
+// };
+
+// const statusFromDB = "pending";
+
+// const user: User = {
+//   name: "Alice",
+//   status: statusFromDB as Status,
+// };
+// console.log(user);
+
+// let someValue: any = "42";
+// let value = someValue as number;
+
+let value: an;
