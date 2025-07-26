@@ -393,188 +393,261 @@
 // let someValue: any = "42";
 // let value = someValue as number;
 
-let value: unknown;
+// let value: unknown;
 
-value = "chai";
-value = [1, 2, 3];
-value = 2.5;
+// value = "chai";
+// value = [1, 2, 3];
+// value = 2.5;
 
-if (typeof value === "string") {
-  value.toUpperCase();
-}
+// if (typeof value === "string") {
+//   value.toUpperCase();
+// }
 
-try {
-  // some code that might throw an error
-} catch (error) {
-  console.log(error.message);
-}
+// try {
+//   // some code that might throw an error
+// } catch (error) {
+//   console.log(error.message);
+// }
 
-try {
-  // some code that might throw an error
-} catch (error) {
-  if (error instanceof Error) {
-    console.log(error.message);
-  } else {
-    console.log("Error:", error);
-  }
-}
+// try {
+//   // some code that might throw an error
+// } catch (error) {
+//   if (error instanceof Error) {
+//     console.log(error.message);
+//   } else {
+//     console.log("Error:", error);
+//   }
+// }
 
-const data: unknown = 20;
-const strData: string = data as string;
+// const data: unknown = 20;
+// const strData: string = data as string;
 
-console.log(strData.toUpperCase());
+// console.log(strData.toUpperCase());
 
-type Role = "admin" | "user" | "superadmin";
+// type Role = "admin" | "user" | "superadmin";
 
-function redirectBasedOnRole(role: Role): void {
-  if (role === "admin") {
-    console.log("Redirecting to admin dashboard");
-    return;
-  }
+// function redirectBasedOnRole(role: Role): void {
+//   if (role === "admin") {
+//     console.log("Redirecting to admin dashboard");
+//     return;
+//   }
 
-  if (role === "user") {
-    console.log("Redirecting to user home");
-    return;
-  }
+//   if (role === "user") {
+//     console.log("Redirecting to user home");
+//     return;
+//   }
 
-  role;
-}
+//   role;
+// }
 
-function throwErr(message: string): never {
-  throw new Error(message);
-}
+// function throwErr(message: string): never {
+//   throw new Error(message);
+// }
 
-function infinite(): never {
-  while (true) {
-    // doing some background task forever...
-  }
-}
+// function infinite(): never {
+//   while (true) {
+//     // doing some background task forever...
+//   }
+// }
 
-let a: never;
+// let a: never;
 
-function neverReturn(): never {
-  while (true) {}
-}
+// function neverReturn(): never {
+//   while (true) {}
+// }
 
-a = neverReturn(); // allowed because neverReturn() returns never
-a = 5;
+// a = neverReturn(); // allowed because neverReturn() returns never
+// a = 5;
 
-class Animal {
-  sound() {
-    console.log("Animal sound");
-  }
-}
+// class Animal {
+//   sound() {
+//     console.log("Animal sound");
+//   }
+// }
 
-const pet = new Animal();
+// const pet = new Animal();
 
-if (pet instanceof Animal) {
-  pet.sound();
-}
+// if (pet instanceof Animal) {
+//   pet.sound();
+// }
 
-function processPayment(payment: string | number) {
-  if (typeof payment === "string") {
-    console.log(`Payment made via UPI: ${payment}`);
-  }
+// function processPayment(payment: string | number) {
+//   if (typeof payment === "string") {
+//     console.log(`Payment made via UPI: ${payment}`);
+//   }
 
-  if (typeof payment === "number") {
-    console.log(`Payment made via card ending in: ${payment}`);
-  }
-}
+//   if (typeof payment === "number") {
+//     console.log(`Payment made via card ending in: ${payment}`);
+//   }
+// }
 
-processPayment("Hitesh@paytm");
-processPayment(1234);
+// processPayment("Hitesh@paytm");
+// processPayment(1234);
 
-"engine" in { type: "Chrome", engine: { name: "Blink" } };
-"engine" in { type: "Firefox", engine: { name: "Gecko" } };
-"engine" in { type: "Safari", engine: { name: "WebKit" } };
-"engine" in { type: "OldBrowser" };
-"engine" in { type: "GhostBrowser", engine: undefined };
+// "engine" in { type: "Chrome", engine: { name: "Blink" } };
+// "engine" in { type: "Firefox", engine: { name: "Gecko" } };
+// "engine" in { type: "Safari", engine: { name: "WebKit" } };
+// "engine" in { type: "OldBrowser" };
+// "engine" in { type: "GhostBrowser", engine: undefined };
 
-interface Student {
-  studentID: string;
-}
+// interface Student {
+//   studentID: string;
+// }
 
-interface CorporateEmployee {
-  employeeCode: number;
-}
+// interface CorporateEmployee {
+//   employeeCode: number;
+// }
 
-interface RegularVisitor {
-  name: string;
-  dailyChaiCount: number;
-}
+// interface RegularVisitor {
+//   name: string;
+//   dailyChaiCount: number;
+// }
 
-const getVisitorIdentifier = (
-  person: Student | CorporateEmployee | RegularVisitor
-) => {
-  if ("name" in person) {
-    return `Regular Visitor: ${person.name}`;
-  } else if ("studentID" in person) {
-    return `Student ID: ${person.studentID}`;
-  } else {
-    return `Corporate Code: ${person.employeeCode}`;
-  }
-};
+// const getVisitorIdentifier = (
+//   person: Student | CorporateEmployee | RegularVisitor
+// ) => {
+//   if ("name" in person) {
+//     return `Regular Visitor: ${person.name}`;
+//   } else if ("studentID" in person) {
+//     return `Student ID: ${person.studentID}`;
+//   } else {
+//     return `Corporate Code: ${person.employeeCode}`;
+//   }
+// };
 
-console.log(getVisitorIdentifier({ studentID: "123" }));
+// console.log(getVisitorIdentifier({ studentID: "123" }));
+
+// interface Car {
+//   drive(): void;
+//   numberOfDoors: number;
+// }
+
+// interface Bike {
+//   ride(): void;
+//   hasCarrier: boolean;
+// }
+
+// // Type guard function
+// function isCar(vehicle: Car | Bike): vehicle is Car {
+//   return (vehicle as Car).drive !== undefined;
+// }
+
+// // Usage
+// let vehicle: Car | Bike = {
+//   ride: () => console.log("Riding the bike!"),
+//   hasCarrier: true,
+// };
+
+// if (isCar(vehicle)) {
+//   vehicle.drive(); // TypeScript knows it's a Car here
+//   console.log("This vehicle has", vehicle.numberOfDoors, "doors");
+// } else {
+//   vehicle.ride(); // TypeScript knows it's a Bike here
+//   console.log("Does this bike have a carrier?", vehicle.hasCarrier);
+// }
+
+// interface Student {
+//   rollNumber: number;
+// }
+
+// interface Teacher {
+//   subject: string;
+// }
+
+// function isStudent(person: Student | Teacher): person is Student {
+//   return (person as Student).rollNumber !== undefined;
+// }
+
+// const omeone: Student | Teacher = {
+//   rollNumber: 101,
+// };
+
+// if (isStudent(someone)) {
+//   console.log("He is a student with roll no:", someone.rollNumber);
+// } else {
+//   console.log("He is a teacher who teaches:", someone.subject);
+// }
+// type Species = "cat" | "dog";
+
+// interface Pet {
+//   species: Species;
+// }
+
+// interface Cat extends Pet {}
+
+// function petIsCat(pet: Pet): pet is Cat {
+//   return pet.species === "cat";
+// }
+
+// function getValues(valueA: number | string, valueB: string) {
+//   if (valueA === valueB) {
+//     // this is where the narrowing takes place. narrowed to string
+//     console.log(typeof valueA); // string
+//   } else {
+//     // if there is no narrowing, type remains unknown
+//     console.log(typeof valueA); // number or string
+//   }
+// }
 
 interface Car {
+  model: string;
   drive(): void;
-  numberOfDoors: number;
 }
 
-interface Bike {
-  ride(): void;
-  hasCarrier: boolean;
+function isCar(obj: any): obj is Car {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    "drive" in obj &&
+    typeof obj.drive === "function"
+  );
 }
 
-// Type guard function
-function isCar(vehicle: Car | Bike): vehicle is Car {
-  return (vehicle as Car).drive !== undefined;
+function startVehicle(vehicle: any) {
+  if (isCar(vehicle)) {
+    console.log(`Starting car model: ${vehicle.model}`);
+    vehicle.drive();
+  } else {
+    console.log("This is not a car.");
+  }
 }
 
-// Usage
-let vehicle: Car | Bike = {
-  ride: () => console.log("Riding the bike!"),
-  hasCarrier: true,
+type GreenTea = {
+  flavor: string;
+  steep: () => void;
 };
 
-if (isCar(vehicle)) {
-  vehicle.drive(); // TypeScript knows it's a Car here
-  console.log("This vehicle has", vehicle.numberOfDoors, "doors");
-} else {
-  vehicle.ride(); // TypeScript knows it's a Bike here
-  console.log("Does this bike have a carrier?", vehicle.hasCarrier);
-}
-
-interface Student {
-  rollNumber: number;
-}
-
-interface Teacher {
-  subject: string;
-}
-
-function isStudent(person: Student | Teacher): person is Student {
-  return (person as Student).rollNumber !== undefined;
-}
-
-const omeone: Student | Teacher = {
-  rollNumber: 101,
+type BlackTea = {
+  flavor: string;
+  brew: () => void;
 };
 
-if (isStudent(someone)) {
-  console.log("He is a student with roll no:", someone.rollNumber);
+type Tea = GreenTea | BlackTea;
+
+const randomTea = (): Tea => {
+  return Math.random() > 0.2
+    ? { flavor: "Mint", steep: () => console.log("Steeping green tea...") }
+    : { flavor: "Masala", brew: () => console.log("Brewing black tea...") };
+};
+
+const tea = randomTea();
+
+if ("steep" in tea) {
+  tea.steep();
 } else {
-  console.log("He is a teacher who teaches:", someone.subject);
-}
-type Species = "cat" | "dog";
-
-interface Pet {
-  species: Species;
+  tea.brew();
 }
 
-interface Cat extends Pet {}
-
-function petIsCat(pet: Pet): pet is Cat {
-  return pet.species === "cat";
+function isGreenTea(tea: Tea): tea is GreenTea {
+  return "steep" in tea;
 }
+
+if (isGreenTea(tea)) {
+  tea.steep();
+} else {
+  tea.brew();
+}
+
+type Car = { type: "car"; model: string; drive: () => void };
+type Plane = { type: "plane"; model: string; fly: () => void };
+type Vehicle = Car | Plane;
