@@ -393,4 +393,64 @@
 // let someValue: any = "42";
 // let value = someValue as number;
 
-let value: an;
+let value: unknown;
+
+value = "chai";
+value = [1, 2, 3];
+value = 2.5;
+
+if (typeof value === "string") {
+  value.toUpperCase();
+}
+
+try {
+  // some code that might throw an error
+} catch (error) {
+  console.log(error.message);
+}
+
+try {
+  // some code that might throw an error
+} catch (error) {
+  if (error instanceof Error) {
+    console.log(error.message);
+  } else {
+    console.log("Error:", error);
+  }
+}
+
+const data: unknown = 20;
+const strData: string = data as string;
+
+console.log(strData.toUpperCase());
+
+let a: never = 0;
+let b: never = "hello";
+let c: never = true;
+let d: never = [1, 2, 3];
+
+type Role = "admin" | "user" | "superadmin";
+
+function redirectBasedOnRole(role: Role): void {
+  if (role === "admin") {
+    console.log("Redirecting to admin dashboard");
+    return;
+  }
+
+  if (role === "user") {
+    console.log("Redirecting to user home");
+    return;
+  }
+
+  role;
+}
+
+function throwErr(message: string): never {
+  throw new Error(message);
+}
+
+function infinite(): never {
+  while (true) {
+    // doing some background task forever...
+  }
+}
