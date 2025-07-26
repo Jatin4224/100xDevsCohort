@@ -424,11 +424,6 @@ const strData: string = data as string;
 
 console.log(strData.toUpperCase());
 
-let a: never = 0;
-let b: never = "hello";
-let c: never = true;
-let d: never = [1, 2, 3];
-
 type Role = "admin" | "user" | "superadmin";
 
 function redirectBasedOnRole(role: Role): void {
@@ -453,4 +448,133 @@ function infinite(): never {
   while (true) {
     // doing some background task forever...
   }
+}
+
+let a: never;
+
+function neverReturn(): never {
+  while (true) {}
+}
+
+a = neverReturn(); // allowed because neverReturn() returns never
+a = 5;
+
+class Animal {
+  sound() {
+    console.log("Animal sound");
+  }
+}
+
+const pet = new Animal();
+
+if (pet instanceof Animal) {
+  pet.sound();
+}
+
+function processPayment(payment: string | number) {
+  if (typeof payment === "string") {
+    console.log(`Payment made via UPI: ${payment}`);
+  }
+
+  if (typeof payment === "number") {
+    console.log(`Payment made via card ending in: ${payment}`);
+  }
+}
+
+processPayment("Hitesh@paytm");
+processPayment(1234);
+
+"engine" in { type: "Chrome", engine: { name: "Blink" } };
+"engine" in { type: "Firefox", engine: { name: "Gecko" } };
+"engine" in { type: "Safari", engine: { name: "WebKit" } };
+"engine" in { type: "OldBrowser" };
+"engine" in { type: "GhostBrowser", engine: undefined };
+
+interface Student {
+  studentID: string;
+}
+
+interface CorporateEmployee {
+  employeeCode: number;
+}
+
+interface RegularVisitor {
+  name: string;
+  dailyChaiCount: number;
+}
+
+const getVisitorIdentifier = (
+  person: Student | CorporateEmployee | RegularVisitor
+) => {
+  if ("name" in person) {
+    return `Regular Visitor: ${person.name}`;
+  } else if ("studentID" in person) {
+    return `Student ID: ${person.studentID}`;
+  } else {
+    return `Corporate Code: ${person.employeeCode}`;
+  }
+};
+
+console.log(getVisitorIdentifier({ studentID: "123" }));
+
+interface Car {
+  drive(): void;
+  numberOfDoors: number;
+}
+
+interface Bike {
+  ride(): void;
+  hasCarrier: boolean;
+}
+
+// Type guard function
+function isCar(vehicle: Car | Bike): vehicle is Car {
+  return (vehicle as Car).drive !== undefined;
+}
+
+// Usage
+let vehicle: Car | Bike = {
+  ride: () => console.log("Riding the bike!"),
+  hasCarrier: true,
+};
+
+if (isCar(vehicle)) {
+  vehicle.drive(); // TypeScript knows it's a Car here
+  console.log("This vehicle has", vehicle.numberOfDoors, "doors");
+} else {
+  vehicle.ride(); // TypeScript knows it's a Bike here
+  console.log("Does this bike have a carrier?", vehicle.hasCarrier);
+}
+
+interface Student {
+  rollNumber: number;
+}
+
+interface Teacher {
+  subject: string;
+}
+
+function isStudent(person: Student | Teacher): person is Student {
+  return (person as Student).rollNumber !== undefined;
+}
+
+const omeone: Student | Teacher = {
+  rollNumber: 101,
+};
+
+if (isStudent(someone)) {
+  console.log("He is a student with roll no:", someone.rollNumber);
+} else {
+  console.log("He is a teacher who teaches:", someone.subject);
+}
+type Species = "cat" | "dog";
+
+interface Pet {
+  species: Species;
+}
+
+interface Cat extends Pet {}
+
+function petIsCat(pet: Pet): pet is Cat {
+  return pet.species === "cat";
 }
