@@ -281,16 +281,14 @@ let user1 = new UserProfile("123", "Hitesh");
 class Product {
   constructor(private _price: number) {}
 
-  // GETTER: Runs when we access 'price'
   get price(): string {
-    // We can format the output
     return `$${this._price.toFixed(2)}`;
   }
 
-  // SETTER: Runs when we assign a value to 'price'
+
   set price(newPrice: number) {
     if (newPrice >= 0) {
-      // We can add validation logic
+      
       this._price = newPrice;
     } else {
       console.error("Price cannot be negative!");
@@ -300,9 +298,26 @@ class Product {
 
 let coffee = new Product(5.0);
 
-console.log(coffee.price); // Runs the GETTER -> Output: $5.00
+console.log(coffee.price); 
 
-coffee.price = 7.5; // Runs the SETTER
-console.log(coffee.price); // Runs the GETTER -> Output: $7.50
+coffee.price = 7.5; 
+console.log(coffee.price); 
 
-coffee.price = -2; // Runs the SETTER -> Output: Price cannot be negative!
+coffee.price = -2;
+
+class AppConfig {
+  public static appName: string = "Super Editor";
+  public static instanceCount: number = 0;
+
+  constructor() {
+    // Access the static property using the class name
+    AppConfig.instanceCount++;
+  }
+}
+
+console.log(`App Name: ${AppConfig.appName}`); // Access directly via the class
+
+let config1 = new AppConfig();
+let config2 = new AppConfig();
+
+console.log(`Instances created: ${AppConfig.instanceCount}`); // Output: 2
