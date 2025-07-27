@@ -589,65 +589,125 @@
 //   }
 // }
 
-interface Car {
-  model: string;
-  drive(): void;
-}
+// interface Car {
+//   model: string;
+//   drive(): void;
+// }
 
-function isCar(obj: any): obj is Car {
-  return (
-    typeof obj === "object" &&
-    obj !== null &&
-    "drive" in obj &&
-    typeof obj.drive === "function"
-  );
-}
+// function isCar(obj: any): obj is Car {
+//   return (
+//     typeof obj === "object" &&
+//     obj !== null &&
+//     "drive" in obj &&
+//     typeof obj.drive === "function"
+//   );
+// }
 
-function startVehicle(vehicle: any) {
-  if (isCar(vehicle)) {
-    console.log(`Starting car model: ${vehicle.model}`);
-    vehicle.drive();
-  } else {
-    console.log("This is not a car.");
-  }
-}
+// function startVehicle(vehicle: any) {
+//   if (isCar(vehicle)) {
+//     console.log(`Starting car model: ${vehicle.model}`);
+//     vehicle.drive();
+//   } else {
+//     console.log("This is not a car.");
+//   }
+// }
 
-type GreenTea = {
-  flavor: string;
-  steep: () => void;
-};
+// type GreenTea = {
+//   flavor: string;
+//   steep: () => void;
+// };
 
-type BlackTea = {
-  flavor: string;
-  brew: () => void;
-};
+// type BlackTea = {
+//   flavor: string;
+//   brew: () => void;
+// };
 
-type Tea = GreenTea | BlackTea;
+// type Tea = GreenTea | BlackTea;
 
-const randomTea = (): Tea => {
-  return Math.random() > 0.2
-    ? { flavor: "Mint", steep: () => console.log("Steeping green tea...") }
-    : { flavor: "Masala", brew: () => console.log("Brewing black tea...") };
-};
+// const randomTea = (): Tea => {
+//   return Math.random() > 0.2
+//     ? { flavor: "Mint", steep: () => console.log("Steeping green tea...") }
+//     : { flavor: "Masala", brew: () => console.log("Brewing black tea...") };
+// };
 
-const tea = randomTea();
+// const tea = randomTea();
 
-if ("steep" in tea) {
-  tea.steep();
-} else {
-  tea.brew();
-}
+// if ("steep" in tea) {
+//   tea.steep();
+// } else {
+//   tea.brew();
+// }
 
-function isGreenTea(tea: Tea): tea is GreenTea {
-  return "steep" in tea;
-}
+// function isGreenTea(tea: Tea): tea is GreenTea {
+//   return "steep" in tea;
+// }
 
-if (isGreenTea(tea)) {
-  tea.steep();
-} else {
-  tea.brew();
-}
+// if (isGreenTea(tea)) {
+//   tea.steep();
+// } else {
+//   tea.brew();
+// }
 
 type Car = { type: "car"; model: string; drive: () => void };
 type Plane = { type: "plane"; model: string; fly: () => void };
 type Vehicle = Car | Plane;
+
+type Car = {
+  type: "car";
+  model: string;
+  drive: () => void;
+};
+
+type Plane = {
+  type: "plane";
+  model: string;
+  fly: () => void;
+};
+
+type Vehicle = Car | Plane;
+
+function startVehicle(vehicle: Vehicle) {
+  if (vehicle.type === "car") {
+    vehicle.drive();
+  } else {
+    vehicle.fly();
+  }
+}
+
+const myCar: Car = {
+  type: "car",
+  model: "Tesla Model 3",
+  drive: () => console.log("Driving the car"),
+};
+
+const myPlane: Plane = {
+  type: "plane",
+  model: "Boeing 747",
+  fly: () => console.log("Flying the plane"),
+};
+
+startVehicle(myCar);
+startVehicle(myPlane);
+
+type Species = "cat" | "dog";
+
+interface Pet {
+  species?: Species;
+}
+
+interface Cat extends Pet {
+  meow(): void;
+}
+
+function petIsCat(pet: Pet): pet is Cat {
+  return pet.species === "cat";
+}
+
+function handlePet(pet: Pet) {
+  if (petIsCat(pet)) {
+    console.log("This is a cat");
+    pet.meow();
+  } else {
+    console.log("This is not a cat.");
+  }
+}
