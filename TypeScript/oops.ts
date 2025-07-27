@@ -4,6 +4,45 @@ class Device {
   category = "digital";
 }
 
+class Laptop {
+  brand = "HP";
+  ram = 8; 
+  isPoweredOn = false;
+
+  turnOn() {
+    this.isPoweredOn = true;
+    console.log("Laptop is booting up...");
+  }
+}
+
+
+// Use the 'new' keyword to create an instance of the class
+
+let myLaptop = new Laptop();
+let workLaptop = new Laptop();
+
+console.log(myLaptop.brand); 
+console.log(workLaptop.brand); 
+myLaptop.turnOn(); 
+
+class MusicPlayer {
+  brand: string;
+  storageGB: number;
+
+  constructor(brandName: string, storageSize: number) {
+    this.brand = brandName;
+    this.storageGB = storageSize;
+  }
+}
+
+let walkman = new MusicPlayer("Sony", 128);
+let ipod = new MusicPlayer("Apple", 256);
+
+console.log(walkman.brand); 
+console.log(ipod.brand); 
+
+
+
 //when i use new nd class name it will give me new ddevice
 let d1 = new Device();
 let d2 = new Device();
@@ -64,6 +103,22 @@ class course {
     console.log(this.name);
   }
 }
+
+
+class Book {
+  constructor(public title: string, public author: string) {}
+}
+
+let myBook = new Book("ChaiCode", "Hitesh");
+
+console.log(myBook.title); 
+myBook.title = "Hitesh Choudhary"; 
+console.log(myBook.title);
+
+
+
+
+
 
 console.log(this.name); //Property 'name' does not exist on type 'typeof globalThis'
 
@@ -163,3 +218,91 @@ console.log(User.userType); // "Guest"
 // An abstract class typically includes one or more abstract methods or property declarations. The class which extends the abstract class must define all the abstract methods.
 
 // The following abstract class declares one abstract method find and also includes a normal method display
+
+
+
+class BankAccount {
+  constructor(private _balance: number, public owner: string) {}
+
+  deposit(amount: number) {
+    if (amount > 0) {
+      this._balance += amount; 
+    }
+  }
+
+  getBalance() {
+    return this._balance; 
+  }
+}
+
+let myAccount = new BankAccount(1000, "Hitesh");
+
+
+myAccount.deposit(500);
+console.log(`${myAccount.owner}'s balance is ${myAccount.getBalance()}`); 
+
+
+class Animal {
+  constructor(protected species: string) {}
+
+  getSpecies() {
+    return `I am a ${this.species}.`;
+  }
+}
+
+class Dog extends Animal {
+  constructor(public name: string) {
+    super("Canine"); 
+  }
+
+  introduce() {
+    
+    console.log(`Hello, my name is ${this.name} and I am a ${this.species}.`);
+  }
+}
+ 
+let buddy = new Dog("Buddy");
+buddy.introduce(); 
+console.log(buddy.species); 
+
+
+class UserProfile {
+  constructor(public readonly userId: string, public username: string) {}
+
+  changeUsername(newName: string) {
+    this.username = newName; 
+     this.userId = "new-id-123"; 
+  }
+}
+
+let user1 = new UserProfile("123", "Hitesh");
+
+
+class Product {
+  constructor(private _price: number) {}
+
+  // GETTER: Runs when we access 'price'
+  get price(): string {
+    // We can format the output
+    return `$${this._price.toFixed(2)}`;
+  }
+
+  // SETTER: Runs when we assign a value to 'price'
+  set price(newPrice: number) {
+    if (newPrice >= 0) {
+      // We can add validation logic
+      this._price = newPrice;
+    } else {
+      console.error("Price cannot be negative!");
+    }
+  }
+}
+
+let coffee = new Product(5.0);
+
+console.log(coffee.price); // Runs the GETTER -> Output: $5.00
+
+coffee.price = 7.5; // Runs the SETTER
+console.log(coffee.price); // Runs the GETTER -> Output: $7.50
+
+coffee.price = -2; // Runs the SETTER -> Output: Price cannot be negative!
