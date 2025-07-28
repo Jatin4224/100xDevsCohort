@@ -321,3 +321,44 @@ let config1 = new AppConfig();
 let config2 = new AppConfig();
 
 console.log(`Instances created: ${AppConfig.instanceCount}`); // Output: 2
+
+
+abstract class Shape {
+  constructor(public color: string) {}
+
+  displayColor() {
+    console.log(`This shape's color is ${this.color}.`);
+  }
+
+  abstract calculateArea(): number;
+}
+
+class Circle extends Shape {
+  constructor(public radius: number, color: string) {
+    super(color); 
+  }
+
+  calculateArea(): number {
+    return Math.PI * this.radius * this.radius;
+  }
+}
+
+class Rectangle extends Shape {
+  constructor(public width: number, public height: number, color: string) {
+    super(color);
+  }
+
+  calculateArea(): number {
+    return this.width * this.height;
+  }
+}
+
+
+let myCircle = new Circle(10, "Red");
+let myRectangle = new Rectangle(5, 10, "Blue");
+
+myCircle.displayColor(); 
+console.log(`Circle Area: ${myCircle.calculateArea()}`); 
+
+myRectangle.displayColor(); 
+console.log(`Rectangle Area: ${myRectangle.calculateArea()}`); 
