@@ -756,3 +756,14 @@ export default LoginForm;
 
 
 
+import { z } from "zod";
+
+
+const userSchema = z.object({
+  username: z.string(), 
+});
+
+// Let's try it with some data!
+const user = { username: "chaiLover7" };
+
+console.log(userSchema.parse(user)); 
