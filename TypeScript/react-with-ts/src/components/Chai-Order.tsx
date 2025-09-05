@@ -17,3 +17,41 @@ const ChaiOrder: FC<chaiType> = ({ flavour, orderId, isAvailable }) => {
 };
 
 export default ChaiOrder;
+
+const ChaiOrder = ({
+  flavour,
+  orderId,
+  isAvailable,
+}: {
+  flavour: string;
+  orderId: string;
+  isAvailable: boolean;
+}) => {
+  return (
+    <div>
+      <h1>{flavour}</h1>
+      <h1>{orderId}</h1>
+      <h1>{isAvailable}</h1>
+    </div>
+  );
+};
+
+export default ChaiOrder;
+
+interface chaiInfer {
+  flavour: string;
+  orderId: string;
+  isAvailable: boolean;
+}
+
+const ChaiOrder = ({ flavour, orderId, isAvailable }: chaiInfer) => {
+  return (
+    <div>
+      <h1>{flavour}</h1>
+      <h1>{orderId}</h1>
+      <h1>{isAvailable}</h1>
+    </div>
+  );
+};
+
+export default ChaiOrder;

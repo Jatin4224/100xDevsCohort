@@ -38,113 +38,130 @@
 
 // type MysteryChaiFan = ChaiLover;
 
-// function incomingCall(name: string) {
-//   console.log(`Name: ${name.}`);
-// }
+function incomingCall(name: string) {
+  console.log(`Name: ${name}`);
+}
 
-// incomingCall("chai");
+incomingCall("chai");
 
-// const chaiGang: string[] = ["chai", "ginger", "elaichi"];
+const outgoingCall = (a:number,b:number) {}
+  const callsDialed = outgoingCall(2,1,3);
+  console.log(callsDialed)
+const chaiGang: string[] = ["chai", "ginger", "elaichi"];
 
-// function isChaiGangMember(name: string): boolean {
-//   return chaiGang.includes(name);
-// }
+function isChaiGangMember(name: string): boolean {
+  return chaiGang.includes(name);
+}
 
-// let namesToCheck= "ginger";
+let namesToCheck= "ginger";
 
-// if (isChaiGangMember(namesToCheck)) {
-//   console.log(`${namesToCheck} is in the gang`);
-// } else {
-//   console.log(`${namesToCheck} is not in the gang`)
-// }
+if (isChaiGangMember(namesToCheck)) {
+  console.log(`${namesToCheck} is in the gang`);
+} else {
+  console.log(`${namesToCheck} is not in the gang`)
+}
 
-// // function chaiDiscount(price: number, discount?: number): number {
-// //   return price - (discount || 0);
-// // }
+ function chaiDiscount(price: number, discount?: number): number {
+  return price - (discount || 0);
+}
 
-// // let finalChaiPrice = chaiDiscount(100, 30);
-// // console.log(finalChaiPrice);
+let finalChaiPrice = chaiDiscount(100, 30);
+console.log(finalChaiPrice);
 
-// function chaiDiscount(price: number, discount: number = 0): number {
-//   return price - discount;
-// }
+function chaiDiscount(price: number, discount: number = 0): number {
+  return price - discount;
+}
 
-// let finalPrice = chaiDiscount(100);
+let finalPrice = chaiDiscount(100);
 
-// function serveChai(chaiName: string, ...flavors: string[]) {
-//   for (const flavor of flavors) {
-//     console.log(`${flavor} chai served by ${chaiName}`);
-//   }
-// }
 
-// serveChai("Riya", 2024);
+function namaste(person:string = "Hitesh") {
+  return `Namaste ${person}`
+}
 
-// function processInput(input: string | number): void {
-//   if (typeof input === 'number') {
-//     console.log(input * 2);
-//   } else if (typeof input === 'string') {
-//     console.log(input.toUpperCase());
-//   }
-// }
+const res = namaste();
+console.log(print);
 
-// processInput(4);
-// processInput("chai");
+function serveChai(chaiName: string, ...flavors: string[]) {
+  for (const flavor of flavors) {
+    console.log(`${flavor} chai served by ${chaiName}`);
+  }
+}
 
-// function registerUser({ name, age }: { name: string; age: number }) {
+serveChai("Riya", 2024);
 
-//   const isAdult = age >= 18;
-//   return {
-//     name,
-//     isAdult,
-//     message: `Welcome, ${name}! You are ${isAdult ? 'an adult' : 'a minor'}.`
-//   };
-// }
+function processInput(input: string | number): void {
+  if (typeof input === 'number') {
+    console.log(input * 2);
+  } else if (typeof input === 'string') {
+    console.log(input.toUpperCase());
+  }
+}
 
-// const user1 = registerUser({ name: "Hitesh", age: 17 });
-// const user2 = registerUser({ name: "Elon", age: 21 });
+processInput(4);
+processInput("chai");
 
-// console.log(user1);
-// console.log(user2);
+function registerUser({ name, age }: { name: string; age: number }) {
 
-// function createUser(user: { id: number; name: string }): void {
-//   console.log(`Welcome ${user.name.toUpperCase()}`);
-// }
+  const isAdult = age >= 18;
+  return {
+    name,
+    isAdult,
+    message: `Welcome, ${name}! You are ${isAdult ? 'an adult' : 'a minor'}.`
+  };
+}
 
-// function processTransaction(
-//   input: string | number,
-//   config: { encrypt?: boolean } = { encrypt: false }
-// ): string | number {
-//   if (typeof input === "number") {
-//     return input * input;
-//   } if (config.encrypt) {
-//     return input.toUpperCase().split("").reverse().join("");
-//   }
-//   return input.toUpperCase();
-// }
+const user1 = registerUser({ name: "Hitesh", age: 17 });
+const user2 = registerUser({ name: "Elon", age: 21 });
 
-// console.log(processTransaction(100));
-// console.log(processTransaction("rent payment"));
-// console.log(processTransaction("gift card", { encrypt: true }));
+console.log(user1);
+console.log(user2);
 
-// type book = {
-//   id: number; title: string; isAvailable: boolean
-// }
+function createUser(user: { id: number; name: string }): void {
+  console.log(`Welcome ${user.name.toUpperCase()}`);
+}
 
-// const book1: book = {
-//   id: 1,
-//   title: 'The Silent Patient',
-//   isAvailable: true,
-// };
-// const book2: book = {
-//   id: 2,
-//   title: 'Atomic Habits',
-//   isAvailable: false,
-// };
+function processTransaction(
+  input: string | number,
+  config: { encrypt?: boolean } = { encrypt: false }
+): string | number {
+  if (typeof input === "number") {
+    return input * input;
+  } if (config.encrypt) {
+    return input.toUpperCase().split("").reverse().join("");
+  }
+  return input.toUpperCase();
+}
 
-// function displayBookInfo(book: book): book {
-//   console.log(`"${book.title}" is currently ${book.isAvailable ? 'available' : 'unavailable'}.`);
-//   return book;
-// }
+console.log(processTransaction(100));
+console.log(processTransaction("rent payment"));
+console.log(processTransaction("gift card", { encrypt: true }));
+
+type book = {
+  id: number;
+  title: string;
+  isAvailable: boolean;
+};
+
+const book1: book = {
+  id: 1,
+  title: "The Silent Patient",
+  isAvailable: true,
+};
+const book2: book = {
+  id: 2,
+  title: "Atomic Habits",
+  isAvailable: false,
+};
+
+function displayBookInfo(book: book): book {
+  console.log(
+    `"${book.title}" is currently ${
+      book.isAvailable ? "available" : "unavailable"
+    }.`
+  );
+  return book;
+}
 
 // In TypeScript, Type Aliases allow us to create custom names for any type, not just objects.
 // You can use them to represent primitive types, unions, function signatures, tuples, and more.
@@ -276,26 +293,26 @@
 // const myVehicle = getRandomVehicle();
 // console.log(myVehicle.getDetails());
 
-// interface GamingConsole {
-//   readonly serialNumber: string;
-//   model: string;
-//   memory: number;
-//   battery?: number;
-//   upgradeMemory(extra: number): number;
-// }
+interface GamingConsole {
+  readonly serialNumber: string;
+  model: string;
+  memory: number;
+  battery?: number;
+  upgradeMemory(extra: number): number;
+}
 
-// const consoleOne: GamingConsole = {
-//   serialNumber: "GCX-2025-0098",
-//   model: "PlayBox X",
-//   memory: 64,
-//   battery: 85,
-// upgradeMemory(extra: number): number {
-//     this.memory += extra;
-//     return this.memory;
-//   }
-// };
-// const updatedMemory = consoleOne.upgradeMemory(16);
-// console.log(`${updatedMemory} GB`);
+const consoleOne: GamingConsole = {
+  serialNumber: "GCX-2025-0098",
+  model: "PlayBox X",
+  memory: 64,
+  battery: 85,
+upgradeMemory(extra: number): number {
+    this.memory += extra;
+    return this.memory;
+  }
+};
+const updatedMemory = consoleOne.upgradeMemory(16);
+console.log(`${updatedMemory} GB`);
 
 // //tuples nd enums
 // let person : [string,number] = ['jai',24];
@@ -352,56 +369,56 @@
 
 // console.log(newProduct);
 
-// let response: any = "42";
+let response: any = "42";
 
-// let numericLength: number = (response as string).length;
+let numericLength: number = (response as string).length;
 
-// console.log(numericLength);
+console.log(numericLength);
 
-// type Book = {
-//   name: string;
-// };
+type Book = {
+  name: string;
+};
 
-// let bookString = '{"name":"One Thing"}';
+let bookString = '{"name":"One Thing"}';
 
-// let bookObject = JSON.parse(bookString) as Book;
+let bookObject = JSON.parse(bookString) as Book;
 
-// console.log(bookObject.name);
+console.log(bookObject.name);
 
 // const inputElement = document.getElementById("username") as HTMLInputElement;
 
 // inputElement.value = "Hitesh";
 
-// enum Status {
-//   Pending = "pending",
-//   Declined = "declined",
-// }
+enum Status {
+  Pending = "pending",
+  Declined = "declined",
+}
 
-// type User = {
-//   name: string;
-//   status: Status;
-// };
+type User = {
+  name: string;
+  status: Status;
+};
 
-// const statusFromDB = "pending";
+const statusFromDB = "pending";
 
-// const user: User = {
-//   name: "Alice",
-//   status: statusFromDB as Status,
-// };
-// console.log(user);
+const user: User = {
+  name: "Alice",
+  status: statusFromDB,
+};
+console.log(user);
 
 // let someValue: any = "42";
 // let value = someValue as number;
 
-// let value: unknown;
+let value: unknown;
 
-// value = "chai";
-// value = [1, 2, 3];
-// value = 2.5;
+value = "chai";
+value = [1, 2, 3];
+value = 2.5;
 
-// if (typeof value === "string") {
-//   value.toUpperCase();
-// }
+if (typeof value === "string") {
+  value.toUpperCase();
+}
 
 // try {
 //   // some code that might throw an error
@@ -409,113 +426,113 @@
 //   console.log(error.message);
 // }
 
-// try {
-//   // some code that might throw an error
-// } catch (error) {
-//   if (error instanceof Error) {
-//     console.log(error.message);
-//   } else {
-//     console.log("Error:", error);
-//   }
-// }
+try {
+  // some code that might throw an error
+} catch (error) {
+  if (error instanceof Error) {
+    console.log(error.message);
+  } else {
+    console.log("Error:", error);
+  }
+}
 
 // const data: unknown = 20;
 // const strData: string = data as string;
 
 // console.log(strData.toUpperCase());
 
-// type Role = "admin" | "user" | "superadmin";
+type Role = "admin" | "user" | "superadmin";
 
-// function redirectBasedOnRole(role: Role): void {
-//   if (role === "admin") {
-//     console.log("Redirecting to admin dashboard");
-//     return;
-//   }
+function redirectBasedOnRole(role: Role): void {
+  if (role === "admin") {
+    console.log("Redirecting to admin dashboard");
+    return;
+  }
 
-//   if (role === "user") {
-//     console.log("Redirecting to user home");
-//     return;
-//   }
+  if (role === "user") {
+    console.log("Redirecting to user home");
+    return;
+  }
 
-//   role;
-// }
+  role;
+}
 
-// function throwErr(message: string): never {
-//   throw new Error(message);
-// }
+function throwErr(message: string): never {
+  throw new Error(message);
+}
 
-// function infinite(): never {
-//   while (true) {
-//     // doing some background task forever...
-//   }
-// }
+function infinite(): never {
+  while (true) {
+    // doing some background task forever...
+  }
+}
 
-// let a: never;
+let a: never;
 
-// function neverReturn(): never {
-//   while (true) {}
-// }
+function neverReturn(): never {
+  while (true) {}
+}
 
-// a = neverReturn(); // allowed because neverReturn() returns never
-// a = 5;
+a = neverReturn(); // allowed because neverReturn() returns never
+a = 5;
 
-// class Animal {
-//   sound() {
-//     console.log("Animal sound");
-//   }
-// }
+class Animal {
+  sound() {
+    console.log("Animal sound");
+  }
+}
 
-// const pet = new Animal();
+const pet = new Animal();
 
-// if (pet instanceof Animal) {
-//   pet.sound();
-// }
+if (pet instanceof Animal) {
+  pet.sound();
+}
 
-// function processPayment(payment: string | number) {
-//   if (typeof payment === "string") {
-//     console.log(`Payment made via UPI: ${payment}`);
-//   }
+function processPayment(payment: string | number) {
+  if (typeof payment === "string") {
+    console.log(`Payment made via UPI: ${payment}`);
+  }
 
-//   if (typeof payment === "number") {
-//     console.log(`Payment made via card ending in: ${payment}`);
-//   }
-// }
+  if (typeof payment === "number") {
+    console.log(`Payment made via card ending in: ${payment}`);
+  }
+}
 
-// processPayment("Hitesh@paytm");
-// processPayment(1234);
+processPayment("Hitesh@paytm");
+processPayment(1234);
 
-// "engine" in { type: "Chrome", engine: { name: "Blink" } };
-// "engine" in { type: "Firefox", engine: { name: "Gecko" } };
-// "engine" in { type: "Safari", engine: { name: "WebKit" } };
-// "engine" in { type: "OldBrowser" };
-// "engine" in { type: "GhostBrowser", engine: undefined };
+"engine" in { type: "Chrome", engine: { name: "Blink" } };
+"engine" in { type: "Firefox", engine: { name: "Gecko" } };
+"engine" in { type: "Safari", engine: { name: "WebKit" } };
+"engine" in { type: "OldBrowser" };
+"engine" in { type: "GhostBrowser", engine: undefined };
 
-// interface Student {
-//   studentID: string;
-// }
+interface Student {
+  studentID: string;
+}
 
-// interface CorporateEmployee {
-//   employeeCode: number;
-// }
+interface CorporateEmployee {
+  employeeCode: number;
+}
 
-// interface RegularVisitor {
-//   name: string;
-//   dailyChaiCount: number;
-// }
+interface RegularVisitor {
+  name: string;
+  dailyChaiCount: number;
+}
 
-// const getVisitorIdentifier = (
-//   person: Student | CorporateEmployee | RegularVisitor
-// ) => {
-//   if ("name" in person) {
-//     return `Regular Visitor: ${person.name}`;
-//   } else if ("studentID" in person) {
-//     return `Student ID: ${person.studentID}`;
-//   } else {
-//     return `Corporate Code: ${person.employeeCode}`;
-//   }
-// };
+const getVisitorIdentifier = (
+  person: Student | CorporateEmployee | RegularVisitor
+) => {
+  if ("name" in person) {
+    return `Regular Visitor: ${person.name}`;
+  } else if ("studentID" in person) {
+    return `Student ID: ${person.studentID}`;
+  } else {
+    return `Corporate Code: ${person.employeeCode}`;
+  }
+};
 
-// console.log(getVisitorIdentifier({ studentID: "123" }));
+console.log(getVisitorIdentifier({ studentID: "123" }));
 
 // interface Car {
 //   drive(): void;
@@ -569,84 +586,84 @@
 // }
 // type Species = "cat" | "dog";
 
-// interface Pet {
-//   species: Species;
-// }
+interface Pet {
+  species: Species;
+}
 
-// interface Cat extends Pet {}
+interface Cat extends Pet {}
 
-// function petIsCat(pet: Pet): pet is Cat {
-//   return pet.species === "cat";
-// }
+function petIsCat(pet: Pet): pet is Cat {
+  return pet.species === "cat";
+}
 
-// function getValues(valueA: number | string, valueB: string) {
-//   if (valueA === valueB) {
-//     // this is where the narrowing takes place. narrowed to string
-//     console.log(typeof valueA); // string
-//   } else {
-//     // if there is no narrowing, type remains unknown
-//     console.log(typeof valueA); // number or string
-//   }
-// }
+function getValues(valueA: number | string, valueB: string) {
+  if (valueA === valueB) {
+    // this is where the narrowing takes place. narrowed to string
+    console.log(typeof valueA); // string
+  } else {
+    // if there is no narrowing, type remains unknown
+    console.log(typeof valueA); // number or string
+  }
+}
 
-// interface Car {
-//   model: string;
-//   drive(): void;
-// }
+interface Car {
+  model: string;
+  drive(): void;
+}
 
-// function isCar(obj: any): obj is Car {
-//   return (
-//     typeof obj === "object" &&
-//     obj !== null &&
-//     "drive" in obj &&
-//     typeof obj.drive === "function"
-//   );
-// }
+function isCar(obj: any): obj is Car {
+  return (
+    typeof obj === "object" &&
+    obj !== null &&
+    "drive" in obj &&
+    typeof obj.drive === "function"
+  );
+}
 
-// function startVehicle(vehicle: any) {
-//   if (isCar(vehicle)) {
-//     console.log(`Starting car model: ${vehicle.model}`);
-//     vehicle.drive();
-//   } else {
-//     console.log("This is not a car.");
-//   }
-// }
+function startVehicle(vehicle: any) {
+  if (isCar(vehicle)) {
+    console.log(`Starting car model: ${vehicle.model}`);
+    vehicle.drive();
+  } else {
+    console.log("This is not a car.");
+  }
+}
 
-// type GreenTea = {
-//   flavor: string;
-//   steep: () => void;
-// };
+type GreenTea = {
+  flavor: string;
+  steep: () => void;
+};
 
-// type BlackTea = {
-//   flavor: string;
-//   brew: () => void;
-// };
+type BlackTea = {
+  flavor: string;
+  brew: () => void;
+};
 
-// type Tea = GreenTea | BlackTea;
+type Tea = GreenTea | BlackTea;
 
-// const randomTea = (): Tea => {
-//   return Math.random() > 0.2
-//     ? { flavor: "Mint", steep: () => console.log("Steeping green tea...") }
-//     : { flavor: "Masala", brew: () => console.log("Brewing black tea...") };
-// };
+const randomTea = (): Tea => {
+  return Math.random() > 0.2
+    ? { flavor: "Mint", steep: () => console.log("Steeping green tea...") }
+    : { flavor: "Masala", brew: () => console.log("Brewing black tea...") };
+};
 
-// const tea = randomTea();
+const tea = randomTea();
 
-// if ("steep" in tea) {
-//   tea.steep();
-// } else {
-//   tea.brew();
-// }
+if ("steep" in tea) {
+  tea.steep();
+} else {
+  tea.brew();
+}
 
-// function isGreenTea(tea: Tea): tea is GreenTea {
-//   return "steep" in tea;
-// }
+function isGreenTea(tea: Tea): tea is GreenTea {
+  return "steep" in tea;
+}
 
-// if (isGreenTea(tea)) {
-//   tea.steep();
-// } else {
-//   tea.brew();
-// }
+if (isGreenTea(tea)) {
+  tea.steep();
+} else {
+  tea.brew();
+}
 
 type Car = { type: "car"; model: string; drive: () => void };
 type Plane = { type: "plane"; model: string; fly: () => void };

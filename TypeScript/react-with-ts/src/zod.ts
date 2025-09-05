@@ -139,6 +139,30 @@ u can actually define promise and it return in zod
 z.promise(z.string())
 
 
+const userSchema = z.object({
+  username:z.string(),
+  age:z.number(),
+  birthday:z.string(),
+  isOld:z.boolean().optional(),
+  test:z.void(),
+  key:z.never(),
+})
+
+const user = {username:"hitesh",age:35,birthday:new Date()};
+
+console.log(userSchema.shape.age)
+
+
+const completeChaiRecipe = z.object({
+  teaLeaves:z.string(),
+  milk:z.string(),
+  sugar:z.number(),
+  ginger:z.boolean(),
+});
+
+const quickTasteTest = {teaLeaves:"Assam"};
+console.log(completeChaiRecipe.partial().parse(quickTasteTest));
+
 
 //Advanced valdiation
 custom validation using refine method

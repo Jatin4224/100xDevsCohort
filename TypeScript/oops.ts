@@ -115,7 +115,9 @@ console.log(myBook.title);
 myBook.title = "Hitesh Choudhary"; 
 console.log(myBook.title);
 
-
+const book = {
+  title:"the"
+}
 
 
 

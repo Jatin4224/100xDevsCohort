@@ -6,3 +6,21 @@ const Counter = () => {
 };
 
 export default Counter;
+
+import { createContext } from "react";
+interface ContextProps {
+  count: number;
+  increment: () => void;
+  decrement: () => void;
+}
+export const Context = createContext({
+  count: 0,
+  increment: () => {},
+  decrement: () => {},
+});
+
+
+
+ const Provider = {{children}}=> {
+  const [count, setCount] = useState(0);
+ };

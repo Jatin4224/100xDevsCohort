@@ -1,77 +1,77 @@
-// // let coffe: boolean = "black";
-// // console.log(coffe);
+let coffe: boolean = "black";
+console.log(coffe);
 
-// // // TypeScript will give an error
-// // // if I try to assign a number or string to `coffee`.
-// // // For example:
-// // // coffee = 100;      ❌ Error
-// // // coffee = "black";  ❌ Error
-// // // Because the variable `coffee` is strictly typed as a boolean,
-// // // it can only accept `true` or `false` as values.
+// TypeScript will give an error
+// if I try to assign a number or string to `coffee`.
+// For example:
+// coffee = 100;      ❌ Error
+// coffee = "black";  ❌ Error
+// Because the variable `coffee` is strictly typed as a boolean,
+// it can only accept `true` or `false` as values.
 
-// // //Create a variable of type string and stir in your favorite string method (e.g., .toUpperCase() or .includes()).
+//Create a variable of type string and stir in your favorite string method (e.g., .toUpperCase() or .includes()).
 
-// // // 1. Create a variable of type string and stir in your favorite string method (e.g., .toUpperCase() or .includes()).
-// // let chaiFlavour: string = "masala chai";
-// // chaiFlavour = chaiFlavour.toUpperCase();
-// // console.log(chaiFlavour);
+// 1. Create a variable of type string and stir in your favorite string method (e.g., .toUpperCase() or .includes()).
+let chaiFlavour: string = "masala chai";
+chaiFlavour = chaiFlavour.toUpperCase();
+console.log(chaiFlavour);
 
-// // //2.
-// // let sugarCubes: number = 2;
-// // sugarCubes = sugarCubes + 3;
-// // console.log(sugarCubes);
-// // //3.
-// // let isChaiHot: boolean = true;
-// // let isChaiReady: boolean = false;
+//2.
+let sugarCubes: number = 2;
+sugarCubes = sugarCubes + 3;
+console.log(sugarCubes);
+//3.
+let isChaiHot: boolean = true;
+let isChaiReady: boolean = false;
 
-// // let canServeChai: boolean = isChaiHot && isChaiReady;
-// // console.log(canServeChai);
+let canServeChai: boolean = isChaiHot && isChaiReady;
+console.log(canServeChai);
 
-// // chaiFlavour = 42;
-// // sugarCubes = "five";
-// // isChaiHot = "yes";
+chaiFlavour = 42;
+sugarCubes = "five";
+isChaiHot = "yes";
 
-// // let Drink = "chai";
+let Drink = "chai";
 
-// // let cups = Math.random() > 0.5 ? 10 : 5;
+let cups = Math.random() > 0.5 ? 10 : 5;
 
-// // let firstName = "Hitesh";
+let firstName = "Hitesh";
 
-// // firstName.length();
+firstName.length();
 
-// // let let, Name;
+let let, Name;
 
-// // console.Hiteshdotcom("Work hard, learn fast. If he can do it, you can too.");
+console.Hiteshdotcom("Work hard, learn fast. If he can do it, you can too.");
 
-// // let channelName = "chai";
-// // channelName = true;
+let channelName = "chai";
+channelName = true;
 
-// // let theme: any = "chai theme";
-// // theme: 20;
-// // theme: true;
-// // theme();
-// // theme.toUpperCase();
-// // console.log(theme);
+let theme: any = "chai theme";
+theme: 20;
+theme: true;
+theme();
+theme.toUpperCase();
+console.log(theme);
 
-// // let subcribers: number | string = 10;
-// // subcribers = 100000;
-// // subcribers = "1million";
+let subcribers: number | string = 10;
+subcribers = 100000;
+subcribers = "1million";
 
-// // let requestStatus: "pending" | "success" | "error" = "pending";
-// // requestStatus = "success";
-// // requestStatus = "error";
-// // requestStatus = "done";
+let requestStatus: "pending" | "success" | "error" = "pending";
+requestStatus = "success";
+requestStatus = "error";
+requestStatus = "done";
 
-// // const orders = ["12", "20", "28", "42"];
-// // let currentOrder: string | undefined;
+const orders = ["12", "20", "28", "42"];
+let currentOrder: string | undefined;
 
-// // for (let order of orders) {
-// //   if (order === "28") {
-// //     currentOrder = order;
-// //     break;
-// //   }
-// // }
-// // console.log(currentOrder);
+for (let order of orders) {
+  if (order === "28") {
+    currentOrder = order;
+    break;
+  }
+}
+console.log(currentOrder);
 
 // // ## 🧠 Challenge
 
@@ -106,23 +106,36 @@
 // const res = namaste();
 // console.log(print);
 
-// function double(a: number): number {
-//   return a * a;
-// }
+function double(a: number): number {
+  return a * a;
+}
 
-// const finalOutput = double(2);
-// console.log(finalOutput);
+const finalOutput = double(2);
+console.log(finalOutput);
 
-// const doubleArrow = (a: number): number => a * a;
+const doubleArrow = (a: number): number => a * a;
 
-// const finalOutputArrow = doubleArrow(2);
-// console.log(finalOutput);
+const finalOutputArrow = doubleArrow(2);
+console.log(finalOutput);
 
 // function orderChai(message: string): void {
 //   console.log(`This is your order, sir: ${message}`);
 // }
 
-// orderChai("Hitesh");
+function chaiDiscount(price: number): number {
+  return price * "1.5";
+}
+function chaiDiscount(price: number) {
+  return "$" + price;
+}
+
+const finalPrice = chaiDiscount(20);
+
+function orderChai(message: string): void {
+  console.log(`This is your order, sir: ${message}`);
+}
+
+orderChai("Hitesh");
 
 // function throwErr(message: string): never {
 //   throw new Error(message);
@@ -137,46 +150,55 @@
 //   while (true) {}
 // }
 
-// const numbers: number[] = [4, 5, 6, 8, "Error", "string"];
+const numbers: number[] = [4, 5, 6, 8, "Error", "string"];
 
-// const chaiFlavours: string[] = ["chai", "masala chai", "kadak chai"];
+const chaiFlavours: string[] = ["chai", "masala chai", "kadak chai"];
 
-// chaiFlavours.push("adrak chai");
+chaiFlavours.push("adrak chai");
 
-// chaiFlavours.push(12);
+chaiFlavours.push(12);
 
-// // const isLoggedIn: boolean[] = [true, false, true];
+const isLoggedIn: boolean[] = [true, false, true];
 
-// // const mixedValues: (number | string)[] = [1, "two", 3, "four"];
+const mixedValues: (number | string)[] = [1, "two", 3, "four"];
 
-// // const numbers: Array<number> = [4, 5, 6, 8];
+const numbers: Array<number> = [4, 5, 6, 8];
 
-// // // const chaiFlavours: Array<string> = ["chai", "masala chai", "kadak chai"];
+const chaiFlavours: Array<string> = ["chai", "masala chai", "kadak chai"];
 
-// // const isLoggedIn: Array<boolean> = [true, false, true];
+const isLoggedIn: Array<boolean> = [true, false, true];
 
-// // const mixedValues: Array<number | string> = [1, "two", 3, "four"];
+const mixedValues: Array<number | string> = [1, "two", 3, "four"];
 
 // // const chaiAurMatrix: number[][] = [
 // //   [1, 2],
 // //   [3, 4],
 // // ];
 
-// // const OneD: number[] = [1, 2, 3, 4, 5];
-// // const twoD: number[][] = [[1, 2, 3, 4, 5]];
-// // const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
+const OneD: number[] = [1, 2, 3, 4, 5];
+const twoD: number[][] = [[1, 2, 3, 4, 5]];
+const threeD: number[][][] = [[[1, 2, 3, 4, 5]]];
 
-// // console.log(OneD);
-// // console.log(twoD);
-// // console.log(threeD);
+console.log(OneD);
+console.log(twoD);
+console.log(threeD);
 
-// // function Founder(): { name: string; age: number; location: string } {
-// //   return {
-// //     name: "Hitesh",
-// //     age: 35
-// //     location: "Jaipur",
-// //   };
-// // }
+let getUserNames: () => string[];
+
+getUserNames = () => {
+  return ["Hitesh", "Elon", "Zuck"];
+};
+
+let greetingGenerators: (() => string)[];
+greetingGenerators = [() => "Hello!", () => "Hi there!", () => "Greetings!"];
+
+// function Founder(): { name: string; age: number; location: string } {
+//   return {
+//     name: "Hitesh",
+//     age: 35
+//     location: "Jaipur",
+//   };
+// }
 
 // // const chaiOrder: {
 // //   name: string;
@@ -190,137 +212,155 @@
 // // console.log("Chai Name:", chaiOrder.name);
 // // console.log("Price: ₹", chaiOrder.price);
 
-// // type Chai = {
-// //   name: string;
-// //   price: number;
-// // };
+type Chai = {
+  name: string;
+  price: number;
+};
 
-// // function printChai(order: Chai) {
-// //   console.log(`Chai Name: ${order.name},Price: ₹${order.price}`);
-// // }
+function printChai(order: Chai) {
+  console.log(`Chai Name: ${order.name},Price: ₹${order.price}`);
+}
 
-// // const myChai: Chai = {
-// //   name: "Ginger Masala Chai",
-// //   price: 25,
-// // };
+const myChai: Chai = {
+  name: "Ginger Masala Chai",
+  price: 25,
+};
 
-// // printChai(myChai);
+printChai(myChai);
 
-// // type Chai = {
-// //   name: string;
-// //   isMasala: boolean;
-// //   sugar: boolean;
-// // };
+type Chai = {
+  name: string;
+  isMasala: boolean;
+  sugar?: boolean;
+};
 
-// // const order1: Chai = {
-// //   name: "Ginger Chai",
-// //   isMasala: true,
-// // };
+const order1: Chai = {
+  name: "Ginger Chai",
+  isMasala: true,
+};
 
-// // const order2: Chai = {
-// //   name: "Plain Chai",
-// //   isMasala: false,
-// //   sugar:true,
-// // };
+const order2: Chai = {
+  name: "Plain Chai",
+  isMasala: false,
+  sugar: true,
+};
 
-// // console.log(order1);
-// // console.log(order2);
+console.log(order1);
+console.log(order2);
 
-// // type Chai = {
-// //   readonly name: string;
-// //   isMasala: boolean;
-// //   sugar?: boolean;
-// // };
+type Chai = {
+  readonly name: string;
+  isMasala: boolean;
+  sugar?: boolean;
+};
 
-// // const order1: Chai = {
-// //   name: "Ginger Chai",
-// //   isMasala: true,
-// // };
+const order1: Chai = {
+  name: "Ginger Chai",
+  isMasala: true,
+};
 
-// // order1.name = "Lemon Chai";
+order1.name = "Lemon Chai";
 
-// // // Basic type for Chai
-// // type Chai = {
-// //   name: string;
-// //   isMasala: boolean;
-// // };
+type Chai = {
+  name: string;
+  isMasala: boolean;
+};
 
-// // // Additional properties for orders
-// // type OrderInfo = {
-// //   id: number;
-// //   quantity: number;
-// // };
+type OrderInfo = {
+  id: number;
+  quantity: number;
+};
 
-// // // Combine both using intersection (&)
-// // type ChaiOrder = Chai & OrderInfo;
+// Combine both using intersection (&)
+type ChaiOrder = Chai & OrderInfo;
 
-// // // Create an order
-// // const order: ChaiOrder = {
-// //   name: "Elaichi Chai",
-// //   isMasala: true,
-// //   id: 101,
-// //   quantity: 2,
-// // };
+// Create an order
+const order: ChaiOrder = {
+  name: "Elaichi Chai",
+  isMasala: true,
+  id: 101,
+  quantity: 2,
+};
 
-// // let color:"red"|"black"|"white";
-// // color="red";
-// // color="black"
+let color: "red" | "black" | "white";
+color = "red";
+color = "black";
 
-// // let isTrue:true;
-// // isTrue=true;
-// // isTrue=false;
+let isTrue: true;
+isTrue = true;
+isTrue = false;
 
-// // let number: 1|2|3;
-// // number=1;
-// // number=4;
+let number: 1 | 2 | 3;
+number = 1;
+number = 4;
 
-// // let chaiAurTuple : [string, number,boolean] = ["hey", 52, true];
-// // const [first,second,three] = chaiAurTuple;
-// // console.log(first);
-// // console.log(second);
-// // console.log(three);
+let chaiAurTuple: [string, number] = ["hey", 52];
+console.log(chaiAurTuple[0]);
+console.log(chaiAurTuple[1]);
 
-// // enum OrderStatus {
-// //   Placed="yes",
-// //   Preparing="in 20mins",
-// // }
+const movieInfo = ["welcome", "three idiots"];
+const movieTuple: [string, string] = movieInfo;
 
-// // const Order = OrderStatus.Placed;
-// // console.log(Order);
+enum OrderStatus {
+  Placed = "yes",
+  Preparing = "in 20mins",
+}
 
-// interface Menu {
-//   breakfast: string;
-//   lunch: string;
-//   time: number;
-// }
+const Order = OrderStatus.Placed;
+console.log(Order);
 
-// const order: Menu = {
-//   breakfast: "Kachori",
-//   lunch: "daal bati",
-//   time: 12,
-// };
+interface Menu {
+  breakfast: string;
+  lunch: string;
+  time: number;
+}
 
-// interface ChaiBanda {
-//   naam: string;
-//   umar: number;
-// }
+const order: Menu = {
+  breakfast: "Kachori",
+  lunch: "daal bati",
+  time: 12,
+};
 
-// interface ChaiReturn {
-//   naam: string;
-//   umar: number;
-//   doubleUmar: number;
-// }
+interface ChaiBanda {
+  naam: string;
+  umar: number;
+}
 
-// function chaiUmarBooster({ naam, umar }: ChaiBanda): ChaiReturn {
-//   return {
-//     naam,
-//     umar,
-//     doubleUmar: umar * 2,
-//   };
-// }
+interface ChaiReturn {
+  naam: string;
+  umar: number;
+  doubleUmar: number;
+}
 
-// const chaiResult = chaiUmarBooster({ naam: "Hitesh", umar: 35 });
-// console.log(chaiResult);
+interface UserInterface {
+  name: string;
+  age: number;
+}
+
+class Person implements UserInterface {
+  name: string;
+  age: number;
+
+  constructor(name: string, age: number) {
+    this.name = name;
+    this.age = age;
+  }
+}
+
+type userType = {
+  name: string;
+  age: number;
+};
+function chaiUmarBooster({ naam, umar }: ChaiBanda): ChaiReturn {
+  return {
+    naam,
+    umar,
+    doubleUmar: umar * 2,
+  };
+}
+
+const chaiResult = chaiUmarBooster({ naam: "Hitesh", umar: 35 });
+console.log(chaiResult);
 // Here's an improved explanation with a different example and clearer language:
 
 // ---
@@ -372,45 +412,47 @@
 
 // const myBike = new Bik
 
-// interface Gamer {
-//   username: string;
-//   level: number;
-//   rank: string;
-//   play(): void;
-// }
+interface Gamer {
+  username: string;
+  level: number;
+  rank: string;
+  play(): void;
+}
 
-// function welcome(gamer: Gamer) {
-//   console.log(`Welcome, ${gamer.username} (Level: ${gamer.level}, Rank: ${gamer.rank})`);
-//   gamer.play();
-// }
+function welcome(gamer: Gamer) {
+  console.log(
+    `Welcome, ${gamer.username} (Level: ${gamer.level}, Rank: ${gamer.rank})`
+  );
+  gamer.play();
+}
 
-// const shadow: Gamer = {
-//   username: "Hitesh",
-//   level: 45,
-//   rank: "Diamond",
-//   play() {
-//     console.log("Entering stealth mode..");
-//   },
-// };
+const shadow: Gamer = {
+  username: "Hitesh",
+  level: 45,
+  rank: "Diamond",
+  play() {
+    console.log("Entering stealth mode..");
+  },
+};
 
-// const pixel: Gamer = {
-//   username: "Elon",
-//   level: 29,
-//   rank: "Platinum",
-//   play() {
-//     console.log("Unleashing pixel storm!");
-// //   },
-// // };
+const pixel: Gamer = {
+  username: "Elon",
+  level: 29,
+  rank: "Platinum",
+  play() {
+    console.log("Unleashing pixel storm!");
+  },
+};
 
-// // welcome(shadow);
-// // welcome(pixel);
+welcome(shadow);
+welcome(pixel);
 
-// // class Car {
-// //   brand: string = '';
-// //   speed: number = 0;
-// // }
+class Car {
+  brand: string = "";
+  speed: number = 0;
+}
 
-// // const myCar = new Car();
+const myCar = new Car();
 
 // // interface Vehicle {
 // //   brand: string;
@@ -425,138 +467,138 @@
 // // const myBike = new Bike();
 // // s;
 
-// class Car {
-//   brand: string = "";
-//   speed: number = 0;
-// }
+class Car {
+  brand: string = "";
+  speed: number = 0;
+}
 
-// const myCar = new Car();
+const myCar = new Car();
 
-// interface Vehicle {
-//   brand: string;
-//   speed: number;
-// }
+interface Vehicle {
+  brand: string;
+  speed: number;
+}
 
-// class Bike implements Vehicle {
-//   brand: string = "Yamaha";
-//   speed: number = 100;
-// }
+class Bike implements Vehicle {
+  brand: string = "Yamaha";
+  speed: number = 100;
+}
 
-// const myBike = new Bike();
+const myBike = new Bike();
 
-// interface Vehicle {
-//   brand: string;
-//   speed: number;
-//   price?: number;
-// }
+interface Vehicle {
+  brand: string;
+  speed: number;
+  price?: number;
+}
 
-// interface ChaiBanda {
-//   readonly name: string;
-// }
+interface ChaiBanda {
+  readonly name: string;
+}
 
-// const chaiBanda: ChaiBanda = {
-//   name: "Hitesh",
-// };
+const chaiBanda: ChaiBanda = {
+  name: "Hitesh",
+};
 
-// function renameChaiBanda(banda: ChaiBanda) {
-//   console.log(`Serving chai to '${banda.name}'.`);
-//   banda.name = "KulhadKing";
-// }
+function renameChaiBanda(banda: ChaiBanda) {
+  console.log(`Serving chai to '${banda.name}'.`);
+  banda.name = "KulhadKing";
+}
 
-// interface Human {
-//   name: string;
-//   age: string;
-// }
+interface Human {
+  name: string;
+  age: string;
+}
 
-// interface Goals {
-//   goals: string[];
-//   gym: string;
-// }
+interface Goals {
+  goals: string[];
+  gym: string;
+}
 
-// interface HumanWithPurpose extends Human, Goals {}
+interface HumanWithPurpose extends Human, Goals {}
 
-// // HumanWithPurpose would become:
+// HumanWithPurpose would become:
 
-// interface HumanWithPurpose {
-//   name: string;
-//   age: string;
-//   goals: string[];
-// }
+interface HumanWithPurpose {
+  name: string;
+  age: string;
+  goals: string[];
+}
 
-// interface Pizza {
-//   type: "pizza";
-//   toppings: string[];
-// }
+interface Pizza {
+  type: "pizza";
+  toppings: string[];
+}
 
-// interface Drink {
-//   type: "drink";
-//   flavor: string;
-// }
+interface Drink {
+  type: "drink";
+  flavor: string;
+}
 
-// type FoodItem = Pizza | Drink;
+type FoodItem = Pizza | Drink;
 
-// function serve(item: FoodItem) {
-//   if (item.type === "pizza") {
-//     console.log("Serving pizza with:", item.toppings);
-//   } else {
-//     console.log("Serving drink with flavor:", item.flavor);
-//   }
-// }
+function serve(item: FoodItem) {
+  if (item.type === "pizza") {
+    console.log("Serving pizza with:", item.toppings);
+  } else {
+    console.log("Serving drink with flavor:", item.flavor);
+  }
+}
 
-// const order1: FoodItem = {
-//   type: "pizza",
-//   toppings: ["cheese", "olives"],
-// };
+const order1: FoodItem = {
+  type: "pizza",
+  toppings: ["cheese", "olives"],
+};
 
-// const order2: FoodItem = {
-//   type: "drink",
-//   flavor: "lemon",
-// };
+const order2: FoodItem = {
+  type: "drink",
+  flavor: "lemon",
+};
 
-// serve(order1);
-// serve(order2);
+serve(order1);
+serve(order2);
 
-// interface User {
-//   name: string;
-// }
+interface User {
+  name: string;
+}
 
-// interface User {
-//   age: number;
-//   greet(): void;
-// }
+interface User {
+  age: number;
+  greet(): void;
+}
 
-// interface User {
-//   name: string;
-//   age: number;
-//   greet(): void;
-// }
+interface User {
+  name: string;
+  age: number;
+  greet(): void;
+}
 
-// const printMacBookName = (name: string) => console.log(`MacBook: ${name}`);
-// const printMacBookPrice = (price: number) => console.log(`Price: $${price}`);
-// const printInStock = (available: boolean) =>
-//   console.log(`In Stock: ${available}`);
+const printMacBookName = (name: string) => console.log(`MacBook: ${name}`);
+const printMacBookPrice = (price: number) => console.log(`Price: $${price}`);
+const printInStock = (available: boolean) =>
+  console.log(`In Stock: ${available}`);
 
-// printMacBookName("M4");
-// printMacBookPrice(14999);
-// printInStock(true);
+printMacBookName("M4");
+printMacBookPrice(14999);
+printInStock(true);
 
-// const printMacBookDetail = (detail: any) => {
-//   console.log("Detail:", detail);
-// };
+const printMacBookDetail = (detail: any) => {
+  console.log("Detail:", detail);
+};
 
-// printMacBookDetail("M4");
-// printMacBookDetail(14999);
-// printMacBookDetail(true);
-// printMacBookDetail(() => 123);
+printMacBookDetail("M4");
+printMacBookDetail(14999);
+printMacBookDetail(true);
+printMacBookDetail(() => 123);
 // Generic function
 
-// const printMacBookDetail = <T>(detail: T): T => {
-//   return detail;
-// };
+const printMacBookDetail = <T>(detail: T): T => {
+  return detail;
+};
 
-// const str = printMacBookDetail<string>("M4");
-// const price = printMacBookDetail<number>(14999);
-// const available = printMacBookDetail<boolean>(true);
+const str = printMacBookDetail<string>("M4");
+const price = printMacBookDetail<number>(14999);
+const available = printMacBookDetail<boolean>(true);
 
 // // 👇 Custom metadata interface
 // interface ChaiDetails {
@@ -565,73 +607,73 @@
 //   cupsPerDay: number;
 // }
 
-// interface ChaiDetails {
-//   favoriteChai: string;
-//   sugarLevel: "low" | "medium" | "high";
-//   cupsPerDay: number;
-// }
+interface ChaiDetails {
+  favoriteChai: string;
+  sugarLevel: "low" | "medium" | "high";
+  cupsPerDay: number;
+}
 
-// interface ChaiBanda<T> {
-//   id: number;
-//   naam: string;
-//   umar: number;
-//   chaiMeta: T;
-// }
+interface ChaiBanda<T> {
+  id: number;
+  naam: string;
+  umar: number;
+  chaiMeta: T;
+}
 
-// const bandaOne: ChaiBanda<(string | number)[]> = {
-//   id: 1,
-//   naam: "Chintu",
-//   umar: 25,
-//   chaiMeta: ["Masala", "medium", 4],
-// };
+const bandaOne: ChaiBanda<(string | number)[]> = {
+  id: 1,
+  naam: "Chintu",
+  umar: 25,
+  chaiMeta: ["Masala", "medium", 4],
+};
 
-// const bandaTwo: ChaiBanda<ChaiDetails> = {
-//   id: 2,
-//   naam: "Babli",
-//   umar: 29,
-//   chaiMeta: {
-//     favoriteChai: "Ginger",
-//     sugarLevel: "low",
-//     cupsPerDay: 3,
-//   },
-// };
+const bandaTwo: ChaiBanda<ChaiDetails> = {
+  id: 2,
+  naam: "Babli",
+  umar: 29,
+  chaiMeta: {
+    favoriteChai: "Ginger",
+    sugarLevel: "low",
+    cupsPerDay: 3,
+  },
+};
 
 //types with genrics
 
 // // 🔸 Step 1: Define metadata type for chai preferences
-// type ChaiMeta = {
-//   favouriteChai: string;
-//   chaimugSize: "tall" | "short";
-//   cupCountPerDay: number;
-// };
+type ChaiMeta = {
+  favouriteChai: string;
+  chaimugSize: "tall" | "short";
+  cupCountPerDay: number;
+};
 
 // // 🔸 Step 2: Generic type for ChaiBanda
-// type ChaiBanda<T> = {
-//   id: number;
-//   naam: string;
-//   umar: number;
-//   chaiDetails: T;
-// };
+type ChaiBanda<T> = {
+  id: number;
+  naam: string;
+  umar: number;
+  chaiDetails: T;
+};
 
-// // 🔸 Step 3: Using generic with an array
-// const bandaOne: ChaiBanda<(string | number)[]> = {
-//   id: 1,
-//   naam: "Raju",
-//   umar: 25,
-//   chaiDetails: ["Masala Chai", "tall", 3],
-// };
+// 🔸 Step 3: Using generic with an array
+const bandaOne: ChaiBanda<(string | number)[]> = {
+  id: 1,
+  naam: "Raju",
+  umar: 25,
+  chaiDetails: ["Masala Chai", "tall", 3],
+};
 
-// // 🔸 Step 4: Using generic with a structured object
-// const bandaTwo: ChaiBanda<ChaiMeta> = {
-//   id: 2,
-//   naam: "Anjali",
-//   umar: 28,
-//   chaiDetails: {
-//     favouriteChai: "Ginger",
-//     chaimugSize: "tall",
-//     cupCountPerDay: 4,
-//   },
-// };
+// 🔸 Step 4: Using generic with a structured object
+const bandaTwo: ChaiBanda<ChaiMeta> = {
+  id: 2,
+  naam: "Anjali",
+  umar: 28,
+  chaiDetails: {
+    favouriteChai: "Ginger",
+    chaimugSize: "tall",
+    cupCountPerDay: 4,
+  },
+};
 
 let names: string[] = ["Hitesh", "Elon", "Trump"];
 let ages: number[] = [25, 30, 40];
@@ -712,8 +754,8 @@ function pair<A, B>(first: A, second: B): [A, B] {
   return [first, second];
 }
 
-const result1 = pair("chai", 10);
-const result2 = pair(true, "yes");
+const result1 = pair<string, number>("chai", 10);
+const result2 = pair<boolean, string>(true, "yes");
 
 function serveOrder<Dish, Table>(food: Dish, table: Table): [Dish, Table] {
   return [food, table];
@@ -733,3 +775,11 @@ function chaiValue<T extends string | number>(value: T): T {
 chaiValue("kadak chai");
 chaiValue(2);
 chaiValue(true);
+
+type ChaiLover<Name extends string = string> = {
+  name: Name;
+  cupsPerDay: number;
+};
+
+type KnownChaiFan = ChaiLover<"Raju">;
+type MysteryChaiFan = ChaiLover;

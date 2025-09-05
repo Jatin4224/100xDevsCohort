@@ -1,28 +1,35 @@
-interface UserInterface {
-  name: string;
-  age: number;
-}
+// let cups: number;
+// let cups = Math.random() > 0.5 ? 10 : 5;
 
-class Person implements UserInterface {
-  name: string;
-  age: number;
+// let chaiFlavour: string = "masala chai";
+// chaiFlavour = "Kadak chai";
+// chaiFlavour = 2231;
+// console.log(chaiFlavour);
 
-  constructor(name: string, age: number) {
-    this.name = name;
-    this.age = age;
+// let chaiOrder: number = 8;
+// chaiOrder += 2;
+// chaiOrder = "two";
+// console.log(chaiOrder);
+
+let subcribers: number | string = 10;
+subcribers = 100000;
+subcribers = "1million";
+
+let theme: any = "chai theme";
+theme: 20;
+theme: true;
+theme();
+theme.toUpperCase();
+console.log(theme);
+
+const orders = ["12", "20", "28", "42"];
+let currentOrder;
+
+for (let order of orders) {
+  if (order === "28") {
+    currentOrder = order;
+    break;
   }
 }
 
-// Not possible with types
-type UserType = {
-  name: string;
-  age: number;
-};
-
-// This will throw an error
-
-type UserOrAdmin = User | Admin; // Union: Either User or Admin
-
-type ExtendedUser = User & {
-  isAdmin: boolean;
-}; // Intersection: Combines User and additional properties
+console.log(currentOrder);

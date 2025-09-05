@@ -4,4 +4,20 @@
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }
   ]
+},
+
+{
+  "compilerOptions": {
+    "target": "es2016",                       /* Specify ECMAScript target version */
+    "module": "commonjs",                     /* Specify module code generation */
+    "outDir": "./dist",                       /* Redirect output structure to the directory */
+    "strict": true,                           /* Enable all strict type-checking options */
+    "esModuleInterop": true,                  /* Enables emit interoperability between CommonJS and ES Modules */
+    "forceConsistentCasingInFileNames": true, /* Ensure that casing is consistent on disk. */
+    "skipLibCheck": true                      /* Skip type checking all .d.ts files. */
+  },
+  "include": ["src"]                          /* Tell the compiler to only look in the `src` folder */
 }
+
+
+
