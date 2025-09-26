@@ -11779,14 +11779,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/vaidik_26/status/1929586387977646248",
   },
-  {
-    name: "",
-    username: "siddharthsonii",
-    content:
-      'New Blog Alert! "AI Agents: Smarter than Jiju’s startup ideas!"\nMy Python AI code generator builds apps faster than a chai break!\n@Hiteshdotcom @piyushgarg_dev\n#DesiDevs, beat deadlines with this jugaad!\n Blog: https://gen-ai-with-python.hashnode.dev/ai-agents-your-code-writing-sidekick-thats-smarter-than-your-jijus-startup-ideas…\n#ChaiCode #Python #AIAgent',
-    avatar: "",
-    href: "https://x.com/siddharthsonii/status/1929515365370888669",
-  },
+
   {
     name: "",
     username: "piyushgarg_dev",
@@ -11874,14 +11867,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/jana_rahul1409/status/1929390125676429818",
   },
-  {
-    name: "",
-    username: "samarth_goyal18",
-    content:
-      "New Blog !\nI just published a fresh and interesting blog regarding 'How Internet Works', as part of assignment of Web Dev Cohort 1.0 by @Hiteshdotcom sir and @piyushgarg_dev sir\nLink:https://internetworking.hashnode.dev/how-the-internet-works…\nAlso thanks to: @nirudhuuu @mukulpadwal @yntpdotme\n#chaicode",
-    avatar: "",
-    href: "https://x.com/samarth_goyal18/status/1929247870705610935",
-  },
+
   {
     name: "",
     username: "_parthbaldaniya",
@@ -12018,22 +12004,7 @@ export const reviewData: Review[] = [
       "https://pbs.twimg.com/profile_images/1842883533448294400/pySLBlRD_bigger.jpg",
     href: "https://x.com/arbazhaider0/status/1949859679649091857",
   },
-  {
-    name: "",
-    username: "Shobhit_0100_",
-    content:
-      "7/ But no matter how smart the model is, it’s only as good as your question.\n“Garbage in, garbage out.”\nAnd that’s where Prompting becomes the real art.\nIn the next post, let’s decode how to talk to these models like a pro\n#PromptEngineering #LLMs #AIprompting #chaicode",
-    avatar: "",
-    href: "https://x.com/Shobhit_0100_/status/1949538968078311816",
-  },
-  {
-    name: "",
-    username: "Ganeshdotdev",
-    content:
-      "Wrapped up Day  of #30DaysOfGenAI with @ChaiCodeHQ and turned my learnings into a blog!\nCovered prompting techniques like CoT, Few-shot, Role-play, Persona & more\n Read here: https://understanding-gen-ai.hashnode.dev/prompting-and-its-techniques…\n#GenAI #LearnInPublic #BuildInPublic #Hashnode #chaicode",
-    avatar: "",
-    href: "https://x.com/Ganeshdotdev/status/1949341251733463512",
-  },
+
   {
     name: "",
     username: "RaktimMazumdar",
@@ -12531,14 +12502,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/vidya4sure/status/1940143058785640769",
   },
-  {
-    name: "",
-    username: "samarth_goyal18",
-    content:
-      "Thrilled to share my new blog post 'HTML Forms and Input'. Cover the basic concept to further dive in details along with code, this blog will help you understand how it works, and how to use it\nLive Link:- https://forms-in-html.hashnode.dev/html-form-and-inputs… #ClientServer #chaicode #TechBlog #WebDevelopment",
-    avatar: "",
-    href: "https://x.com/samarth_goyal18/status/1940088050610278487",
-  },
+
   {
     name: "",
     username: "anandkumar_dev",
@@ -12638,15 +12602,7 @@ export const reviewData: Review[] = [
       "https://pbs.twimg.com/profile_images/1913920685174312960/TyfuLK-7_bigger.jpg",
     href: "https://x.com/_PiyushDev/status/1961501800659571184",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Wrapped up another eye-opening GenAI session\nDived into how memory works, its types, and why it’s essential in AI.\nBig thanks @piyushgarg_dev @Hiteshdotcom @ChaiCodeHQ\n#LearnInPublic #ChaiCode #GenAI #AI #ArtificialIntelligence #MachineLearning  #LLMs #AICommunity #Tech",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1946550117349142532/ICck3jc8_bigger.jpg",
-    href: "https://x.com/UtkKumawat/status/1961494248957620471",
-  },
+
   {
     name: "",
     username: "rdmondal100",
@@ -12663,38 +12619,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/ShravanBhatii/status/1961304818334798175",
   },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "The TCP 3-way  Handshake : What it is and Why it is important?\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/the-tcp-3-way-handshake-what-it-is-and-why-it-is-important?ref=twitter-share…\n#chaicode #TCP #handshake",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1961279928374378767",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Created a web automation agent that can fill the form. Big thanks to @piyushgarg_dev, @ChaiCodeHQ, @Hiteshdotcom\nFinally getting the hang of Gen AI.\n#chaicode #AI #LearningInPublic #dev",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1961263308125999411",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "Reliable Connection in TCP : How sequence numbers and ACKs work\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/reliable-connection-in-tcp-how-sequence-numbers-and-acks-work?ref=twitter-share…\n#ChaiCode #TCP",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1961482593922142380",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      'How the Internet say "hello" : A visual guide to TCP Handshakes\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/how-the-internet-say-hello-a-visual-guide-to-tcp-handshakes?ref=twitter-share…\n#chaicode #TCP #internet',
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1961481985228247096",
-  },
+
   {
     name: "",
     username: "mChoudhary74",
@@ -12751,22 +12676,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/santosh_web/status/1960938062344503377",
   },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "TCP/IP Basics : The Foundation Of Internet Communication\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/tcpip-basics-the-foundation-of-internet-communication?ref=twitter-share…\n#chaicode #TCP #IP #Blog",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1960925706579329319",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "OSI Model and Protocols\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/osi-model-and-protocols?ref=twitter-share…\n#chaicode #osi #protocols #Blogs",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1960925225517773204",
-  },
+
   {
     name: "",
     username: "swarnakar_72508",
@@ -12799,14 +12709,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/ihimanshu29/status/1960758580183023755",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Had an amazing session on Agent SDK\nWe dived into threads, handoffs, guardrails, and human-in-the-loop, super insightful!\nBig thanks to @piyushgarg_dev  @ChaiCodeHQ  @Hiteshdotcom\nAlso got hands-on and built multiple projects along the way\n #AgentSDK #LearnInPublic #chaicode",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1960757777170932181",
-  },
+
   {
     name: "",
     username: "SanjeevSaniel",
@@ -12823,14 +12726,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/Rahulagg1306/status/1960042113523232895",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Just finished Gen AI class by @piyushgarg_dev @Hiteshdotcom @ChaiCodeHQ\nExplored the Agent SDK  by @OpenAI\nHow easy and fast it is to build an agent.\ncan't wait to start building some agents of my own.\n#chaicode #LearnInPublic #AI #dev",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1960039030747238540",
-  },
+
   {
     name: "",
     username: "ihimanshu29",
@@ -12862,14 +12758,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/codew_rhp/status/1960332235233505478",
   },
-  {
-    name: "",
-    username: "shindeanand358",
-    content:
-      "Learned & built with guidance from Chaicode\nSpecial thanks to @Hiteshdotcom   Sir & @piyushgarg_dev  Sir  @nirudhuuu Sir\nThis app fetches live news using  http://NewsAPI.org. Big thanks to them for making this possible .\nhttps://ganai.hashnode.dev/real-time-news-fetcher-with-streamlit-and-openai…",
-    avatar: "",
-    href: "https://x.com/shindeanand358/status/1960260964928078003",
-  },
+
   {
     name: "",
     username: "mChoudhary74",
@@ -12900,14 +12789,6 @@ export const reviewData: Review[] = [
       "Check the intro of that video, I have explained that. It’s all chaicode team",
     avatar: "",
     href: "https://x.com/Hiteshdotcom/status/1959997308621504765",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      'Just published a new blog!\n"Common Pitfalls of RAG and How to Avoid Them"\n Covers mistakes people make when building RAG\nCheck it out https://utkarsh-km.hashnode.dev/common-pitfalls-of-rag-and-how-to-avoid-them…\n@ChaiCodeHQ @Hiteshdotcom @piyushgarg_dev\n#RAG #AI #LLM #GenAI #LearnInPublic #chaicode',
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1959959099329974773",
   },
   {
     name: "",
@@ -12944,14 +12825,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/gauravghuge737/status/1959912391090876766",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "New blog out: Demystifying LangGraph  – AI workflows made simple with nodes & graphs.\nRead: https://vikas360.hashnode.dev/what-langgraph-does-for-todays-ai-systems…\n#AgneticAI #LLM #chaicode #piyushgarg #hiteshchaudhary #AIworkflow #jobs",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1959845740387426723",
-  },
+
   {
     name: "",
     username: "Babyyyoddaa",
@@ -13006,22 +12880,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/RaghavVasdeva/status/1959579958529097786",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Hey everyone...\nRAG = LLM + Search on your own data\nI wrote a blog to explain how it works in business (contracts, notes, chats).\nRead: https://vikas360.hashnode.dev/smarter-ai-with-rag…\n#AI #generativeAI #grok #Agents #Vector #LLM #hashnode #chaicode",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1959469804860948913",
-  },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Hey folks\nJust dropped a blog on Chain-of-Thought prompting — how to make AI think step by step.\nQuick read + examples\nRead: https://vikas360.hashnode.dev/chain-of-thought-prompting-teaching-ai-to-think-step-by-step…\nThanks: @piyushgarg_dev  @Hiteshdotcom\n#AI #ChainOfThought #PromptEngineering #chaicode",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1959196858523189513",
-  },
+
   {
     name: "",
     username: "DeepakK92893168",
@@ -13078,14 +12937,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/Pratham786/status/1958944282397798430",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Just explored all types of prompting with visuals  — zero-shot, few-shot, chain-of-thought & more!\nNext: connecting them with Agentic AI\nHashnode: https://vikas360.hashnode.dev/understanding-prompting-in-ai…\nBig thanks: @piyushgarg_dev\n#PromptEngineering #AI #LLM #chaicode",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1958865631475904959",
-  },
+
   {
     name: "",
     username: "natwar_patidar_",
@@ -13094,22 +12946,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/natwar_patidar_/status/1958856327674970276",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Built my first RAG app using my Laptop Repair Guide PDF\nAlso wrote a beginner-friendly blog on how to build one\n https://utkarsh-km.hashnode.dev/getting-started-with-rag-an-easy-guide-for-beginners…\n@ChaiCodeHQ  @piyushgarg_dev  @Hiteshdotcom\n#LearnInPublic #AI #RAG #LangChain #GeminiAI #GenerativeAI #chaicode",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1958853306400612657",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "What are Network Protocols, and Why do they matter?\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/what-are-network-protocols-and-why-do-they-matter?ref=twitter-share…\n#chaicode #netwrok #protocols #Blogs",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1958832656264704205",
-  },
+
   {
     name: "",
     username: "vikaskumar655",
@@ -13125,22 +12962,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/itzrealashwin/status/1958590661541994521",
   },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "Web Servers and Hosting : How your website becomes accessible to the world\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/web-servers-and-hosting-how-your-website-becomes-accessible-to-the-world?ref=twitter-share…\n#chaicode #web #hosting",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1958566296947417196",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "HTTP Request-Response Cycle : What happens behind the scenes?\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/http-request-response-cycle-what-happens-behind-the-scenes?ref=twitter-share…\n#chaicode #http #Blogs",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1958565452520816884",
-  },
+
   {
     name: "",
     username: "i_am_bug",
@@ -13196,14 +13018,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/Yasho_27_/status/1957384196038545837",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "New blog: Key Principles of Agentic AI\n What makes AI “agentic”\n Agentic vs Generative vs Traditional AI\n How agents use prompts, memory & tools\n Why MCP matters for tool integration\n https://utkarsh-km.hashnode.dev/key-principles-of-agentic-ai…\n#AgenticAI #AI #LLM #FutureOfAI #chaicode #LearnInPublic",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1957365617155096829",
-  },
+
   {
     name: "",
     username: "C0rniche",
@@ -13235,14 +13050,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/RaghavVasdeva/status/1957009741558771732",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Hey there..\nHow do #LLMs like ChatGPT understand your words?\nIt all begins with Tokenization\nLink: https://vikas360.hashnode.dev/understanding-tokenization-the-first-step-inside-an-llm-transformer…\n#AI #Tokenization #MachineLearning #NLP #Chaicode",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1957003603018764526",
-  },
+
   {
     name: "",
     username: "_PiyushDev",
@@ -13259,14 +13067,7 @@ export const reviewData: Review[] = [
       "https://abs-0.twimg.com/emoji/v2/svg/1f9d8-1f3fb-200d-2642-fe0f.svg",
     href: "https://x.com/sagarshiroya_x/status/1956968448279351368",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Just dropped a blog where I explain vector embeddings in transformers in super simple terms – like explaining it to a friend. No jargon, just examples + diagrams.\nLink: https://vikas360.hashnode.dev/vector-embeddings-inside-the-llm-transformer…\n#LLM #transformers #chaicode #AI",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1956937115779948867",
-  },
+
   {
     name: "",
     username: "rishisingh1034",
@@ -13299,14 +13100,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/shivayanbora/status/1956732852076257528",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Hey Everyone\nI explored how GPT work. I’ve put everything together in an article that breaks down these concepts in a simple way. Sharing it here for the community\nLink: https://vikas360.hashnode.dev/the-code-whisperer-understanding-power-of-generative-pre-trained-transformers…\n#Chaicode #GenerativeAI #agents #development #Grow #Transformers.",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1956697706002272450",
-  },
+
   {
     name: "",
     username: "TechnologyFist",
@@ -13347,14 +13141,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/rishisingh1034/status/1956420158530195523",
   },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "just has awosome 3rd class with @Hiteshdotcom  and @piyushgarg_dev . showed how an agent works, more importantly, how to build one. Also, gave you a task to build your own. #chaicode #genAi #dev #LearnInPublic",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1956412219387965775",
-  },
+
   {
     name: "",
     username: "AnkushRajp80867",
@@ -13403,14 +13190,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/pankajkumar_dev/status/1956350897698504913",
   },
-  {
-    name: "",
-    username: "chimtucomder",
-    content:
-      "Prompt Me If You Can!\n{ by @chimtucomder } from @hashnode https://explain-gpt-to-a-5-yo.hashnode.dev/prompt-me-if-you-can?ref=twitter-share…\n@piyushgarg_dev @Hiteshdotcom #chaicode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/chimtucomder/status/1956324662515777615",
-  },
+
   {
     name: "",
     username: "i_am_bug",
@@ -13466,14 +13246,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/Mugi_wara_95/status/1955695522431558010",
   },
-  {
-    name: "",
-    username: "HarshitSainiNgh",
-    content:
-      "Mastering AI Communication: The Importance of System Prompts and Types of Prompting\n{ by Harshit } from @hashnode https://harshitsaini.hashnode.dev/mastering-ai-communication-the-importance-of-system-prompts-and-types-of-prompting?ref=twitter-share…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/HarshitSainiNgh/status/1956196792762064998",
-  },
+
   {
     name: "",
     username: "Pritam_Awatade",
@@ -13490,38 +13263,7 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/vikaskumar655/status/1955997319817490566",
   },
-  {
-    name: "",
-    username: "vikaskumar655",
-    content:
-      "Just published my latest article on Large Language Models (LLMs)\n Exploring how they work, their application and more Excited to share my thoughts with the community!\nhttps://vikas360.hashnode.dev/understanding-large-language-models…\n#LLMs #code #blog #Chaicode #hashnode #learning",
-    avatar: "",
-    href: "https://x.com/vikaskumar655/status/1955971840867729715",
-  },
-  {
-    name: "",
-    username: "Satyasandhya__",
-    content:
-      'Successfully published a blog on Hashnode:\n "The Importance of System Prompts and Prompting Types in AI"\nCheck it out here:…https://system-prompts-and-prompting-types-in-ai.hashnode.dev/the-importance-of-system-prompts-and-types-of-prompting-in-ai…\nProud to contribute to the AI conversation!\n#GenerativeAI  #ChaiCode @ChaiCodeHQ\n@Hiteshdotcom @piyushgarg_dev',
-    avatar: "",
-    href: "https://x.com/Satyasandhya__/status/1955898535804633490",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Just published: System Prompts and Prompting Techniques\nDiscover how system prompts act as an AI's job description + powerful strategies like zero-shot, few-shot, role-based & COT prompting.\nRead  https://utkarsh-km.hashnode.dev/system-prompts-and-prompting-techniques…\n#PromptEngineering #AI #LLM #Hashnode #chaicode",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1955879380107829251",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "What is DNS & Why it is important\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/what-is-dns-and-why-it-is-important?ref=twitter-share…\n#ChaiCode #dns #internet #Blogs",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1955866327001776193",
-  },
+
   {
     name: "",
     username: "Ashutosh_dEv07",
@@ -13554,94 +13296,7 @@ export const reviewData: Review[] = [
     avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
     href: "https://x.com/chimtucomder/status/1955685178254532723",
   },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "Understanding Backbone of Internet\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/understanding-backbone-of-internet?ref=twitter-share…\n#chaicode #internet #backbone",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1955654779121893517",
-  },
-  {
-    name: "",
-    username: "HarshitSainiNgh",
-    content:
-      "From Talking Toys to Story-Making Robots: Meet GPT, Your Friendly Word Wizard\n{ by Harshit } from @hashnode https://harshitsaini.hashnode.dev/from-talking-toys-to-story-making-robots-meet-gpt-your-friendly-word-wizard?ref=twitter-share…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/HarshitSainiNgh/status/1955596084174316002",
-  },
-  {
-    name: "",
-    username: "manojofficialmj",
-    content:
-      "Topics:\n GPT for Kids https://bcapathshala.hashnode.dev/explain-gpt-simply-for-kids…\n Tokenizer https://bcapathshala.hashnode.dev/what-is-tokenizer-explain-tokenization…\n Vector Embeddings https://bcapathshala.hashnode.dev/explain-vector-embeddings-to-your-mom…\nMaking AI simple, one analogy at a time!\n#AI #chaicode #chaiaurcode #MachineLearning #NLP #GPT #Tokenizer #VectorEmbeddings #Hashnode",
-    avatar: "",
-    href: "https://x.com/manojofficialmj/status/1955581961990283454",
-  },
-  {
-    name: "",
-    username: "manojofficialmj",
-    content:
-      "Completed my latest AI explainers for @ChaiCodeHQ under mentors @Hiteshdotcom & @piyushgarg_dev\n#AI #chaicode #chaiaurcode #MachineLearning #NLP #GPT #Tokenizer #VectorEmbeddings #Hashnode",
-    avatar: "",
-    href: "https://x.com/manojofficialmj/status/1955581958701842873",
-  },
-  {
-    name: "",
-    username: "HarshitSainiNgh",
-    content:
-      "Breaking Down Tokenization: How AI Understands Text, One Chunk at a Time\n{ by Harshit } from @hashnode https://harshitsaini.hashnode.dev/breaking-down-tokenization-how-ai-understands-text-one-chunk-at-a-time?ref=twitter-share…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/HarshitSainiNgh/status/1955551739475550457",
-  },
-  {
-    name: "",
-    username: "HarshitSainiNgh",
-    content:
-      "Explaining AI Vector Embeddings to My Indian Mom (Without Any Science Jargon)\n{ by Harshit } from @hashnode https://harshitsaini.hashnode.dev/explaining-ai-vector-embeddings-to-my-indian-mom-without-any-science-jargon?ref=twitter-share…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/HarshitSainiNgh/status/1955551708991623620",
-  },
-  {
-    name: "",
-    username: "Rasmiranjan09",
-    content:
-      "Ever wondered what GPT actually stands for?\nGPT = Generative Pre-trained Transformer  But what does that actually MEAN?\nBroke it down with simple analogies anyone can understand\n…https://gpt-for-kids-why-this-robot-knows-all.hashnode.dev/gpt-for-kids-why-this-robot-knows-almost-everything?showSharer=true…\n#GPT #AI #ChaiCode #GenAI\n@piyushgarg_dev @Hiteshdotcom",
-    avatar: "",
-    href: "https://x.com/Rasmiranjan09/status/1955542776730333519",
-  },
-  {
-    name: "",
-    username: "anurag270569",
-    content:
-      "Just built my first Token Visualizer!\n Type any text & instantly see how it’s broken down into tokens & IDs — essential for understanding how LLMs process language.\n First step in my journey to learn & build with Generative AI.\nhttps://token-visualizer-one.vercel.app\n#chaicode #chaiaurcode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/anurag270569/status/1955496725189472322",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Read here  …https://vector-embeddings-for-everyone.hashnode.dev/guide-vector-embeddings-for-everyone…\n#AI #VectorEmbeddings #ML #NLP #DeepLearning #chaicode #learninpublic",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1955496427196436544",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "How Data is Transferred Across Networks\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/how-data-is-transferred-across-networks?ref=twitter-share…\n#chaicode #internet #webdev",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1955495476570231111",
-  },
-  {
-    name: "",
-    username: "HARSH_GARY",
-    content:
-      "Attention is all you need… to get GenAI\nWrote a fun blog breaking down transformers — the tech behind ChatGPT, Gemini, DeepSeek & more — in the simplest way possible.\n https://gary121.hashnode.dev/attention-is-all-you-need-to-understand-genai-170603762…\nSpecial Thanks To : @hiteshdotcom @piyushgarg_dev @nirudhuuu\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/HARSH_GARY/status/1955358893997166863",
-  },
+
   {
     name: "",
     username: "Aqib_Ansari_",
@@ -13705,771 +13360,168 @@ export const reviewData: Review[] = [
     avatar: "",
     href: "https://x.com/Pratik4230/status/1955306532297388253",
   },
+
   {
-    name: "",
-    username: "HARSH_GARY",
-    content:
-      "Turns out… Attention is all you need to get GenAI\n— @Hiteshdotcom @piyushgarg_dev @nirudhuuu\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/HARSH_GARY/status/1955285910540394630",
-  },
-  {
-    name: "",
-    username: "AfranDavalbhai",
-    content:
-      "Explain GPT to a 5 y/o.\n{ by Afran Davalbhai } from @hashnode https://afran.hashnode.dev/explain-gpt-to-a-5-yo?ref=twitter-share…\n#ChaiCode #GenAI #javascript #AIforEveryone",
-    avatar: "",
-    href: "https://x.com/AfranDavalbhai/status/1955285385342304642",
-  },
-  {
-    name: "",
-    username: "AfranDavalbhai",
-    content:
-      "Tokenization Explained for Beginners\n{ by Afran Davalbhai } from @hashnode https://afran.hashnode.dev/tokenization-explained-for-beginners?ref=twitter-share…\n#ChaiCode #GenAI",
-    avatar: "",
-    href: "https://x.com/AfranDavalbhai/status/1955280712573022463",
-  },
-  {
-    name: "",
-    username: "chimtucomder",
-    content:
-      "Explain GPT to a 5 y/o\n{ by Piyush Goswami } from @hashnode https://explain-gpt-to-a-5-yo.hashnode.dev/explain-gpt-to-a-5-yo?ref=twitter-share…\n#ChaiCode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/chimtucomder/status/1955246632309866862",
-  },
-  {
-    name: "",
-    username: "rparida1052",
-    content:
-      "Rahul Parida@rparida1052·Replying to @Bhavykhandelwa1 @Hiteshdotcom and 2 otherschaicodeFrom courses.chaicode.com",
-    avatar: "",
-    href: "https://x.com/rparida1052/status/1955233978098782657",
-  },
-  {
-    name: "",
-    username: "itzrealashwin",
-    content:
-      "I’m Happy to share that I’ve published my first blog on Tokenization, written under the guidance and mentorship of @Hiteshdotcom, @piyushgarg_dev, and the @ChaiCodeHQ Cohort.  #chaicode #genaichaicode\nhttps://itzrealashwin.hashnode.dev/what-is-tokenization-in-gpt…",
-    avatar: "",
-    href: "https://x.com/itzrealashwin/status/1955204844115071319",
-  },
-  {
-    name: "",
-    username: "_PiyushDev",
-    content:
-      "Hey Everyone\nJust completed today's lecture 1 of #ChaiCode  GenAI with JS. We have learn the building blocks of AI models.\nAnd got an assignment to build our custom tokenizer.\nI have completed it, hope you like it\nhttps://chai-tokenizer.vercel.app\n@nirudhuuu @piyushgarg_dev @Hiteshdotcom",
-    avatar: "",
-    href: "https://x.com/_PiyushDev/status/1955046247703732489",
-  },
-  {
-    name: "",
+    name: "Piyush Priyadarshi",
     username: "itsPiyushJha",
     content:
       "Today I attended first class of #ChaiCode  Gen-AI cohort , and it was such an amazing experience!\nLearned the basics and explored how AI generates responses.\nFeeling super excited to dive deeper into this journey and build some cool projects ahead!\n@ChaiCodeHQ",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1870149394215120896/vHgyhECV_400x400.jpg",
     href: "https://x.com/itsPiyushJha/status/1955022463936688438",
   },
+
   {
-    name: "",
-    username: "natwar_patidar_",
-    content:
-      "First day of the GenAI cohort done. Learned a lot, unlearned a bit, and left with a bigger curiosity than I came in with. Excited for what’s ahead.\n@Hiteshdotcom @piyushgarg_dev #chaicode",
-    avatar: "",
-    href: "https://x.com/natwar_patidar_/status/1955000270728872290",
-  },
-  {
-    name: "",
-    username: "AfranDavalbhai",
-    content:
-      "Day 1 Recap:\n- Understood what exactly a GPT is.\n- Learned what tokenization is and how it works under the hood.\n- Explored the concept of embeddings and their role in AI.\n#ChaiCode #LearningJourney #LearnInPublic",
-    avatar: "",
-    href: "https://x.com/AfranDavalbhai/status/1955164577903313127",
-  },
-  {
-    name: "",
-    username: "sayandotdev",
-    content:
-      "Just completed 1st class of GenAI+JS hosted by #ChaiCode. In that class lakhs of tokens are added into my dictionary, also got assignment task for own tokenizer. Peek the task and inform me, if I missed any semicolon:- https://chai-tokenizer.netlify.app\n@piyushgarg_dev @Hiteshdotcom #GenAI",
-    avatar: "",
-    href: "https://x.com/sayandotdev/status/1955142929879581138",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "Built a Custom Word-Level Tokenizer in Node.js!\n Builds vocab from text\n Adds <PAD>, <UNK>, <SOL>, <EOL>\n Encode  Decode words & IDs\nCode  https://github.com/UtkarshKm/Custom-Tokenizer…\n#NLP #AI #JavaScript #Dev #OpenSource #MachineLearning #NodeJS #ChaiCode",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1955125973797703849",
-  },
-  {
-    name: "",
+    name: "Harshit Shukla",
     username: "Harshitshukla63",
     content:
       "Just kicked off my Generative AI journey with @ChaiCodeHQ\n@Hiteshdotcom  Sir made AI concepts crystal clear with real-world examples.\n@piyushgarg_dev  Sir took us deep into Transformers -the magic behind GPT.\nSuper excited to learn more & build impactful projects!\n #ChaiCode",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1847709828795228160/jlQeVwq0_400x400.jpg",
     href: "https://x.com/Harshitshukla63/status/1955114508285813198",
   },
+
   {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "We just kicked off our Gen AI Developer journey with @ChaiCodeHQ,@Hiteshdotcom @piyushgarg_dev  !\nSession 1 was all about the basics:\n What is GPT?\n How it works\n Transformers explained\n Tokenization & embeddings\n#GenAI  #GPT #chaicode #AIforDev #LearnInPublic #chaicode",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1955103099783139406",
-  },
-  {
-    name: "",
+    name: "Harsh Singh",
     username: "HarshSingh0026",
     content:
-      "First time attending any cohort and having such a great experience.\nLearning from @Hiteshdotcom @piyushgarg_dev is always great.\nApart from learning the rules of the cohort for assignments and all I like the most.\nThank You for such a great cohort.\n@ChaiCodeHQ\n#chaicode #js #AI",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f4bb.svg",
+      "First time attending any cohort and having such a great experience.\nLearning from @Hiteshdotcom @piyushgarg_dev is always great.\nApart from learning the rules of the cohort for assignments and all I like the most.\nThank You for such a great cohort.",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1819957526282358784/7sMKpLRq_400x400.jpg",
     href: "https://x.com/HarshSingh0026/status/1955100212151627978",
   },
   {
-    name: "",
+    name: "Shravan",
     username: "ShravanBhatii",
     content:
       "After a while, I finally got back to JavaScript. It took some time to understand, but I finished the assignment in the end! Next time, I'll try to be a bit faster\n#ChaiCode #GenAI",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1966969990470602752/2_Z6hVUq_400x400.jpg",
     href: "https://x.com/ShravanBhatii/status/1955067959229174212",
   },
+
   {
-    name: "",
-    username: "ShravanBhatii",
-    content:
-      "Had my first live class on GenAI with @Hiteshdotcom and @piyushgarg_dev.\nLearn about how GPT works and how fascinating AI is under the hood.\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/ShravanBhatii/status/1954999862531068088",
-  },
-  {
-    name: "",
-    username: "Fumetsu2709",
-    content:
-      "Hey Everyone!\nJust finished the Intro session on GenAI from #ChaiCode GenAI with JS  with best teachers like  @piyushgarg_dev & @Hiteshdotcom\nLearned about\n-GPT\n-Tokenization\n-Transformers\n-Vector Embeddings & Self-Attention.\nExcited for more!\n@ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/Fumetsu2709/status/1954987570061807860",
-  },
-  {
-    name: "",
-    username: "HarshitSainiNgh",
-    content:
-      "Kicked off my GenAI for Developers – JavaScript batch with @Hiteshdotcom & @piyushgarg_dev\nLearned:\n Tokenization\n GPT\n Transformers\n Vector Embeddings\nExcited for the journey ahead!\n#GenAI #JavaScript #chaiCode",
-    avatar: "",
-    href: "https://x.com/HarshitSainiNgh/status/1954980868306481233",
-  },
-  {
-    name: "",
+    name: "Siddharth Phogat",
     username: "SidTweetsStuff",
     content:
-      "Just wrapped up Lecture 1 of the #ChaiCode GenAI Cohort! Topics Covered:\n• Attention Is All You Need\n• GPT fundamentals\n• Tokens & Tokenization\n• Vector Embeddings\n• Self & Multi-Head Attention\n@Hiteshdotcom @piyushgarg_dev @nirudhuuu @ChaiCodeHQ\nExcited for what’s next",
-    avatar: "",
+      "Just wrapped up Lecture 1 of the #ChaiCode GenAI Cohort! Topics Covered:\n• Attention Is All You Need\n• GPT fundamentals\n• Tokens & Tokenization\n• Vector Embeddings\n• Self & Multi-Head Attention \nExcited for what’s next",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1654814600209264640/xbmI8C_2_400x400.jpg",
     href: "https://x.com/SidTweetsStuff/status/1954978473526616124",
   },
   {
-    name: "",
+    name: "Samrat",
     username: "Samrat4488",
     content:
       "Day: 1  Attention is All you need\nIntroduction to AI\nThe journey into Generative AI with JavaScript has begun! The first class of #GenAIwithJS with @Hiteshdotcom and @piyushgarg_dev was . So much to learn and build. #AI #JavaScript #chaicode",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1954974771223126016/0OKh6zaL_400x400.jpg",
     href: "https://x.com/Samrat4488/status/1954977256293666938",
   },
   {
-    name: "",
+    name: "Sarvesh Kulkarni",
     username: "TechnologyFist",
     content:
       "Perfect “hello-world” class for GenAI by @Hiteshdotcom @piyushgarg_dev @ChaiCodeHQ . Ab GPT ki definition kabhi nahi bhulege, and AI se darege bhi nahi!\nYe next word predictor lega mera job?\n#chaiaurcode #chaicode #AI #learnInPublic",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1157958846171815940/QWeeqfKb_400x400.jpg",
     href: "https://x.com/TechnologyFist/status/1954975752707014947",
   },
+
   {
-    name: "",
-    username: "rdmondal100",
-    content:
-      "New journey to master GenAi with @Hiteshdotcom sir and  @piyushgarg_dev sir.\n#genai #chaicode",
-    avatar: "",
-    href: "https://x.com/rdmondal100/status/1954974407878906070",
-  },
-  {
-    name: "",
-    username: "AnandChauhan411",
-    content:
-      "Day-1 GenAI with Js\nToday we learn about Transformer, Vector Embedding, GPT\n@Hiteshdotcom @piyushgarg_dev @nirudhuuu\n@ChaiCodeHQ\n#GenAI #chaicode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/2728.svg",
-    href: "https://x.com/AnandChauhan411/status/1954973081363157307",
-  },
-  {
-    name: "",
+    name: "Himanshu Maurya",
     username: "ihimanshu29",
     content:
-      "If you are from same batch , Please connect with me\n#chaicode #Genai #CONNECT",
-    avatar: "",
-    href: "https://x.com/ihimanshu29/status/1954970846604202118",
-  },
-  {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "Hey Everyone\nJust completed Lecture-1 of #chaicode GenAi Cohort\nThis lecture includes\n- Attention Is All You Need\n- about GPT\n- Token & Tokenization\n- Vector Embedding\n- Self & Multi-head Attention\nwith the best teachers like @Hiteshdotcom @piyushgarg_dev @nirudhuuu @ChaiCodeHQ",
-    avatar: "",
+      "Hey Everyone\nJust completed Lecture-1 of #chaicode GenAi Cohort\nThis lecture includes\n- Attention Is All You Need\n- about GPT\n- Token & Tokenization\n- Vector Embedding\n- Self & Multi-head Attention\nwith the best teachers like @Hiteshdotcom @piyushgarg_dev @ChaiCodeHQ",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1874863122877423616/gN5f2vzG_400x400.jpg",
     href: "https://x.com/ihimanshu29/status/1954970842896429502",
   },
+
   {
-    name: "",
-    username: "_saumya_ag",
-    content:
-      ".@piyushgarg_dev itne single hai, ChatGPT bhi flirt kar raha.  AI GF banate banate GPT hi dore dalne laga\nBut an amazing session @Hiteshdotcom and @piyushgarg_dev.\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/_saumya_ag/status/1954966727122379212",
-  },
-  {
-    name: "",
+    name: "Vedant Dalal",
     username: "coder_vedant",
     content:
       "Thankfully getting back on track...\nDid -> loops and conditionals assignment questions of chaicode cohort...\nGetting stronger with Js concepts\nAlso started learning about Objects\nWas not able to continue Daily Coding Challenge but starting it today as Day 1...",
-    avatar: "",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1911061796464549888/v5dVI80O_400x400.jpg",
     href: "https://x.com/coder_vedant/status/1954943882732642482",
   },
+
   {
-    name: "",
-    username: "chimtucomder",
-    content: "Ai is just a fancy token predictor\n#gork #chaicode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/chimtucomder/status/1954942882709946729",
-  },
-  {
-    name: "",
-    username: "Andrew615186",
-    content: "New beginning!!\n#chaicode",
-    avatar: "",
-    href: "https://x.com/Andrew615186/status/1954933779224801402",
-  },
-  {
-    name: "",
-    username: "Prabhat_say",
-    content: "is this added in the Udemy course or chaicode cohort?",
-    avatar: "",
-    href: "https://x.com/Prabhat_say/status/1954834659340399020",
-  },
-  {
-    name: "",
-    username: "Prabhat_say",
-    content:
-      "if we are talking bout themes, then initially I didn’t liked the chaicode web theme but after few days I started liking that theme\nespecially http://hitesh.ai",
-    avatar: "",
-    href: "https://x.com/Prabhat_say/status/1954820314644226421",
-  },
-  {
-    name: "",
-    username: "prashantorders",
-    content:
-      "Gen AI and AI Agent must Tech skills to Learn now.\nIt's now or never Master AI\nhttps://courses.chaicode.com/learn/batch/about?bundleId=239669…\nDiscount Coupon Code Apply -PRASHANT52040",
-    avatar: "",
-    href: "https://x.com/prashantorders/status/1954424625674555735",
-  },
-  {
-    name: "",
-    username: "krishdotdev",
-    content: "http://courses.chaicode.com",
-    avatar: "",
-    href: "https://x.com/krishdotdev/status/1954175171117375790",
-  },
-  {
-    name: "",
-    username: "Hiteshdotcom",
-    content: "I don’t own LCO anymore. It’s chaicode now",
-    avatar: "",
-    href: "https://x.com/Hiteshdotcom/status/1954077063700525179",
-  },
-  {
-    name: "",
-    username: "piyushgarg_dev",
-    content:
-      "GenAI with JavaScript Cohort is starting on 11th Aug, 2025\nLink: https://piyushgarg.pro/genai\n@Hiteshdotcom",
-    avatar: "",
-    href: "https://x.com/piyushgarg_dev/status/1954046805584343326",
-  },
-  {
-    name: "",
-    username: "Guraasees_Singh",
-    content:
-      "Should I keep some leaky code  like @ChaiCodeHQ  website @Hiteshdotcom @piyushgarg_dev\nPS: Fixing the components\nAny recommendations?\n> I will style all components of second Brain  for now\n#FrontendAboutToComplete\n#chaicode #webdev #genAI",
-    avatar: "",
-    href: "https://x.com/Guraasees_Singh/status/1953710451004448795",
-  },
-  {
-    name: "",
-    username: "krishdotdev",
-    content: "Its on http://chaicode.com",
-    avatar: "",
-    href: "https://x.com/krishdotdev/status/1953670331698192717",
-  },
-  {
-    name: "",
-    username: "RaktimMazumdar",
-    content:
-      "Finally, started learning React today!!\nVery Very Excited !!!!\n.\n.\n.\n.\n.\n.\n.\n.\n#WebDevelopment #learning #learning_JS #JS #JAVAScript #HTML #CSS #programming #CSS #tailwind #FrontendDev #100DaysOfCode #ChaiCode",
-    avatar: "",
-    href: "https://x.com/RaktimMazumdar/status/1953452028279050563",
-  },
-  {
-    name: "",
-    username: "piyushgarg_dev",
-    content:
-      "Jee Baat\n http://piyushgarg.pro/genai\n@Hiteshdotcom\nhttps://x.com/suprabhat_3/status/1953077424952098940?s=46…\nAll credit goes to @Hiteshdotcom and @piyushgarg_dev\nfor outstanding GenAI Cohort",
-    avatar: "",
-    href: "https://x.com/piyushgarg_dev/status/1953087114780000279",
-  },
-  {
-    name: "",
-    username: "piyushgarg_dev",
-    content:
-      "https://piyushgarg.pro/genai\n2 folks from same company enrolled in our GenAI batch. We do a project of AI powered interview builder in that cohort.\nThese 2 folks build it, polished it, presented it and sold a subscription within their company.\nTheir CEO just pinged, wanted to enroll whole team in next",
-    avatar: "",
-    href: "https://x.com/piyushgarg_dev/status/1953062228284063892",
-  },
-  {
-    name: "",
-    username: "Hiteshdotcom",
-    content:
-      "Hitesh Choudhary@Hiteshdotcom·Replying to @politics0071115courses.chaicode.comchaicodeA home for programmers where they learn and enjoy the community",
-    avatar: "",
-    href: "https://x.com/Hiteshdotcom/status/1953010982839611483",
-  },
-  {
-    name: "",
-    username: "AryaaManjrekar",
-    content:
-      "Just published an article\nAI feels like magic, But it’s not\nhttps://medium.com/p/ai-feels-like-magic-but-its-not-ef0c03632c9f?source=social.tw…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/AryaaManjrekar/status/1952776835718152347",
-  },
-  {
-    name: "",
-    username: "deepsoumyaaa",
-    content: "chaicode, smoljames, bytegrad, orcdev, canddev etc.",
-    avatar: "",
-    href: "https://x.com/deepsoumyaaa/status/1952365408285315266",
-  },
-  {
-    name: "",
-    username: "Hiteshdotcom",
-    content:
-      "A 15 mins call n done with hiring. Not because he is pro but because he is teachable.\nHe knows the basics and rest I will nurture him, just like rest of @ChaiCodeHQ team.\nWe are such a small team and everyone at chaicode is taught personally by me and we gave them their 1st",
-    avatar: "",
-    href: "https://x.com/Hiteshdotcom/status/1952039978118070388",
-  },
-  {
-    name: "",
-    username: "DeepakK92893168",
-    content:
-      "Day 4 – Java with DSA  Today Topic ’s\n What is Time Complexity\n Big-O Notation – O(1), O(n), O(log n), O(n²)\n How to analyze loops & nested loops\n Why it matters in real-world coding\nThanks to  & @PrateekJain027 @Hiteshdotcom\n#Java #DSA  #ChaiCode  @ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/DeepakK92893168/status/1951999349761740813",
-  },
-  {
-    name: "",
-    username: "DeepakK92893168",
-    content:
-      "Day 4 – Java with DSA\nToday Topic ’s\n What is Time Complexity\n Big-O Notation – O(1), O(n), O(log n), O(n²)\n How to analyze loops & nested loops\n Why it matters in real-world coding\nThanks to  & @PrateekJain027 @Hiteshdotcom\n#Java #DSA  #ChaiCode  @ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/DeepakK92893168/status/1951999078536974494",
-  },
-  {
-    name: "",
-    username: "AbirCodes",
-    content:
-      "Day 4 of DSA Cohort with @PrateekJain027 @ChaiCodeHQ\n Topic – Time Complexity\nToday, we explored:\n What is Time Complexity\n Big-O Notation (O(1), O(n), O(log n), O(n²))\n Best, Worst, and Average Case\n How to analyze loops and nested loops\n#ChaiCode #DSA",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/AbirCodes/status/1951956463653355945",
-  },
-  {
-    name: "",
-    username: "rdmondal100",
-    content:
-      "After web dev cohort now time to master GenAI with @Hiteshdotcom sir and @piyushgarg_dev sir. It's going to be fun and exciting as I know how good they are in teaching.\nTake lots of love from Bangladesh  sir, waiting for the 11 August,\n#ChaiCode #genai",
-    avatar: "",
-    href: "https://x.com/rdmondal100/status/1951705970410983539",
-  },
-  {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "If you're in the same batch, feel free to connect —\n#GenAI #ChaiCode #WebDevelopment",
-    avatar: "",
-    href: "https://x.com/ihimanshu29/status/1951687608830169119",
-  },
-  {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "Just got into  GenAI with JS cohort by #ChaiCode - super excited to dive into the world of Generative AI.\nI’ll be sharing everything I learn along the way — so stay tuned!\nSee you all on 11th August with @Hiteshdotcom , @piyushgarg_dev , @nirudhuuu sir,  & @ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/ihimanshu29/status/1951687606267412744",
-  },
-  {
-    name: "",
-    username: "Hiteshdotcom",
-    content:
-      "Hitesh Choudhary@Hiteshdotcom·Replying to @chinmaydotcomcourses.chaicode.comchaicodeA home for programmers where they learn and enjoy the community",
-    avatar: "",
-    href: "https://x.com/Hiteshdotcom/status/1951583927992266992",
-  },
-  {
-    name: "",
-    username: "heyashishraut",
-    content:
-      "DSA Class 02 - Theory + Code [UPDATED]\nGitHub - https://github.com/heyAshishRaut/DSA_LEC…\n#chaicode",
-    avatar: "",
-    href: "https://x.com/heyashishraut/status/1951516004204323216",
-  },
-  {
-    name: "",
-    username: "RaktimMazumdar",
-    content:
-      "E-commerce cart with HTML, Tailwind CSS and JS\n[It's not good enough.. but this is my limit for now.. I will work on it later.]\n.\n.\n.\n.\n.\n.#WebDevelopment #learning #learning_JS #JS #JAVAScript #HTML #CSS #programming #CSS #tailwind #FrontendDev #100DaysOfCode #ChaiCode",
-    avatar: "",
-    href: "https://x.com/RaktimMazumdar/status/1951475613900087379",
-  },
-  {
-    name: "",
-    username: "mudasirbuilds",
-    content:
-      "Revising Fundamentals\nCompleted HTML Section of @Hiteshdotcom Web Dev Course with exercises.\nNow Building 5 Projects for Practicing HTML Learnings\nHTML\nHEADINGS\nPARAGRAPH\nHYPERLINKS\nLISTS\nTABLE\nMEDIA\nSEMANTIC\n#ChaiCode #HTML #CSS #100daysofcoding",
-    avatar: "",
-    href: "https://x.com/mudasirbuilds/status/1951469137546584226",
-  },
-  {
-    name: "",
-    username: "hitesshhh30",
-    content:
-      "Happy to join @Hiteshdotcom and @piyushgarg_dev  Gen AI + JavaScript batch!\nLooking forward to learning how to build amazing AI-powered apps using JavaScript.\nExcited for the journey ahead\n#GenAI #JavaScript #HiteshChoudhary #TechLearning\n#chaicode",
-    avatar: "",
-    href: "https://x.com/hitesshhh30/status/1951250329137238063",
-  },
-  {
-    name: "",
-    username: "CodeByDeepankar",
-    content: "#HBD #ChaiCode",
-    avatar: "",
-    href: "https://x.com/CodeByDeepankar/status/1951173525345374420",
-  },
-  {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "From GenAi to basics of Docker, covering everything from why to how to get started. I learned how to dockerize a Node app, set up Docker and most commonly used commands.\nThanks to @piyushgarg_dev for such docker series @Hiteshdotcom @ChaiCodeHQ\n  #chaicode #dev #GenAi",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1946550117349142532/ICck3jc8_bigger.jpg",
-    href: "https://x.com/UtkKumawat/status/1965116584302969069",
-  },
-  {
-    name: "",
-    username: "sagarshiroya_x",
-    content:
-      "To sirji chai ho agar sath me and bore ho rhe ho to live aa jao chaicode pe",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1964222229450756096/ZBJlHDIE_bigger.jpg",
-    href: "https://x.com/sagarshiroya_x/status/1964987265584914937",
-  },
-  {
-    name: "",
+    name: "Manish Choudhary",
     username: "mChoudhary74",
     content:
-      "Farewell Day\nGenAI with JS cohort wrapped up with AWS\nCan’t believe it ended so soon\nLearned not just skills, but how to think, build & stay curious.\nEnd of the cohort, but surely the start of a new journey\n@piyushgarg_dev @Hiteshdotcom @nirudhuuu @ChaiCodeHQ\n#ChaiCode",
+      "Farewell Day\nGenAI with JS cohort wrapped up with AWS\nCan’t believe it ended so soon\nLearned not just skills, but how to think, build & stay curious.\nEnd of the cohort, but surely the start of a new journey\n Thanks @piyushgarg_dev @Hiteshdotcom ",
     avatar:
       "https://pbs.twimg.com/profile_images/1955117428599382016/sFEZ1wml_bigger.jpg",
     href: "https://x.com/mChoudhary74/status/1964577565349450007",
   },
   {
-    name: "",
+    name: "Piyush",
     username: "_PiyushDev",
     content:
-      "Can’t believe it’s already the last day of our GenAI with JavaScript cohort. Time flew by so fast, but we learned so much in such a short span!\nA big thank you to @piyushgarg_dev, @Hiteshdotcom @nirudhuuu sir, for all the guidance and knowledge.\n#chaicode  #genai #agent",
+      "Can’t believe it’s already the last day of our GenAI with JavaScript cohort. Time flew by so fast, but we learned so much in such a short span!\nA big thank you to @piyushgarg_dev, @Hiteshdotcom sir, for all the guidance and knowledge.",
     avatar:
       "https://pbs.twimg.com/profile_images/1913920685174312960/TyfuLK-7_bigger.jpg",
     href: "https://x.com/_PiyushDev/status/1964386226087031032",
   },
+
   {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "I couldn’t join the live session, so I caught up with the recording of Lecture-12 of the ChaiCode GenAI Cohort.\nThis lecture was about MCP (Model Context Protocol) inside out.\nThanks to @piyushgarg_dev, @Hiteshdotcom, @nirudhuuu, and @ChaiCodeHQ for breaking it down so clearly",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1874863122877423616/gN5f2vzG_bigger.jpg",
-    href: "https://x.com/ihimanshu29/status/1964321837934096403",
-  },
-  {
-    name: "",
-    username: "_PiyushDev",
-    content:
-      "So, this is day 12 of GenAI with JavaScript. We learn MCP (Model Context Protocol), a standard protocol for building tools. We even created a simple MCP server and hooked it up with the @cursor_ai IDE !\n@piyushgarg_dev @Hiteshdotcom @nirudhuuu\n#chaicode @ChaiCodeHQ #genai",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1913920685174312960/TyfuLK-7_bigger.jpg",
-    href: "https://x.com/_PiyushDev/status/1964024528926867704",
-  },
-  {
-    name: "",
+    name: "Rahul Aggarwal",
     username: "Rahulagg1306",
     content:
-      "In the last 2 classes of my cohort, I learned about MCP — which feels like the API of the AI world.\n@ChaiCodeHQ @piyushgarg_dev @Hiteshdotcom @nirudhuuu @Aasuyadavv\n#ai #genai #chaicode",
+      "we cover conversational AI — how the new @OpenAI Realtime Voice Agent works and how easy it is to implement.\nSir finally got a girlfriend (built one) after so many wishes (bug fixes).\n Thanks @piyushgarg_dev @Hiteshdotcom ",
     avatar:
-      "https://pbs.twimg.com/profile_images/1567474548899196934/g2v8dFdf_bigger.jpg",
-    href: "https://x.com/Rahulagg1306/status/1964023670768128238",
-  },
-  {
-    name: "",
-    username: "MayankG50447318",
-    content:
-      "Day 11 & 12 of GenAI Cohort\nIn the previous class we learnt about building voice agent which made my hands are free\nAnd today we learnt about MCP, so home automation, here I come\nLaziness intensity is going off the charts\n@piyushgarg_dev @ChaiCodeHQ @Hiteshdotcom\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/MayankG50447318/status/1964020539640492355",
-  },
-  {
-    name: "",
-    username: "AnuragBadwahe",
-    content:
-      "AI isn’t magic.\nIt’s just really good at predicting the next word.\nYou don’t need a PhD to build with it—just the basics + curiosity.\nI broke it all down (with a fun challenge )\n https://medium.com/@anuragbadwahe/lets-break-the-myth-around-ai-and-really-learn-it-together-5230cf540c00…\n#AI #GPT #BuildInPublic #chaicode\n@piyushgarg_dev @Hiteshdotcom",
-    avatar: "",
-    href: "https://x.com/AnuragBadwahe/status/1964013019983204843",
-  },
-  {
-    name: "",
-    username: "saurabh_txt",
-    content:
-      "Class 4 Linux Essential Commands & Bash Scripting with @codersGyan and @Hiteshdotcom sir.\n imp linux commands.\n What is shell.\n bash script foundation.\n Write first bash script.\nTAs:- @nirudhuuu @mukulpadwal @yntpdotme\n@ChaiCodeHQ #chaicode #DevOps #Linux #Bash",
-    avatar: "",
-    href: "https://x.com/saurabh_txt/status/1963432449960284409",
-  },
-  {
-    name: "",
-    username: "saurabh_txt",
-    content:
-      "Phase 0\nTo-Do for Today:-\n Linux Essential Commands & Bash Scripting.\n Linux Networking Fundamentals.\n HTML Assignment.\n@ChaiCodeHQ @Hiteshdotcom @codersGyan @piyushgarg_dev #chaicode #WebDevelopment #DevOps #html #Linux",
-    avatar: "",
-    href: "https://x.com/saurabh_txt/status/1963356801849872682",
-  },
-  {
-    name: "",
-    username: "Samrat4488",
-    content:
-      '@piyushgarg_dev Bhaiya apne toh "Her" and "Blade runner" movies ko kuch jaada hi seriously le li.\nBas ye bhi "Her" movie ki tarah sabke sath loyal rahegi at same time\n@nirudhuuu @ChaiCodeHQ @Hiteshdotcom #genAI #chaicode #javascript',
-    avatar: "",
-    href: "https://x.com/Samrat4488/status/1963300740237000925",
-  },
-  {
-    name: "",
-    username: "Rahulagg1306",
-    content:
-      "we cover conversational AI — how the new @OpenAI Realtime Voice Agent works and how easy it is to implement.\nSir finally got a girlfriend (built one) after so many wishes (bug fixes).\n@piyushgarg_dev @Hiteshdotcom @nirudhuuu @ChaiCodeHQ\n#ai #genai #Chaicode",
-    avatar: "",
+      "https://pbs.twimg.com/profile_images/1567474548899196934/g2v8dFdf_400x400.jpg",
     href: "https://x.com/Rahulagg1306/status/1963298798652010880",
   },
+
   {
-    name: "",
-    username: "UtkKumawat",
-    content:
-      "A developer doesn't search for a solution; he builds them.\nMay that problem be finding GF.\nWhy find  ANY, when we build MANY.\n @piyushgarg_dev @ChaiCodeHQ @Hiteshdotcom\nLearn about Voice agents. Real-time communication in @OpenAI .\n#LearnInPublic  #AI  #chaicode #GenAiDev",
-    avatar: "",
-    href: "https://x.com/UtkKumawat/status/1963297167478521922",
-  },
-  {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "Lecture-11  was about conversational voice agent  in  genAI cohort from chaicode by @piyushgarg_dev, @Hiteshdotcom, @nirudhuuu and\n@ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/ihimanshu29/status/1963295849020326017",
-  },
-  {
-    name: "",
-    username: "_PiyushDev",
-    content:
-      "It is day 11 of learning GenAI with JavaScript. Today we have learn to used the @OpenAI Agent SDK to build real real-time voice agent. Now going to build a practice project\n@piyushgarg_dev @ChaiCodeHQ @Hiteshdotcom @nirudhuuu\n#chaicode #genai #aiagent #openai #voiceagent",
-    avatar: "",
-    href: "https://x.com/_PiyushDev/status/1963293555398426949",
-  },
-  {
-    name: "",
+    name: "Sʜᴜʙʜ",
     username: "shubhXc0de",
     content:
-      "Done with the 3rd class of genAI\nAnd learned about the agentic AI (super cool stuff tbh)\nAnd also given the all the 3 tests with an average score of 43.33/50\nFeeling confident in not only Code but also on the theory part..\n@piyushgarg_dev\n@Hiteshdotcom @ChaiCodeHQ\n#chaicode",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/26a1.svg",
+      "Done with the 3rd class of genAI\nAnd learned about the agentic AI (super cool stuff tbh)\nAnd also given the all the 3 tests with an average score of 43.33/50\nFeeling confident in not only Code but also on the theory part..",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1919012020999143424/CAdFWdEO_400x400.jpg",
     href: "https://x.com/shubhXc0de/status/1963291725520089184",
   },
   {
-    name: "",
-    username: "zoxilsi",
-    content:
-      "MasterJi   by ChaiCode     -   Looking cool\nVibing as a beta users .\nExcited for the official release @Hiteshdotcom @ChaiCodeHQ",
-    avatar: "",
-    href: "https://x.com/zoxilsi/status/1962982763830657073",
-  },
-  {
-    name: "",
-    username: "RaghavVasdeva",
-    content:
-      "Graph Database: Neo4j and relational memory\n@Hiteshdotcom @piyushgarg_dev\n#ChaiCode",
-    avatar: "",
-    href: "https://x.com/RaghavVasdeva/status/1962902861274362127",
-  },
-  {
-    name: "",
-    username: "Dishkiyaoon_T",
-    content:
-      "Now\nScaler --》SST\n100xDevs --》100XSchool\nLater\nChaiCode --》ChaiCode_CodingSchool\nNamaste\nNamasteDev --》 NamasteDevSchoolofTech",
-    avatar: "",
-    href: "https://x.com/Dishkiyaoon_T/status/1962878888826356072",
-  },
-  {
-    name: "",
-    username: "mChoudhary74",
-    content:
-      "Class 10 — GenAI with JS\n    Dived into Graph Databases!\n    Neo4j + Cypher queries\n    Dynamic Knowledge Graphs\n    Relational Memory in Agents\n@piyushgarg_dev @Hiteshdotcom @nirudhuuu @ChaiCodeHQ\n#GenAI #ChaiCode",
-    avatar: "",
-    href: "https://x.com/mChoudhary74/status/1962769325359878157",
-  },
-  {
-    name: "",
-    username: "anurag270569",
-    content:
-      "Now I am become a CHAICODE Certified web developer.\nThanks to @Hiteshdotcom  @piyushgarg_dev @ChaiCodeHQ @nirudhuuu",
-    avatar: "https://abs-0.twimg.com/emoji/v2/svg/1f1ee-1f1f3.svg",
-    href: "https://x.com/anurag270569/status/1962760156082782384",
-  },
-  {
-    name: "",
-    username: "saurabh_txt",
-    content:
-      "Class 5 Mastering HTML and Accessibility with @Hiteshdotcom and @piyushgarg_dev sir, Learn what is PRD and how to write it, Learn syntax of HTML with the help of 10 html chapters.\nTAs:- @nirudhuuu @yntpdotme @mukulpadwal\n@ChaiCodeHQ #chaicode #WebDevlopment #html",
-    avatar: "",
-    href: "https://x.com/saurabh_txt/status/1962710810280771990",
-  },
-  {
-    name: "",
-    username: "ShivamS53126345",
-    content:
-      "Day 10 of #GenAI with JavaScript and we're exploring Graph DBs!\nHuge thanks to @chaicode, @hiteshdotcom, and @piyushgarg_dev  for an amazing session. We're using @neo4j to build relationships while we chat and running our first Cypher querie! This is a game-changer!#genaiwithjs",
-    avatar: "",
-    href: "https://x.com/ShivamS53126345/status/1962596488523194804",
-  },
-  {
-    name: "",
-    username: "_PiyushDev",
-    content:
-      "So, this is day 10 of GenAI with JavaScript, and today we have learned about Graph DB. Specifically, we tried to see how relationships are built while we chat, and we use @neo4j as a Graph DB, and wrote some Cypher queries\n#chaicode #genaiwithjs #graphdb",
-    avatar: "",
-    href: "https://x.com/_PiyushDev/status/1962585191026696514",
-  },
-  {
-    name: "",
+    name: "Mayank Gurjar",
     username: "MayankG50447318",
     content:
-      "Day 10 of GenAI Cohort\nA world where everything is built for you — with personalization at its core.\nToday, I learned how to bring that very concept to life in GenAI using Neo4j and Mem0AI.\nThanks to @ChaiCodeHQ @piyushgarg_dev @Hiteshdotcom\n#ChaiCode",
-    avatar: "",
+      "Day 10 of GenAI Cohort\nA world where everything is built for you — with personalization at its core.\nToday, I learned how to bring that very concept to life in GenAI using Neo4j and Mem0AI.\nThanks to @ChaiCodeHQ @piyushgarg_dev @Hiteshdotcom",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1955862704586964998/rTNm5MTb_400x400.jpg",
     href: "https://x.com/MayankG50447318/status/1962583171876503909",
   },
   {
-    name: "",
+    name: "Utkarsh Kumawat",
     username: "UtkKumawat",
     content:
-      "Had another mind-blowing session on Graph DBs and memory in AI—from how AI leverages graphs to how a simple graph can scale into massive relationships and insights. Huge thanks to @piyushgarg_dev @Hiteshdotcom @ChaiCodeHQ\n#chaicode #LearnInpublic #dev #Ai #AgentSDK",
-    avatar: "",
+      "Had another mind-blowing session on Graph DBs and memory in AI—from how AI leverages graphs to how a simple graph can scale into massive relationships and insights. Huge thanks to @piyushgarg_dev @Hiteshdotcom @ChaiCodeHQ",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1946550117349142532/ICck3jc8_400x400.jpg",
     href: "https://x.com/UtkKumawat/status/1962581474387128479",
   },
+
   {
-    name: "",
-    username: "saurabh_txt",
-    content:
-      "Phase 0\nTo-Do for Today:-\n Mastering HTML and Accessibility\n Linux File System and Permissions\n Linux Essential Commands and Bash Scripting\n@ChaiCodeHQ #chaicode #DevOps #Linux #WebDevlopment  #HTML",
-    avatar: "",
-    href: "https://x.com/saurabh_txt/status/1962578093505466868",
-  },
-  {
-    name: "",
-    username: "ihimanshu29",
-    content:
-      "Lecture-10  was about Graph Database and Relational Memory Agent  in  genAI cohort from chaicode by @piyushgarg_dev, @Hiteshdotcom, @nirudhuuu and\n@ChaiCodeHQ\nWe explored about Graph Database and Relational Memory Agent concept and neo4j with mem0 .",
-    avatar: "",
-    href: "https://x.com/ihimanshu29/status/1962577701266399597",
-  },
-  {
-    name: "",
+    name: "Joy",
     username: "swarnakar_72508",
     content:
-      "It's amazing to watch @ChaiCode project reviews and suggestions. They inspire me to build better projects and write better code.\nFinally, how to transform project ideas into a great product.\n@Hiteshdotcom\n@piyushgarg_dev",
-    avatar: "",
+      "It's amazing to watch @ChaiCode project reviews and suggestions. They inspire me to build better projects and write better code.\nFinally, how to transform project ideas into a great product.",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1922181941777874945/fQeZb1MN_400x400.jpg",
     href: "https://x.com/swarnakar_72508/status/1962538104843030614",
   },
+
   {
-    name: "",
-    username: "praveens_code",
-    content:
-      "@Hiteshdotcom  sir, the favicon for chaicode .com still shows vercel icon",
-    avatar: "",
-    href: "https://x.com/praveens_code/status/1962509766804353310",
-  },
-  {
-    name: "",
-    username: "Hiteshdotcom",
-    content: "Chaicode",
-    avatar: "",
-    href: "https://x.com/Hiteshdotcom/status/1962485621227966497",
-  },
-  {
-    name: "",
+    name: "Atish Maske",
     username: "aatish2393",
     content:
-      "Joined the Thumbnail Maker Challenge—huge learnings even after 10+ years in dev.\nCohort energy is unmatched; seeing others build pushes you further.\nBuilt my first Node app too.  https://ai-thumbnail-pro-2.vercel.app\nBig thanks @Hiteshdotcom @piyushgarg_dev  #chaicode",
-    avatar: "",
+      "Joined the Thumbnail Maker Challenge—huge learnings even after 10+ years in dev.\nCohort energy is unmatched; seeing others build pushes you further.\nBuilt my first Node app too.\n Big thanks @Hiteshdotcom @piyushgarg_dev",
+    avatar:
+      "https://pbs.twimg.com/profile_images/1875379074958573568/-UavrV4I_400x400.jpg",
     href: "https://x.com/aatish2393/status/1962476099499339817",
   },
-  {
-    name: "",
-    username: "itsAMIT00",
-    content:
-      "As usual, one more interesting video by @Hiteshdotcom sir. He is doing the job my college should have done in the 1st year, but they didn’t.\nHey  sir, I’m in 3rd year—if you have free time, please guide us too.\n@Hiteshdotcom #chaicode",
-    avatar: "",
-    href: "https://x.com/itsAMIT00/status/1962474121922814066",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "HTTP Methods and Their Use Cases\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/http-methods-and-their-use-cases?ref=twitter-share…\n#chaicode #http #httpmethod",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1962471379053478239",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "Common HTTP Status Code : What Do They Mean?\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/common-http-status-code-what-do-they-mean?ref=twitter-share…\n#ChaiCode #statuscode #http #Blog",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1962418821022839083",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "The Role of SSL/TLS in protecting Data Online\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/the-role-of-ssltls-in-protecting-data-online?ref=twitter-share…\n#ChaiCode #TLS #SSL",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1962391605807304790",
-  },
-  {
-    name: "",
-    username: "jeetvamja_08",
-    content:
-      "HTTP vs HTTPS : Understanding Secure Communication\n{ by Jeet Vamja } from @hashnode https://jeet-vamja.hashnode.dev/http-vs-https-understanding-secure-communication?ref=twitter-share…\n#ChaiCode #http #https #Blogs",
-    avatar: "",
-    href: "https://x.com/jeetvamja_08/status/1962391108954267964",
-  },
-  {
-    name: "",
-    username: "saurabh_txt",
-    content:
-      "Class 4 Introduction to Web with @Hiteshdotcom and @piyushgarg_dev sir, Learn model OSI 7 layers, How TCP and UDP work, What is DNS and how DNS work internally, Code my first html page.\nTAs: @nirudhuuu @yntpdotme @mukulpadwal\n@ChaiCodeHQ #chaicode #HTML #Web",
-    avatar: "",
-    href: "https://x.com/saurabh_txt/status/1962371884345184631",
-  },
-  // ...rest of your reviews
 ];
