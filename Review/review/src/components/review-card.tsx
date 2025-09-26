@@ -12,14 +12,14 @@ export function ReviewCard({ review }: { review: ReviewCardProps }) {
   const { content, name, username } = review;
 
   return (
-    <Card className="rounded-xl border-amber-900/15 p-9 shadow-none backdrop-blur-sm backdrop-contrast-100 backdrop-saturate-100 backdrop-filter hover:border-amber-900/25 sm:opacity-90 md:hover:opacity-100 dark:border-orange-50/15 dark:bg-stone-950 dark:hover:border-orange-50/30">
-      <p className="text-gray-600 dark:text-gray-300">{content}</p>
+    <Card className="rounded-xl bg-black border-amber-900/15 p-9 shadow-none backdrop-blur-sm backdrop-contrast-100 backdrop-saturate-100 backdrop-filter hover:border-amber-900/25 sm:opacity-90 md:hover:opacity-100 dark:border-orange-50/15 dark:bg-stone-950 dark:hover:border-orange-50/30">
+      <p className="text-gray-100 dark:text-gray-300">{content}</p>
       <div className="flex flex-col mt-4">
         <span className="flex items-center font-montserrat text-lg font-medium tracking-tight">
-          <span className="max-w-[200px] truncate">{name}</span>
+          <span className="max-w-[200px] truncate text-gray-100">{name}</span>
           <Verified className="ml-1 w-4 h-4 text-blue-500 dark:text-blue-400" />
         </span>
-        <span className="-mt-0.5 font-onest font-thin tracking-tighter text-gray-500 dark:text-gray-400">
+        <span className="-mt-0.5 font-onest font-thin tracking-tighter text-gray-100 dark:text-gray-400">
           @{username}
         </span>
       </div>
