@@ -138,7 +138,7 @@ export const reviewData: Review[] = [
     name: "Sanket Singh",
     username: "SinghSanket78",
     content:
-      "Just an another amazing class from our chaicode Cohort end.\nToday we learnt in depth how the Nodejs works, event loop in Nodejs and also learnt about how Database is designed.\nThanks @Hiteshdotcom and @piyushgarg_dev for such an amazing class.",
+      "Just an another amazing class from our chaicode Cohort end.\nToday we learnt in depth how the Nodejs works, event loop in Nodejs and also learnt about how Database is designed.\nThanks for such an amazing class.",
     avatar:
       "https://pbs.twimg.com/profile_images/1888461097931251713/DjEyld00_400x400.jpg",
     href: "https://x.com/SinghSanket78/status/1904225206325166435",
@@ -148,7 +148,7 @@ export const reviewData: Review[] = [
     name: "Aaryan Pandey",
     username: "imaaryanpandey",
     content:
-      "It's 11th March  Exactly 2 months ago, I took my first ChaiCode Cohort class , and today, I've built my first Chrome extension with JavaScript!  Frankly, ab isse zyada dar nahi lag raha\nThank You So Much! @Hiteshdotcom Sir & @piyushgarg_dev Sir",
+      "It's 11th March  Exactly 2 months ago, I took my first ChaiCode Cohort class , and today, I've built my first Chrome extension with JavaScript!  Frankly, ab isse zyada dar nahi lag raha\nThank You So Much!",
     avatar:
       "https://pbs.twimg.com/profile_images/1915778371306352640/lYckAubv_400x400.jpg",
     href: "https://x.com/imaaryanpandey/status/1899207758282698862",
@@ -188,7 +188,7 @@ export const reviewData: Review[] = [
     name: "R. Nikunj",
     username: "inikunjrathi",
     content:
-      "Started my journey with Full Stack Data Science Cohort 1.0 by Chai Code!\nLearned Python data types, variable storage and basic functions\nHuge thanks to Priya Bhatia, Lead Data Scientist at Turing, for the amazing sessions!\n@Hiteshdotcom @ChaiCodeHQ",
+      "Started my journey with Full Stack Data Science Cohort 1.0 by Chai Code!\nLearned Python data types, variable storage and basic functions\nHuge thanks to Priya Bhatia, Lead Data Scientist at Turing, for the amazing sessions!",
     avatar:
       "https://pbs.twimg.com/profile_images/1911327253947940864/mkJWetcJ_400x400.jpg",
     href: "https://x.com/inikunjrathi/status/1911364079890858041",
@@ -198,7 +198,7 @@ export const reviewData: Review[] = [
     name: "Mubashir",
     username: "Mubashir_061",
     content:
-      "Today's session for genAI cohort was awesome, learnt all about prompting - diff ways of it and some knacks of better prompts\nfew things i already knew, but didn't know the terms used for them\nwill soon write a blog on it\nawesome session by @piyushgarg_dev.",
+      "Today's session for genAI cohort was awesome, learnt all about prompting - diff ways of it and some knacks of better prompts\nfew things i already knew, but didn't know the terms used for them\nwill soon write a blog on it\nawesome session!",
     avatar:
       "https://pbs.twimg.com/profile_images/1565888730379927552/MtkgGkIS_400x400.jpg",
     href: "https://x.com/Mubashir_061/status/1910036441301934113",
@@ -391,7 +391,7 @@ export const reviewData: Review[] = [
     name: "Shrey Vats",
     username: "Shreyvats01",
     content:
-      "Learning MongoDB Aggregation Pipeline today with Hitesh Sir.\nLife is just sorted when you're learning with a chai  and Hitesh sir's clarity.\n#MongoDB #LearningInPublic ",
+      "Learning MongoDB Aggregation Pipeline today with Hitesh Sir.\nLife is just sorted when you're learning with a chai  and Hitesh sir's clarity.",
     avatar:
       "https://pbs.twimg.com/profile_images/1964011543999180800/f0a-HmtV_400x400.jpg",
     href: "https://x.com/Shreyvats01/status/1944159334339842315",
@@ -411,20 +411,10 @@ export const reviewData: Review[] = [
     name: "Sk Ikbal Ali",
     username: "_sk_ikbal_",
     content:
-      "Survived this 4-hour god-level lecture!\nThis cohort is teaching me patience.\nMastered bare metal deployment with PM2, Nginx, Caddy & GitHub Actions. Deep-dived into Axios, Axios Interceptors & prod-level wiring. #TechJourney #WebDev chaicode",
+      "Survived this 4-hour god-level lecture!\nThis cohort is teaching me patience.\nMastered bare metal deployment with PM2, Nginx, Caddy & GitHub Actions. Deep-dived into Axios, Axios Interceptors & prod-level wiring.",
     avatar:
       "https://pbs.twimg.com/profile_images/1894401082543013888/soxVWk_d_400x400.jpg",
     href: "https://x.com/_sk_ikbal_/status/1940048511074279756",
-  },
-
-  {
-    name: "Riday Mondal",
-    username: "rdmondal100",
-    content:
-      "The best class of the GenAi cohort with @Hiteshdotcom sir and @piyushgarg_dev sir.\nIn this class we learn about the memory.\nchaicode ",
-    avatar:
-      "https://pbs.twimg.com/profile_images/1896142938704637952/MKhDzfOu_400x400.jpg",
-    href: "https://x.com/rdmondal100/status/1961490046151766501",
   },
 
   {
@@ -461,7 +451,7 @@ export const reviewData: Review[] = [
     name: "Harshit Shukla",
     username: "Harshitshukla63",
     content:
-      "Just kicked off my Generative AI journey with @ChaiCodeHQ\n@Hiteshdotcom  Sir made AI concepts crystal clear with real-world examples.\n@piyushgarg_dev  Sir took us deep into Transformers -the magic behind GPT.\nSuper excited to learn more & build impactful projects!\n chaicode",
+      "Just kicked off my Generative AI journey with @ChaiCodeHQ\n@Hiteshdotcom  Sir made AI concepts crystal clear with real-world examples.\n@piyushgarg_dev  Sir took us deep into Transformers -the magic behind GPT.\nSuper excited to learn more & build impactful projects!",
     avatar:
       "https://pbs.twimg.com/profile_images/1847709828795228160/jlQeVwq0_400x400.jpg",
     href: "https://x.com/Harshitshukla63/status/1955114508285813198",
@@ -499,7 +489,7 @@ export const reviewData: Review[] = [
     name: "Sarvesh Kulkarni",
     username: "TechnologyFist",
     content:
-      "Perfect “hello-world” class for GenAI by @Hiteshdotcom @piyushgarg_dev @ChaiCodeHQ . Ab GPT ki definition kabhi nahi bhulege, and AI se darege bhi nahi!\nYe next word predictor lega mera job?\n#chaiaurcode chaicode #AI #learnInPublic",
+      "Perfect “hello-world” class for GenAI by @Hiteshdotcom @piyushgarg_dev @ChaiCodeHQ . Ab GPT ki definition kabhi nahi bhulege, and AI se darege bhi nahi!\nYe next word predictor lega mera job?",
     avatar:
       "https://pbs.twimg.com/profile_images/1157958846171815940/QWeeqfKb_400x400.jpg",
     href: "https://x.com/TechnologyFist/status/1954975752707014947",
@@ -509,7 +499,7 @@ export const reviewData: Review[] = [
     name: "Himanshu Maurya",
     username: "ihimanshu29",
     content:
-      "Hey Everyone\nJust completed Lecture-1 of chaicode GenAi Cohort\nThis lecture includes\n- Attention Is All You Need\n- about GPT\n- Token & Tokenization\n- Vector Embedding\n- Self & Multi-head Attention\nwith the best teachers like @Hiteshdotcom @piyushgarg_dev @ChaiCodeHQ",
+      "Hey Everyone\nJust completed Lecture-1 of chaicode GenAi Cohort\nThis lecture includes\n- Attention Is All You Need\n- about GPT\n- Token & Tokenization\n- Vector Embedding\n- Self & Multi-head Attention\nwith the best teachers.",
     avatar:
       "https://pbs.twimg.com/profile_images/1874863122877423616/gN5f2vzG_400x400.jpg",
     href: "https://x.com/ihimanshu29/status/1954970842896429502",
@@ -529,7 +519,7 @@ export const reviewData: Review[] = [
     name: "Manish Choudhary",
     username: "mChoudhary74",
     content:
-      "Farewell Day\nGenAI with JS cohort wrapped up with AWS\nCan’t believe it ended so soon\nLearned not just skills, but how to think, build & stay curious.\nEnd of the cohort, but surely the start of a new journey\n Thanks @piyushgarg_dev @Hiteshdotcom ",
+      "Farewell Day\nGenAI with JS cohort wrapped up with AWS\nCan’t believe it ended so soon\nLearned not just skills, but how to think, build & stay curious.\nEnd of the cohort, but surely the start of a new journey!. ",
     avatar:
       "https://pbs.twimg.com/profile_images/1955117428599382016/sFEZ1wml_bigger.jpg",
     href: "https://x.com/mChoudhary74/status/1964577565349450007",
@@ -548,7 +538,7 @@ export const reviewData: Review[] = [
     name: "Rahul Aggarwal",
     username: "Rahulagg1306",
     content:
-      "we cover conversational AI — how the new @OpenAI Realtime Voice Agent works and how easy it is to implement.\nSir finally got a girlfriend (built one) after so many wishes (bug fixes).\n Thanks @piyushgarg_dev @Hiteshdotcom ",
+      "we cover conversational AI — how the new @OpenAI Realtime Voice Agent works and how easy it is to implement.\nSir finally got a girlfriend (built one) after so many wishes (bug fixes). ",
     avatar:
       "https://pbs.twimg.com/profile_images/1567474548899196934/g2v8dFdf_400x400.jpg",
     href: "https://x.com/Rahulagg1306/status/1963298798652010880",
@@ -567,7 +557,7 @@ export const reviewData: Review[] = [
     name: "Mayank Gurjar",
     username: "MayankG50447318",
     content:
-      "Day 10 of GenAI Cohort\nA world where everything is built for you — with personalization at its core.\nToday, I learned how to bring that very concept to life in GenAI using Neo4j and Mem0AI.\nThanks to @ChaiCodeHQ @piyushgarg_dev @Hiteshdotcom",
+      "Day 10 of GenAI Cohort\nA world where everything is built for you — with personalization at its core.\nToday, I learned how to bring that very concept to life in GenAI using Neo4j and Mem0AI.",
     avatar:
       "https://pbs.twimg.com/profile_images/1955862704586964998/rTNm5MTb_400x400.jpg",
     href: "https://x.com/MayankG50447318/status/1962583171876503909",
@@ -576,7 +566,7 @@ export const reviewData: Review[] = [
     name: "Utkarsh Kumawat",
     username: "UtkKumawat",
     content:
-      "Had another mind-blowing session on Graph DBs and memory in AI—from how AI leverages graphs to how a simple graph can scale into massive relationships and insights. Huge thanks to @piyushgarg_dev @Hiteshdotcom @ChaiCodeHQ",
+      "Had another mind-blowing session on Graph DBs and memory in AI—from how AI leverages graphs to how a simple graph can scale into massive relationships and insights. Huge thanks to chaicode.",
     avatar:
       "https://pbs.twimg.com/profile_images/1946550117349142532/ICck3jc8_400x400.jpg",
     href: "https://x.com/UtkKumawat/status/1962581474387128479",
@@ -596,7 +586,7 @@ export const reviewData: Review[] = [
     name: "Atish Maske",
     username: "aatish2393",
     content:
-      "Joined the Thumbnail Maker Challenge—huge learnings even after 10+ years in dev.\nCohort energy is unmatched; seeing others build pushes you further.\nBuilt my first Node app too.\n Big thanks @Hiteshdotcom @piyushgarg_dev",
+      "Joined the Thumbnail Maker Challenge—huge learnings even after 10+ years in dev.\nCohort energy is unmatched; seeing others build pushes you further.\nBuilt my first Node app too.",
     avatar:
       "https://pbs.twimg.com/profile_images/1875379074958573568/-UavrV4I_400x400.jpg",
     href: "https://x.com/aatish2393/status/1962476099499339817",
