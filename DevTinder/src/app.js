@@ -2,19 +2,13 @@ const express = require("express");
 
 const app = express();
 
-app.use(
+app.get(
   "/user",
   (req, res, next) => {
-    //Router handler
-    // res.send("Route Handler 1");
-    console.log("Handling the route user!!");
-    //res.send("Response!!");
     next();
   },
-  (req, res) => {
-    //route handler 2
-    console.log("Handling the route user 2!!");
-    res.send("2nd Response!!");
+  (req, res, next) => {
+    res.send("2nd Route Handler");
   }
 );
 
