@@ -1,7 +1,7 @@
 import "dotenv/config";
 import { Agent, run, tool } from "@openai/agents";
 import { z } from "zod";
-
+import { RECOMMENDED_PROMPT_PREFIX } from "@openai/agents-core/extensions";
 //creating a tool
 const getCurrentTime = tool({
   name: "get_current_time",
@@ -51,14 +51,18 @@ const codingAgent = new Agent({
 });
 
 const gatewayAgent = new Agent.create({
-  name: "Gateway Agent",
-  instructions: "You determine which agent to use",
+  name: "Triage Agent",
+  instructions: `
+   ${RECOMMENDED_PROMPT_PREFIX}
+   You are assistant
+  `,
   handoffs: [codingAgent, cookingAgent],
 });
 
 async function chatWithAgent(query) {
   const result = run(gatewayAgent, query);
-  console.log("history", result.history);
+  console.log("History", result.history);
+  console.log("Hand Off Too", result.lastAgent.name);
   console.log(result.finalOutput);
 }
 
