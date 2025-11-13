@@ -66,4 +66,4 @@ async function chatWithAgent(query) {
   console.log(result.finalOutput);
 }
 
-chatWithAgent("I want to cook a choco cake");
+chatWithAgent("I want to cook a cake, What are all the menu items");
